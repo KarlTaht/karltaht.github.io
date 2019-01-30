@@ -11,7 +11,7 @@ I’m a 4th year PhD student studying Computer Science at the University of Utah
 
 ### Passion for Organization
 
-Productivity maximization is key for anything. I'm firm believing in organization to promote efficiency, and quite simply enjoy it. I'm looking forward 
+Productivity maximization is key for anything. I'm a firm believer in organization to promote efficiency, and quite simply enjoy it. I'm looking forward 
 to documenting some of my best strategies. This year's going to be a particular challenge as I'll be working from home until May! 
 
 ### Research Papers
