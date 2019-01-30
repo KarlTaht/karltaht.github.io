@@ -16,7 +16,8 @@ to documenting some of my best strategies. This year's going to be a particular 
 
 ### Research Papers
 
-I try to read papers pretty regularly, at least one per-week. I maintain those in a separate blog because of the tagging support. If you're looking for a topic and want a quick summary of the paper in words other than the authors, check it out. I try to remain as unbiased as possible in my reviews, but I don't promise 100% accuracy in replicating the author's intent. After all the posts reflect the paper often in relevant to my search -- dynamic hardware, auto-tuning, and machine learning approaches. 
+I try to read papers pretty regularly, at least one per-week. I maintain those in a [separate blog][3] because of the tagging support, which makes it easy to find papers. If you're looking for a topic and want a quick summary of the paper in words other than the authors, check it out. I try to remain as unbiased as possible in my reviews, but I don't promise 100% accuracy in replicating the author's intent. After all, my posts often distort the paper to emphasize elements relevant to my search -- dynamic hardware, auto-tuning, and machine learning approaches. 
 
 [1]:https://drivetribe.com/t/session-mk7-PQFprP-6Q-eXd3PCgeH3IQ?iid=G5crKxWjQiqBwNXlbjSg0w
 [2]:datadrivenmotorsport.com
+[3]:https://researchdoneright.blogspot.com/
