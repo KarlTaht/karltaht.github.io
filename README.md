@@ -7,7 +7,8 @@ my joint-venture site [Data Driven Motorsport][2].
 
 ## About Me
 
-I’m a 4th year PhD student studying Computer Science at the University of Utah. While I work in the Architecture lab, my main research project is closer to software and systems. My thesis centralizes around program phase detection and both hardware and software performance optimization, all with a machine learning flavor. Through my research, I’ve had the opportunity to intern with Intel Labs twice were I worked on these problems from a hardware engineer’s perspective. In 2019, I'm  hoping to broaden my horizons and look at the same challenges closer to the software side.
+I’m a 4th year PhD student studying Computer Science at the University of Utah. While I work in the Architecture lab, my main research project is closer to software and systems. My thesis centralizes around program phase detection and both hardware and software performance optimization, all with a machine learning flavor. Through my research, I’ve had the opportunity to intern with Intel Labs twice were I worked on these problems from a hardware engineer’s perspective. More recently, I have shifted my focus towards warehouse scale performance optimization. I recently completed an internship at Facebook with the Warehouse Java Efficiency team, where I plans to join full-time in 2020. 
+
 
 ### Passion for Organization
 
