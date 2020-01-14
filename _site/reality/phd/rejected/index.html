@@ -9,38 +9,38 @@
   <head>
     <meta charset="utf-8">
 
-<!-- begin _includes/seo.html --><title>Multi-Resource Packing for Cluster Schedulers (Tetris) - Karl’s Personal Page</title>
-<meta name="description" content="Authors: Robert Grandl, Ganesh Anathanarayanan, Srikanth Kandula, Sriram Rao, Aditya Akella">
+<!-- begin _includes/seo.html --><title>Paper Rejection Reflection - Karl’s Personal Page</title>
+<meta name="description" content="Today, I found out my submission to the ISPASS conference was rejected. Thestrange thing about it is, I mostly just feel confused. How should you really feel when a your work is rejected? Discredited? Angry? Confused? For me, I justfeel blank.">
 
 
 
 <meta property="og:type" content="article">
 <meta property="og:locale" content="en_US">
 <meta property="og:site_name" content="Karl's Personal Page">
-<meta property="og:title" content="Multi-Resource Packing for Cluster Schedulers (Tetris)">
-<meta property="og:url" content="http://localhost:4000/research-papers/research/multi-resource-packing-for-cluster/">
+<meta property="og:title" content="Paper Rejection Reflection">
+<meta property="og:url" content="http://localhost:4000/reality/phd/rejected/">
 
 
-  <meta property="og:description" content="Authors: Robert Grandl, Ganesh Anathanarayanan, Srikanth Kandula, Sriram Rao, Aditya Akella">
-
-
-
-
-
-
-
-  <meta property="article:published_time" content="2020-01-08T09:57:00-07:00">
+  <meta property="og:description" content="Today, I found out my submission to the ISPASS conference was rejected. Thestrange thing about it is, I mostly just feel confused. How should you really feel when a your work is rejected? Discredited? Angry? Confused? For me, I justfeel blank.">
 
 
 
 
 
-  
+
+
+  <meta property="article:published_time" content="2020-01-14T00:00:00-07:00">
+
+
+
+
 
   
 
+  
 
-<link rel="canonical" href="http://localhost:4000/research-papers/research/multi-resource-packing-for-cluster/">
+
+<link rel="canonical" href="http://localhost:4000/reality/phd/rejected/">
 
 
 
@@ -239,19 +239,68 @@
 
   <div class="archive">
     
-      <h1 id="page-title" class="page__title">Multi-Resource Packing for Cluster Schedulers (Tetris)</h1>
+      <h1 id="page-title" class="page__title">Paper Rejection Reflection</h1>
     
-    <p>Authors: Robert Grandl, Ganesh Anathanarayanan, Srikanth Kandula, Sriram Rao, Aditya Akella</p>
+    <p>Today, I found out my submission to the ISPASS conference was rejected. The
+strange thing about it is, I mostly just feel confused. How should you really 
+feel when a your work is rejected? Discredited? Angry? Confused? For me, I just
+feel blank.</p>
 
-<p>Venue: SIGCOMM 2014</p>
+<p>You see, at the University of Utah in the Computer Science department, PhD 
+candidates are expected to output at least 3 top-tier publications before defending
+and graduating. In reality, that translates to something like 5-10 submissions
+of varying caliber throughout the program. While I think I’ve submitted something
+like 5 works, this submission was my 2nd <strong>major</strong> work, in that, I really 
+wanted/needed it to get accepted.</p>
 
-<p>Cluster level scheduling is a complex topic in which performance, fairness, and hard constraints must all be considered. Fundamentally, a perfectly fair solution sacrifices performance. This work presents a resource-aware cluster scheduling scheme which maximizes performance and includes additional parameters to balance fairness requirements. <!--more--> For simplicity, I will divide the discussion into two sections: the central idea and additional heuristics.</p>
+<p>The odd thing is, the rejection felt expected. Objectively, I defend the paper. 
+I think it should have gotten in. It had novelty. It had results. It was cohesive. 
+But in the end the results weren’t good <strong>enough</strong> for the reviewers it seems.</p>
 
-<p>Tetris performs scheduling by analyzing jobs resource requirements in terms of CPUs, memory, disk I/O, and network usage. Each job, task (a subset of a job), and machine is assigned a resource vector. To determine the optimal positioning of a task, a heuristic is used which takes the dot product of the job’s resource requirements vs a candidates available resources. The machine with the maximum dot product is selected to place the job. To incorporate fairness into the approach, the number of candidate jobs can be adjusted. Maximizing fairness will only place jobs in the global queue order, while maximizing performance will consider all jobs in the queue.</p>
+<p>One thing I’ve found about research in general, there are really two high-level
+avenues to research. There’s work that focuses on improving industry scale solutions,
+research that optimizes the current reality. In general, these types of works will net 
+incremental improvement. Intuitively, 
+if it’s a problem that really matters many people will be focused on solving that
+problem, so the existing solution is probably pretty good. Nevertheless, the
+incremental 1\% improvement results in positive impact on 99\% of users.</p>
 
-<p>In addition to the basic setup, Tetris also includes additional heuristic properties to ensure no low-hanging fruit is left on the table. Firstly, shortest remaining time first (SRFT) algorithm is incorporated into the scheduling calculations, such that dot products are weighted to favor jobs nearly completions. The next optimization comes from the nature of map-reduce and DAG dependencies. Again, when a job is nearing the end of a stage, it’s tasks a favored so that it can begin the next stage sooner. The last significant optimization is regarding the “remote penalty”. When a job is scheduled away from data locality, it’s network requirements will increase. Thus, jobs which cause this are assigned a penalty (note this part is a bit vague in the details from my reading).</p>
+<p>The alternative type of research, is the niche but truly novel. This is the type
+of work where  a solution improves the current state-of-the-art by many times 
+over. The novelty and improvement shows promise in a field either forgotton or
+never before seen. With this type of work, there’s two possible implications. 
+People realize that this novel area is worth further investigation, and it opens
+up a new domain of research, or, it fades into nothing.</p>
 
-<p>Overall, exceptional gains are achieved of a 40% improvement in job completion time and 41% improvement in job makespan (the total time for all jobs to complete). This occurs with a minimal impact in fairness, where about 6% jobs are delayed more than 10%. It would have been nice to see an S-curve of job improvements to illustrate the details more clearly, but nevertheless fairness seems to suffer marginally.</p>
+<p>On the rare occassion, a work will vastly improve the state-of-the-art AND be
+impactful at a large scale. These are the “big name works” if you will,
+the ones that made people famous and impacted the world. These 
+types of works which hit on both levels require a real tenacity for the field, 
+in addition to brilliance.</p>
+
+<p>I think the reason why I feel rather detached from the whole situation is that
+when I look at my work as well as the work of most of my colleagues, I feel we
+slot nicely into either the “real” or “novel”. For example, my interest in Spark
+compute engine improvements are very real – changes could quickly make it to 
+industry and effect thousands of servers. On the other hand, my colleagues’ work
+is novel. They are designing completely new computer architectures to optmize
+neural networks. However, the likeliihood that their chip will be fabricated is 
+low, and it’s even less likely that the chip design will be widely adopted into
+industry.</p>
+
+<p>Now, my point isn’t to argue which is better or more interesting – I think that’s
+clearly in the eyes of the beholder – but fundamentally, I think we can become
+disconnected from importance of our work as researchers. Does what we do really
+matter if it’s just 1% improvement or a niche design? Clearly, the answer is yes.
+Those 1% improvements stack up from all over the world, and those niche designs
+continue to improve until they can no longer be ignored. But simple knowledge
+doesn’t override emotional response.</p>
+
+<p>And I think that’s the real crux: the paper rejection pushes me to believe my
+incremental improvement is just that. It distances me from believing my work
+matters and leaves me feeling blank. While I don’t like ending on such a negative
+note, I think I must. Social media promotes only sharing the best aspects of life,
+but a big part of reality that is ignored is the lows. This is a low, and that’s okay.</p>
 
 
 <ul class="taxonomy__index">

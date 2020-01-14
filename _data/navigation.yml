@@ -1,7 +1,12 @@
 # main links
 main:
+  - title: "About"
+    url: /about/
+  - title: "Reality"
+    url: /reality/
   - title: "Research Paper Summaries"
     url: /research-papers/
+  
   # - title: "Sample Posts"
   #   url: /year-archive/
   # - title: "Sample Collections"

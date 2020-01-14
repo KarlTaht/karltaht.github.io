@@ -5,7 +5,17 @@
 <lastmod>2020-01-08T09:57:00-07:00</lastmod>
 </url>
 <url>
+<loc>http://localhost:4000/reality/phd/rejected/</loc>
+<lastmod>2020-01-14T00:00:00-07:00</lastmod>
+</url>
+<url>
+<loc>http://localhost:4000/about/</loc>
+</url>
+<url>
 <loc>http://localhost:4000/</loc>
+</url>
+<url>
+<loc>http://localhost:4000/reality/</loc>
 </url>
 <url>
 <loc>http://localhost:4000/research-papers/</loc>
