@@ -1,0 +1,19 @@
+---
+layout: post
+title: 'Exokernel: An Operating System Architecture for Application-Level Resource
+  Management'
+date: '2019-10-16T10:02:00.002-07:00'
+author: Karl Taht
+tags:
+- operating systems
+- exokernel
+- abstractions
+- virtual memory
+- networking
+- os
+modified_time: '2019-10-16T10:02:42.019-07:00'
+blogger_id: tag:blogger.com,1999:blog-2670908301789336410.post-640156951586298525
+blogger_orig_url: https://researchdoneright.blogspot.com/2019/10/exokernel-operating-system-architecture.html
+---
+
+Authors: Dawson R. Engler, M. Frans Kaashoek, James O'Toole Jr.<br />Venue:&nbsp; &nbsp; SOSP 1995<br /><br />This work presents a solution to a fundamental constraint of modern operations: that generality degrades performance, or conversely, that the lower level of a primitive, the more efficiently it can be implemented. The exokernel operating systems centralizes around a single goal: separating protection of management. The exokernel itself, Aegis, utilizes secure bindings, visible resource revocation, and an abort protocol to handle protections. However, low level interfaces are exposed so that "library operating systems" can efficiently implement abstractions tailored to their needs. Some examples of this are explicit memory management, custom IPC (inter-process communication), and exception handling. The details of how this is achieved I would describe as "less than straight forward", however, there are extensive resources describing it further, such as <a href="https://dspace.mit.edu/bitstream/handle/1721.1/16713/42430053-MIT.pdf?sequence=2&amp;isAllowed=y">this book</a>. I think more importantly, this work demonstrates the problem with the general interfaces of modern OS's, and likely set the stage for future work which was made possible by better hardware abstractions (such as leveraging virtualization to achieve similar principles).<br /><br /><a href="https://dl.acm.org/citation.cfm?id=224076">Full Text</a>

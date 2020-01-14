@@ -1,0 +1,16 @@
+---
+layout: post
+title: 'Communist, Utilitarian, and Capitalist Cache Policies on CMPs: Caches as a
+  Shared Resource'
+date: '2018-02-18T13:16:00.003-08:00'
+author: Karl Taht
+tags:
+- dynamic hardware
+- QoS
+- resource-aware scheduling
+modified_time: '2018-02-18T13:20:39.472-08:00'
+blogger_id: tag:blogger.com,1999:blog-2670908301789336410.post-3293987161944925594
+blogger_orig_url: https://researchdoneright.blogspot.com/2018/02/communist-utilitarian-and-capitalist.html
+---
+
+Authors:&nbsp; Lisa R. Hsu, Steven Reinhardt (U Michigan), Ravi Iyer, Srihari Makinei (Intel)<br />Venue:&nbsp; &nbsp; &nbsp;PACT 2006<br /><br />This paper examines the resultant partition of different LLC cache allocation policies on an multi-core (CMP) system. The overall finding is that while LRU-like policies tend to degrade into something like utilitarian policies. While at first glance this is may sound good, the metric of utility is raw-IPC, which gives bias toward program with high levels of ILP. The paper also explains that utilitarian policies can result in bad fairness, and likewise fairness policies can result in poor utility. Additionally, the paper goes on to show that different metrics (raw-IPC, misses-per-access, misses-per-instruction) result in drastically different cache partitioning schemes. The paper is more a case study than a proposed solution, and suggest that a more complicated, online policy will be required to target either utility- or fairness-based cache partitioning schemes.<br /><a href="http://ieeexplore.ieee.org/abstract/document/7847575/"><br /></a><a href="http://ieeexplore.ieee.org/abstract/document/7847575/">Full Text</a>

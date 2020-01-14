@@ -1,0 +1,21 @@
+---
+layout: post
+title: 'AsmDB: Understanding and Mitigating Front-end Stalls in Warehouse-Scale Computers'
+date: '2019-11-07T18:10:00.001-08:00'
+author: Karl Taht
+tags:
+- data center
+- datacenter
+- software prefetching
+- compilers
+- prefetching
+- warehouse scale computing
+- WSC
+- profiling
+- LBR
+modified_time: '2019-11-07T18:10:34.936-08:00'
+blogger_id: tag:blogger.com,1999:blog-2670908301789336410.post-819610585874536718
+blogger_orig_url: https://researchdoneright.blogspot.com/2019/11/asmdb-understanding-and-mitigating.html
+---
+
+Authors: Grant Ayers et al.<br />Venue: ISCA 2019<br /><br />Previous works have highlighted a significant frontend bottleneck is warehouse-scale computers (WSC). A variety of solutions have been proposed, both on real hardware and architectural papers, to mitigate the issue. This paper performs deep analysis across 90%+ of Google's entire fleet to perform a fine-grain analysis of when, where, and how frontend bottlenecks occur. AsmDB comprises of post-processed last branch record (LBR) data to form control flow probabilities and precise information about what instructions triggered I-cache misses. The analysis shows several core reasons for I-cache misses: large jump distances (either via function call or indirect branch) and cold code being brought into the cache (either via cache blocks or prefetching).<br /><br />The remainder of the paper transitions to being much more compiler focused. It describes a software prefetching algorithm which utilizes AsmDB information to inject prefetches at ideal points in code. Prefetches must be both timely, and accurate. The challenge is exacerbated in when performing software prefetching due to varying IPC, as well as fan-in and fan-out concerns. Fundamentally, software prefetching increases the code size by requiring another instruction, so even if a prefetch is useful, it naturally incurs some overhead. The authors describe in detail how the AsmDB information helps to determine exactly where to perform this prefetch, and the net results is about 0.5-1% overall performance gains. I absolutely loved the analysis component of this paper but was hoping for a bigger perf win, especially considering the complexity required for the prefetching implementation.<br /><br /><a href="https://dl.acm.org/citation.cfm?id=3307650.3322234">Full Text</a><br /><br /><br />

@@ -1,0 +1,17 @@
+---
+layout: post
+title: 'Long Term Parking (LTP): Critically-aware Resource Allocation in OOO Processors'
+date: '2018-10-09T15:23:00.002-07:00'
+author: Karl Taht
+tags:
+- frontend
+- processor queues
+- dynamic hardware
+- resource allocation
+- resource management
+modified_time: '2018-10-15T16:09:57.193-07:00'
+blogger_id: tag:blogger.com,1999:blog-2670908301789336410.post-3547564134418446655
+blogger_orig_url: https://researchdoneright.blogspot.com/2018/10/authors-andreas-sembrant-trevor-carlson.html
+---
+
+Authors: Andreas Sembrant, Trevor Carlson, Erik Hagersten, David Black-Shaffer, Arthur Perais, Andre Seznec, and Pierre Michaud<br />Venue:&nbsp; &nbsp; MICRO 2015<br /><br />The authors of this paper explore the utility of large instruction queues, load-store queues, register files, and other processor structures. These resources significantly boost performance by leveraging ILP and MLP. However, when resources are allocated to instructions that are not yet ready to be executed, it wastes significant energy. The authors spend significant effort to determine that a IQ of half-size (64-&gt;32), with a "Long Term Parking" structure for non-ready and non-urgent instructions, has negligible impacts on performance. Furthermore, the authors find that a majority of this benefit can be acquired via non-urgent instructions only.&nbsp;The authors then propose a solution to leverage this benefit, and find a design which is 1% slower, but 40% lower E(D^2)P for MLP-sensitive applications, and 3% slower but 38% lower E(D^2)P for MLP-insensitive applications.<br /><div><br /></div><div><b>Note:</b> I did not fully read the paper as it is a bit out of my depth.<br /><br /><a href="https://hal.inria.fr/hal-01225019/document">Full Text</a></div>

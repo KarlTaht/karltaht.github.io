@@ -1,0 +1,19 @@
+---
+layout: post
+title: Predicting inter-thread cache contention on a chip multi-processor architecture
+date: '2018-11-05T09:06:00.004-08:00'
+author: Karl Taht
+tags:
+- probability theory
+- cmp
+- hpca
+- chip-multiprocessor
+- cache partition
+- cache contention
+- performance modeling
+modified_time: '2018-11-05T09:06:55.508-08:00'
+blogger_id: tag:blogger.com,1999:blog-2670908301789336410.post-3146939211451841112
+blogger_orig_url: https://researchdoneright.blogspot.com/2018/11/predicting-inter-thread-cache.html
+---
+
+Authors: Dhruba Chandra, Fei Guo, Seongbeom Kim, Yan Solihin<br />Venue:&nbsp; &nbsp; HPCA 2005<br /><br />The authors present <i>Prob</i>,&nbsp;a model which is able to predict the performance implications of co-locating multiple threads on CMP. The model uses the stack distance profiles / circular sequence profiles as input. Using probability theory, <i>Prob </i>is able to accurately predict the cache miss rates of co-locating programs with an average of ~3.8% accuracy. Moreover, the models accuracy is only significantly off when the performance implications are predicted to be very large, and the real implications are even larger.<br /><br />This is the first work to model the effects of co-locating threads on a CMP, yet is exceedingly accurate. However, the model does not propose a solution to co-locating threads, only a prediction model of the effects. Moreover, the study is done on a two core system -- which was state-of-the-art at time of publication. However, in many-core era the study would be interesting to re-examine the accuracy of this model. Lastly, the algorithm predicts cache miss rate effects, but not performance (IPC) effects. <a href="https://researchdoneright.blogspot.com/2018/10/gaining-insights-into-multicore-cache.html">Later work</a> shows that miss rates are not always good indicators, and IPC should be used directly. This is because of auxiliary effects, such as how bandwidth utilization typically increases as cache contention increases.<br /><br /><a href="https://ieeexplore.ieee.org/abstract/document/1385956">Full Text</a>

@@ -1,0 +1,15 @@
+---
+layout: post
+title: 'Coordinated Management of Multiple Interacting Resources in Chip Multiprocessors:
+  A Machine Learning Approach'
+date: '2018-05-28T18:02:00.000-07:00'
+author: Karl Taht
+tags:
+- dynamic hardware
+- resource management
+modified_time: '2018-05-28T18:02:22.584-07:00'
+blogger_id: tag:blogger.com,1999:blog-2670908301789336410.post-9021739737602389860
+blogger_orig_url: https://researchdoneright.blogspot.com/2018/05/coordinated-management-of-multiple.html
+---
+
+Authors: Ramazan Bitirgen, Engin Ipek, Jose F. Martinez<br />Venue: &nbsp; &nbsp;MICRO 2008<br /><br />This paper presents a scheme to dynamically allocate system resources. The paper focuses on LLC cache partitioning via ways, bandwidth partitioning, and DVFS. They propose <i>Coordinated Hill-climbing</i>, to dynamically allocate these resources. The system profiles first in the default fair-share configuration. If the prediction framework has a high CoV (coeffient of variation) for the baseline performance, the algorithm does nothing. However, if the CoV is accurate, a profiling phase occurs. Once the initial training set is provided, the controller continues to sample for every 1 and 5 intervals.<br /><br />The model itself is a ensemble of fifty, 2-layer FC ANN's, each of which have 9 inputs (power, cache usage, read hits/misses, write hits/misses, bandwidth usage and L2 cache dirty ratio). The model attempts to predict the performance given the statistics. The model guides the search, such that search is shifted to areas where the model predicts high performance. This guided-HC approach outperforms basic HC significantly, so much that, the basic HC approach doesn't outperform fair-share (static), wheres coordinated-HC does so by 14%.<br /><br />Potential issues include scalability, since training is done per-application and integration. The solution involves a significant increase in hardware for the ANN implementation, as well as OS modification to support the framework. The CoV ratio use is also non-trivial to compute and not mentioned.

@@ -1,0 +1,21 @@
+---
+layout: post
+title: 'Mesos: A Platform for Fine-Grained Resource Sharing in the Data Center'
+date: '2019-01-11T14:56:00.000-08:00'
+author: Karl Taht
+tags:
+- data center
+- databases
+- resource sharing
+- distributed systems
+- scheduling
+- cloud
+- cluster computing
+- resource management
+modified_time: '2019-01-15T08:29:10.496-08:00'
+thumbnail: https://4.bp.blogspot.com/-kSzGOygwfMs/XDkd8o4bkjI/AAAAAAAALqc/XB0w5u-RZlIPZPLMi2rmblmqSF80HSu9ACLcBGAs/s72-c/Screen%2BShot%2B2019-01-11%2Bat%2B3.51.16%2BPM.png
+blogger_id: tag:blogger.com,1999:blog-2670908301789336410.post-5722982504337991334
+blogger_orig_url: https://researchdoneright.blogspot.com/2019/01/mesos-platform-for-fine-grained.html
+---
+
+Authors: Benjamin Hindman, Andy Konwinski, Matei Zaharia, Ali Ghodsi, Anthony D. Joseph, Randy Katz, Scott Shenker, Ion Stoica<br />Venue: NSDI 2011<br /><br />Mesos is a thin management layer that allows various cluster computing frameworks to efficiently share resources. The two key principles leveraged by Mesos are its fine-grained resource sharing model at the level of tasks, and a distributed (decentralized) scheduling mechanism. The result is a framework which offers better overall system utilization, scalability to at least 50,000 nodes, and flexibility to port to many different (and future) frameworks.<br /><br />Fine-grain resource sharing is done via a notion of <i>resource-offers, </i>which are each a list of free resources on multiple slaves. The master decides how many resources to offer each framework, this distribution is done via a pluggable allocation module. A <i>scheduler</i>&nbsp;registers with the master to be offered resources, and an <i>executor </i>process is launched on slave notes to run the framework's tasks.<br /><br /><div class="separator" style="clear: both; text-align: center;"><a href="https://4.bp.blogspot.com/-kSzGOygwfMs/XDkd8o4bkjI/AAAAAAAALqc/XB0w5u-RZlIPZPLMi2rmblmqSF80HSu9ACLcBGAs/s1600/Screen%2BShot%2B2019-01-11%2Bat%2B3.51.16%2BPM.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" data-original-height="419" data-original-width="671" height="199" src="https://4.bp.blogspot.com/-kSzGOygwfMs/XDkd8o4bkjI/AAAAAAAALqc/XB0w5u-RZlIPZPLMi2rmblmqSF80HSu9ACLcBGAs/s320/Screen%2BShot%2B2019-01-11%2Bat%2B3.51.16%2BPM.png" width="320" /></a></div><br />Mesos address many concerns including flexibility via offer rejections and framework filters. The work shows good software architecture which should scale to future frameworks and applications. The only scenarios in which Mesos performs sub-optimally is with more antiquated use-cases, such as MPI tasks which have static resource requirements and can be long running. However, it seems that for future trends, Mesos should continue to scale well.<br /><br /><a href="http://static.usenix.org/events/nsdi11/tech/full_papers/Hindman_new.pdf">Full Text</a>

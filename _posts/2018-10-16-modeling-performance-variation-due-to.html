@@ -1,0 +1,17 @@
+---
+layout: post
+title: Modeling Performance Variation Due to Cache Sharing
+date: '2018-10-16T14:23:00.002-07:00'
+author: Karl Taht
+tags:
+- cache sharing
+- resource sharing
+- resource allocation
+- cache partitioning
+- performance modeling
+modified_time: '2018-10-16T14:23:42.833-07:00'
+blogger_id: tag:blogger.com,1999:blog-2670908301789336410.post-2380895068577462263
+blogger_orig_url: https://researchdoneright.blogspot.com/2018/10/modeling-performance-variation-due-to.html
+---
+
+Authors: Andreas Sandberg, Andreas Sembrant, Erik Hagersten and David Black-Schaffer<br />Venue:&nbsp; &nbsp; HPCA 2013<br /><br />The authors of this paper present a modeling framework to predict cache contention when co-locating applications. The model is much lighter weight than previous work, and accurate within 0.41% on average. The authors utilize a three-fold approach:<br /><br /><ol><li><a href="https://dl.acm.org/citation.cfm?id=2370861">A cache sharing model</a>&nbsp;- Predicts how much cache is used by an application</li><li><a href="http://embedded.cs.uni-sb.de/literature/CachePirating.pdf">A cache analysis tool (Cache Pirating)</a>&nbsp;- Artificially reduces cache size</li><li><a href="https://it.uu.se/katalog/andse541/iiswc11-final.pdf">A phase detection framework: (Scarphase)</a>&nbsp;- Divides applications into phases</li></ol><div>It should be noted that (1) and (2) can be done directly with what is now Intel RDT, which was not available at the time of publication.</div><div>&nbsp; &nbsp; The authors show that co-location of applications exhibits extensive performance variability depending on alignment, particularly when applications exhibit extensive phase behavior. Therefore to predict performance of co-location, a user may need to profile applications over a hundred times. Using their framework, an application can be modeled quickly and accurately. Many results are presented with CDF graphs, which capture the accuracy of the model with run-to-run variation.&nbsp;</div><div><br /></div><div>The authors note the potentials for future work include including bandwidth modeling and prediction, which the state would drastically improve multi-core scaling accuracy.<br /><br /><a href="https://ieeexplore.ieee.org/abstract/document/6522315">Full Text</a></div><div><br /></div>

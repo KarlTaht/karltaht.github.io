@@ -1,0 +1,16 @@
+---
+layout: post
+title: Compressing Neural Networks with the Hashing Trick
+date: '2019-04-11T14:58:00.001-07:00'
+author: Karl Taht
+tags:
+- neural networks
+- ICML
+- compression
+- hashing
+modified_time: '2019-04-11T14:58:11.050-07:00'
+blogger_id: tag:blogger.com,1999:blog-2670908301789336410.post-652913775387122834
+blogger_orig_url: https://researchdoneright.blogspot.com/2019/04/compressing-neural-networks-with.html
+---
+
+Authors: Wenlin Chen, James T. Wilson, Stephen Tyree, Killian Q. Weinberger, Yixin Chen<br />Venue: ICML 2015<br /><br />Note: this is a brief summary as the read was brisk.<br /><br />The key idea of this paper is to reduce the memory footprint of weight matrices by using a hash table to store weights. Unlike typical hash tables which are much larger than the size of the data, these hash tables are actually much smaller than the original weight matrix. Collisions cause random weight sharing. Interestingly, this approach can be used during both training and inference. The results show that this approach outperforms low-rank matrix decomposition, random edge removal, an equivalent NN with the same size and in most cases Dark Knowledge (DK). In addition, their technique can be used in conjunction with DK, resulting in even better results. Another auxiliary benefit is that a network can be made arbitrarily larger (e.g. increasing the number of hidden nodes in a layer), while keep a fixed memory footprint. In this context, the hashing method outperforms other techniques as well. While the hash should only cause a constant time penalty, only accuracy results are presented and performance data is left out.

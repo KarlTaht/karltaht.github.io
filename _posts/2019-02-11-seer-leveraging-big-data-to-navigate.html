@@ -1,0 +1,22 @@
+---
+layout: post
+title: 'Seer: Leveraging Big Data to Navigate the Complexity of Performance Debugging
+  in Cloud Microservices'
+date: '2019-02-11T14:19:00.002-08:00'
+author: Karl Taht
+tags:
+- lstm
+- neural networks
+- performance debugging
+- scheduling
+- cloud
+- cloud computing
+- microservices
+- performance monitoring
+- software engineering
+modified_time: '2019-03-21T12:12:54.808-07:00'
+blogger_id: tag:blogger.com,1999:blog-2670908301789336410.post-6685718140698409858
+blogger_orig_url: https://researchdoneright.blogspot.com/2019/02/seer-leveraging-big-data-to-navigate.html
+---
+
+Authors: Yu Gan, Yanqi Zhang, Kelvin Hu, Dailun Cheng, Yuan He, Meghna Pancholi, Christina Delimitrou<br />Venue: ASPLOS 2018<br /><br />Seer presents a framework to diagnose and avoid QoS violations in real-time. The motivation, design, and experimental framework in this paper are some of the best and most through I have seen in my recent reading.<br /><br />The work begins by discussing the microservice design of cloud providers. Such frameworks have numerous layers of abstraction, are often written in multiple programming languages, and have complex (and changing) dependency graphs. A performance bug in one microservice can cause QoS in many others, and diagnosing the root cause can be difficult.<br /><br />The work then builds a complex data collection framework which uses RPC-level and perf counters. When perf counters aren't available, the system uses microbenchmarks to diagnose the bottleneck. This area is particularly complex, and the authors even note that their system is similar to Dapper and Zipkin which are stand-alone works. The most impressive part of the design is the use of a neural network which uses a CNN for feature transformation, an LSTM to encode time dependence to predict the performance problem. I should note that is not clear to me how the QoS violations are avoided, only the detection.<br /><br />The experimental framework includes several end-to-end services including a social network, media service, e-commerce site, and a banking system. The authors experiment with all of these and provide extensive sensitivity studies on training set size, monitoring intervals, inputs used, and even retraining overtime. The only negative result is the scaling factor, which shows that inference time scales linearly with the number of nodes. However, this does not detract from the paper's establishment as a new state-of-the-art in automated, real-time performance debugging in the cloud.<br /><br /><a href="http://www.csl.cornell.edu/~delimitrou/papers/2019.asplos.seer.pdf">Full Paper</a><br /><br /><br /><br />
