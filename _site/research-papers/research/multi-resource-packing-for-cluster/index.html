@@ -1,0 +1,360 @@
+<!doctype html>
+<!--
+  Minimal Mistakes Jekyll Theme 4.17.2 by Michael Rose
+  Copyright 2013-2019 Michael Rose - mademistakes.com | @mmistakes
+  Free for personal and commercial use under the MIT license
+  https://github.com/mmistakes/minimal-mistakes/blob/master/LICENSE
+-->
+<html lang="en" class="no-js">
+  <head>
+    <meta charset="utf-8">
+
+<!-- begin _includes/seo.html --><title>Multi-Resource Packing for Cluster Schedulers (Tetris) - Karl’s Personal Page</title>
+<meta name="description" content="Authors: Robert Grandl, Ganesh Anathanarayanan, Srikanth Kandula, Sriram Rao, Aditya Akella">
+
+
+
+<meta property="og:type" content="article">
+<meta property="og:locale" content="en_US">
+<meta property="og:site_name" content="Karl's Personal Page">
+<meta property="og:title" content="Multi-Resource Packing for Cluster Schedulers (Tetris)">
+<meta property="og:url" content="http://localhost:4000/research-papers/research/multi-resource-packing-for-cluster/">
+
+
+  <meta property="og:description" content="Authors: Robert Grandl, Ganesh Anathanarayanan, Srikanth Kandula, Sriram Rao, Aditya Akella">
+
+
+
+
+
+
+
+  <meta property="article:published_time" content="2020-01-08T09:57:00-07:00">
+
+
+
+
+
+  
+
+  
+
+
+<link rel="canonical" href="http://localhost:4000/research-papers/research/multi-resource-packing-for-cluster/">
+
+
+
+
+<script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    
+      "@type": "Person",
+      "name": "Karl Taht",
+      "url": "http://localhost:4000/"
+    
+  }
+</script>
+
+
+
+
+
+
+<!-- end _includes/seo.html -->
+
+
+<link href="/feed.xml" type="application/atom+xml" rel="alternate" title="Karl's Personal Page Feed">
+
+<!-- https://t.co/dKP3o1e -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<script>
+  document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
+</script>
+
+<!-- For all browsers -->
+<link rel="stylesheet" href="/assets/css/main.css">
+
+<!--[if IE]>
+  <style>
+    /* old IE unsupported flexbox fixes */
+    .greedy-nav .site-title {
+      padding-right: 3em;
+    }
+    .greedy-nav button {
+      position: absolute;
+      top: 0;
+      right: 0;
+      height: 100%;
+    }
+  </style>
+<![endif]-->
+
+
+
+    <!-- start custom head snippets -->
+
+<!-- insert favicons. use https://realfavicongenerator.net/ -->
+
+<!-- end custom head snippets -->
+
+  </head>
+
+  <body class="layout--posts">
+    <nav class="skip-links">
+  <h2 class="screen-reader-text">Skip links</h2>
+  <ul>
+    <li><a href="#site-nav" class="screen-reader-shortcut">Skip to primary navigation</a></li>
+    <li><a href="#main" class="screen-reader-shortcut">Skip to content</a></li>
+    <li><a href="#footer" class="screen-reader-shortcut">Skip to footer</a></li>
+  </ul>
+</nav>
+
+    <!--[if lt IE 9]>
+<div class="notice--danger align-center" style="margin: 0;">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience.</div>
+<![endif]-->
+
+    
+
+<div class="masthead">
+  <div class="masthead__inner-wrap">
+    <div class="masthead__menu">
+      <nav id="site-nav" class="greedy-nav">
+        
+        <a class="site-title" href="/">
+          Karl's Personal Page
+          
+        </a>
+        <ul class="visible-links"><li class="masthead__menu-item">
+              <a href="/research-papers/" >Research Paper Summaries</a>
+            </li></ul>
+        
+        <button class="greedy-nav__toggle hidden" type="button">
+          <span class="visually-hidden">Toggle menu</span>
+          <div class="navicon"></div>
+        </button>
+        <ul class="hidden-links hidden"></ul>
+      </nav>
+    </div>
+  </div>
+</div>
+
+
+    <div class="initial-content">
+      
+
+
+
+<div id="main" role="main">
+  
+  <div class="sidebar sticky">
+  
+
+
+<div itemscope itemtype="https://schema.org/Person">
+
+  
+
+  <div class="author__content">
+    
+      <h3 class="author__name" itemprop="name"></h3>
+    
+    
+  </div>
+
+  <div class="author__urls-wrapper">
+    <button class="btn btn--inverse">Follow</button>
+    <ul class="author__urls social-icons">
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      <!--
+  <li>
+    <a href="http://link-to-whatever-social-network.com/user/" itemprop="sameAs" rel="nofollow noopener noreferrer">
+      <i class="fas fa-fw" aria-hidden="true"></i> Custom Social Profile Link
+    </a>
+  </li>
+-->
+    </ul>
+  </div>
+</div>
+
+  
+  </div>
+
+
+  <div class="archive">
+    
+      <h1 id="page-title" class="page__title">Multi-Resource Packing for Cluster Schedulers (Tetris)</h1>
+    
+    <p>Authors: Robert Grandl, Ganesh Anathanarayanan, Srikanth Kandula, Sriram Rao, Aditya Akella</p>
+
+<p>Venue: SIGCOMM 2014</p>
+
+<p>Cluster level scheduling is a complex topic in which performance, fairness, and hard constraints must all be considered. Fundamentally, a perfectly fair solution sacrifices performance. This work presents a resource-aware cluster scheduling scheme which maximizes performance and includes additional parameters to balance fairness requirements. <!--more--> For simplicity, I will divide the discussion into two sections: the central idea and additional heuristics.</p>
+
+<p>Tetris performs scheduling by analyzing jobs resource requirements in terms of CPUs, memory, disk I/O, and network usage. Each job, task (a subset of a job), and machine is assigned a resource vector. To determine the optimal positioning of a task, a heuristic is used which takes the dot product of the job’s resource requirements vs a candidates available resources. The machine with the maximum dot product is selected to place the job. To incorporate fairness into the approach, the number of candidate jobs can be adjusted. Maximizing fairness will only place jobs in the global queue order, while maximizing performance will consider all jobs in the queue.</p>
+
+<p>In addition to the basic setup, Tetris also includes additional heuristic properties to ensure no low-hanging fruit is left on the table. Firstly, shortest remaining time first (SRFT) algorithm is incorporated into the scheduling calculations, such that dot products are weighted to favor jobs nearly completions. The next optimization comes from the nature of map-reduce and DAG dependencies. Again, when a job is nearing the end of a stage, it’s tasks a favored so that it can begin the next stage sooner. The last significant optimization is regarding the “remote penalty”. When a job is scheduled away from data locality, it’s network requirements will increase. Thus, jobs which cause this are assigned a penalty (note this part is a bit vague in the details from my reading).</p>
+
+<p>Overall, exceptional gains are achieved of a 40% improvement in job completion time and 41% improvement in job makespan (the total time for all jobs to complete). This occurs with a minimal impact in fairness, where about 6% jobs are delayed more than 10%. It would have been nice to see an S-curve of job improvements to illustrate the details more clearly, but nevertheless fairness seems to suffer marginally.</p>
+
+
+<ul class="taxonomy__index">
+  
+  
+    <li>
+      <a href="#2020">
+        <strong>2020</strong> <span class="taxonomy__count">1</span>
+      </a>
+    </li>
+  
+</ul>
+
+
+
+  <section id="2020" class="taxonomy__section">
+    <h2 class="archive__subtitle">2020</h2>
+    <div class="entries-list">
+      
+        
+
+
+
+<div class="list__item">
+  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+    
+    <h2 class="archive__item-title" itemprop="headline">
+      
+        <a href="/research-papers/research/multi-resource-packing-for-cluster/" rel="permalink">Multi-Resource Packing for Cluster Schedulers (Tetris)
+</a>
+      
+    </h2>
+    
+      <p class="page__meta"><i class="far fa-clock" aria-hidden="true"></i> 
+
+
+
+
+  1 minute read
+
+</p>
+    
+    <p class="archive__item-excerpt" itemprop="description">Authors: Robert Grandl, Ganesh Anathanarayanan, Srikanth Kandula, Sriram Rao, Aditya Akella
+</p>
+  </article>
+</div>
+
+      
+    </div>
+    <a href="#page-title" class="back-to-top">Back to top &uarr;</a>
+  </section>
+
+
+  </div>
+</div>
+    </div>
+
+    
+
+    <div id="footer" class="page__footer">
+      <footer>
+        <!-- start custom footer snippets -->
+
+<!-- end custom footer snippets -->
+        <div class="page__footer-follow">
+  <ul class="social-icons">
+    
+      <li><strong>Follow:</strong></li>
+    
+
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+
+    <li><a href="/feed.xml"><i class="fas fa-fw fa-rss-square" aria-hidden="true"></i> Feed</a></li>
+  </ul>
+</div>
+
+<div class="page__footer-copyright">&copy; 2020 Karl Taht. Powered by <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.</div>
+
+      </footer>
+    </div>
+
+    
+  <script src="/assets/js/main.min.js"></script>
+  <script src="https://kit.fontawesome.com/4eee35f757.js"></script>
+
+
+
+
+
+
+
+
+
+
+  </body>
+</html>
