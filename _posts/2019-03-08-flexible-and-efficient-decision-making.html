@@ -1,0 +1,18 @@
+---
+layout: post
+title: Flexible and Efficient Decision-Making for Proactive Latency-Aware Self-Adaptation
+date: '2019-03-08T12:06:00.001-08:00'
+author: Karl Taht
+tags:
+- queuing theory
+- reinforcement learning
+- dynamic hardware
+- autotuning
+- dynamic software
+- MDP
+modified_time: '2019-03-21T12:11:02.282-07:00'
+blogger_id: tag:blogger.com,1999:blog-2670908301789336410.post-6591287634212228621
+blogger_orig_url: https://researchdoneright.blogspot.com/2019/03/flexible-and-efficient-decision-making.html
+---
+
+Venue: <span style="font-family: Times, Times New Roman, serif;">T<span style="background-color: white; color: #222222;">ransactions on Autonomous and Adaptive Systems (TAAS)</span></span><br />Authors: Gabriel A. Moreno, Javier Camara, David Garlan, Bradley Schmerl<br /><br />The title essentially encapsulates the problem which this paper is addressing. The setting is a Markov Decision Process, but with deterministic adaptations that do not effect the evolution of the environment. Restated another way, decisions do not impact the state, but rather the reward (and penalty). This leads to a separate notion of <i>environment state</i>&nbsp;and <i>system state</i>. Note that the utility (reward) may be a factor of both. The innovation of this paper lies specifically in encapsulating that while deterministic, the different actions have different delays in terms of system state.<br /><br />The environment evolution is modeled via a discrete time markov chain (DTMC), which can be used to generate a partial probability tree. Specifically, an Extended Pearson-Tukey (EP-T) three point approximation. To encode latency, the progress of an adaptation is encoded into state. The authors make use of Alloy to reduce the search space into only feasible structures. This component is computed offline. Essentially, this work differs from the author's previous work computing a large portion of computation offline. Since all transitions are deterministic, feasibility of decisions can be computed offline and only environment transitions and rewards must be evaluated offline. The results of the paper are very compelling, although the actual computation time is not clear.<br /><br />Personal note: This is one of the most interesting, and mathematically complex papers I've read in a while. It draws from both reinforcement learning topics as well as queuing theory and formal verification. However, the use of such complicated techniques looks to yield exceedingly positive results. I hope to follow up with the authors separately about some details.<br /><br /><a href="https://dl.acm.org/citation.cfm?id=3149180">Full Paper</a>

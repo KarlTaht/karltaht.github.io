@@ -1,0 +1,17 @@
+---
+layout: post
+title: Resource Management with Deep Reinforcement Learning
+date: '2019-11-20T10:43:00.000-08:00'
+author: Karl Taht
+tags:
+- policy gradient
+- reinforcement learning
+- scheduling
+- rl
+- resource management
+modified_time: '2019-11-20T10:43:14.884-08:00'
+blogger_id: tag:blogger.com,1999:blog-2670908301789336410.post-6761252391855689463
+blogger_orig_url: https://researchdoneright.blogspot.com/2019/11/resource-management-with-deep.html
+---
+
+Authors: Hongzi Mao, Mohammad Alizadeh, Ishai Menache, Srikanth Kandula<br />Venue: HotNets-XV<br /><br />This work presents DeepRM, a deep reinforcement learning approach to the bin-packing task of job scheduling in a cluster. The authors utilize a synthetic environment which comprises of <i>d</i>&nbsp;resource types. Jobs arrive online and and are scheduling during discrete time steps. No preemption occurs. In their simulated framework, they find the RL algorithm improves average slow down significantly compared to Tetris, Shortest Job First, and Packer. However, average job completion time is slightly higher. Intuitively, this makes sense since the RL algorithm is given a single reward, which is defined in respect to slowdown in this work. Overall, this work marks an important step toward automation of job scheduling in a resource constrained environment.<br /><br /><b><i>RL Formulation</i></b><br />In order to fix the state representation, only the vector representation of <i>M</i>&nbsp;jobs is encoded in the state space, plus a scalar value which tracks the number of jobs not yet scheduled. During each time step, the agent makes multiple decisions (actions). Each decision the agent selects one of <i>M</i>&nbsp;jobs to schedule, or no job. The agent repeatedly makes decisions until an invalid action (not enough resources) or no job is chosen. The returns are defined as the sum of -1/T for all jobs where T is the ideal completion time for that job. The system is trained using policy gradients with a baseline in an episodic approach. One part that is unclear is how multiple actions can be used to update the model when only a single reward is given for each timestep. How is this encoded into the loss function and corresponding update?<br /><br /><br /><br /><br />

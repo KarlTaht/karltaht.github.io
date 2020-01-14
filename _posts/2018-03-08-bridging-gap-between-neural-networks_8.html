@@ -1,0 +1,17 @@
+---
+layout: post
+title: Bridging the Gap Between Neural Networks and Neuromorphic Hardware with A Neural
+  Netowork Compiler
+date: '2018-03-08T09:55:00.001-08:00'
+author: Surya Narayanan
+tags:
+- Neural netowrks
+- Compiler
+- Accelerator
+- Reduced Precision
+modified_time: '2018-03-08T10:13:56.323-08:00'
+blogger_id: tag:blogger.com,1999:blog-2670908301789336410.post-3420630655541849197
+blogger_orig_url: https://researchdoneright.blogspot.com/2018/03/bridging-gap-between-neural-networks_8.html
+---
+
+<div dir="ltr" style="text-align: left;" trbidi="on">Authors: Yu Ji, Youhui Zhang, Wenguang Chen, Yuan Xie<br />Venue: ASPLOS 2018<br /><br />With the machine learning community trying to push the limits of neural networks on one hand, and the architecture community proposing their own constraints and data-flows to accelerate neural networks on the other hand, this paper tries to bridge the gap between the two communities by proposing a neural network compiler. The main aim of this paper is to run a given neural network on a given hardware, no matter what the constraints are.<br /><br />They achieve this by modelling the target NN as a computational graph, restructuring it based on the constraints of the target architecture, and fine-tuning the graph to minimise accuracy loss. One of the main conflicts between the NN and the hardware is the precision of inputs. This paper solves this issue by using an autoencoder network that produces the low-precision representation of the inputs. The accuracy loss incurred in translating&nbsp; to low-precision values can be mitigated by increasing the hidden layers in the autoencoder, which increases the resource needed. The compiler proposed is not restricted only for ANNs, but it can also be used for SNNs. The hardware used for analysis are TianJi and Prime.<br /><br />For MNIST based networks they get away with around 0.05% drop in accuracy for most cases, except for MNIST-SNNs, where the accuracy loss is 0.57% on TianJi chip. Whereas for networks designed for ImageNet dataset, like VGG16, VGG17, and AlexNet, the accuracy loss varies from 0.4% to 2.3%. They also show that the accuracy can be scaled by scaling the hidden neurons of the autoencoder network.<br /><br />Link to the paper:&nbsp;<b>https://seal.ece.ucsb.edu/sites/seal.ece.ucsb.edu/files/publications/bridging-gap-neural_1.pdf</b></div>

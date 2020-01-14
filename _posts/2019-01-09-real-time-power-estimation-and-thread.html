@@ -1,0 +1,17 @@
+---
+layout: post
+title: Real Time Power Estimation and Thread Scheduling via Performance Counters
+date: '2019-01-09T11:03:00.001-08:00'
+author: Karl Taht
+tags:
+- DVFS
+- thread scheduling
+- power
+- regression
+- power estimation
+modified_time: '2019-01-15T08:29:42.863-08:00'
+blogger_id: tag:blogger.com,1999:blog-2670908301789336410.post-8009763834293014678
+blogger_orig_url: https://researchdoneright.blogspot.com/2019/01/real-time-power-estimation-and-thread.html
+---
+
+Authors: Karan Singh, Major Bhadauria, Sally A. McKee<br />Venue:&nbsp; &nbsp; ACM SIGARCH Computer Architecture News 2009<br /><br />This paper presents a methodology for real-time power estimation via performance counters. The study is does completely on real hardware. The work characterizes power usage into four buckets: FP Units, Memory, Stalls, and Instructions Retired. This is based on the overall area of the chip itself. They utilize Spearman's rank correlation on the data to choose the best performance counter from each bucket. Four counters (this paper seems to be before perf event multiplexing) are selected as inputs to piecewise functions to approximate power utilization, obtaining a median error from 3.9-7.2% on different benchmark suites.<br /><br />The work then utilizes the power estimates to build a proof-of-concept thread scheduler as a user space program. Each application's current power draw can be estimated, and thus if the target is exceeded, an application can be unscheduled or replaced. The details of the algorithm are omitted from the paper. It should also be noted that DVFS is not included in this paper as the feature was not available per-core during the time of publishing. This paper seems to be a strong basis for future work. Note that there is a large body of related work as well. Advantages of this work over its time's prior art may be less applicable, as some design features can be overcome with&nbsp; more modern approaches. One such as example is utilizing a limited number of counters, which can be overcome with multiplexing at the time scale in the paper (1s intervals).<br /><br />This paper should be used to find subsequent work as it clearly defines the problem and solution space that is of interest even today, a decade later.<br /><br /><a href="https://www.researchgate.net/profile/Sally_McKee/publication/220244676_Real_time_power_estimation_and_thread_scheduling_via_performance_counters/links/09e41512359adef36c000000.pdf">Full Text</a>

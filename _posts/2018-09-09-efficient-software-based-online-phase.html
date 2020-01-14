@@ -1,0 +1,15 @@
+---
+layout: post
+title: Efficient Software-Based Online Phase Classification (ScarPhase)
+date: '2018-09-09T14:27:00.002-07:00'
+author: Karl Taht
+tags:
+- phase detection
+- online phase detection
+- phase prediction
+modified_time: '2018-09-09T14:27:33.902-07:00'
+blogger_id: tag:blogger.com,1999:blog-2670908301789336410.post-2163704910236902379
+blogger_orig_url: https://researchdoneright.blogspot.com/2018/09/efficient-software-based-online-phase.html
+---
+
+Authors: Andreas Sembrant, David Eklov, Erik Hagersten<br />Venue:&nbsp; &nbsp; IISWC 2011<br /><br />The authors develop an online phase detection algorithm that works by approximating Basic Block Vectors (BBVs) by sampling conditional branches, made possible by PEBS. The algorithm operates on real-hardware, online, and uses fixed 100M instruction count windows. They show that while conditional branches encapsulate less information that all branches, when you are sampling, conditional branches provide better information. They evaluate their phase detection algorithms using the coefficient of variation, comparing the CoV within a phase to the global CoV. They additionally provide a metric which penalizes creating new phases. Finally, they utilize a Markov Predictor, similar to Sherwood and show accurate phase prediction as well. Overall, this paper does an excellent job of solving many off the challenges of phase detection:<br /><br /><ul><li>Feasible with real hardware with a low overhead of less than 2%</li><li>Address the key component of phase detector for performance analysis: stable performance within a phase</li><li>Provide both a phase detector and predictor as a software library.</li></ul><br />Note that they provide their framework as a software library available on <a href="https://github.com/uart/scarphase">GitHub</a>.<br /><br /><a href="https://it.uu.se/katalog/andse541/iiswc11-final.pdf">Full Text</a>

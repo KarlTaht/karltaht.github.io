@@ -1,0 +1,18 @@
+---
+layout: post
+title: 'Dune: Safe User-level Access to Privledged CPU Features'
+date: '2019-10-23T22:13:00.001-07:00'
+author: Karl Taht
+tags:
+- VMX
+- virtual memory
+- vm
+- networking
+- kernel bypass
+- virtualization
+modified_time: '2019-10-23T22:13:48.798-07:00'
+blogger_id: tag:blogger.com,1999:blog-2670908301789336410.post-3981757775296400911
+blogger_orig_url: https://researchdoneright.blogspot.com/2019/10/dune-safe-user-level-access-to.html
+---
+
+Authors: Adam Belay, Andrea Bittau, Ali Mashtizadeh, David Terei, David Mazieres, Christos Kozyrakis<br />Venue: OSDI 2012<br /><br />Dune uses virtualization hardware to provide the abstraction of a userspace process, but with safe access to hardware features. The Dune process runs as VMX non-root (aka guest ring 0). This enables virtual access to hardware features, such as exception handling and virtual memory. Because the system is built utilizing hardware support, performance is maintained (e.g. normal system call invocations do not cause a VM exit). Furthermore, a Dune process in guest ring 0 can run untrusted code in guest ring 3, and intercept any unwanted behavior, such as unauthorized systems calls. Without getting into more details, what is important is that Dune effectively enables kernel bypass, and sets the stage future work such as Shinjuku.<br /><br /><br />

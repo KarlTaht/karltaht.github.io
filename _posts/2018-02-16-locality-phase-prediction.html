@@ -1,0 +1,15 @@
+---
+layout: post
+title: Locality Phase Prediction
+date: '2018-02-16T13:46:00.000-08:00'
+author: Karl Taht
+tags:
+- phase detection
+- dynamic hardware
+- phase prediction
+modified_time: '2018-02-17T10:54:03.787-08:00'
+blogger_id: tag:blogger.com,1999:blog-2670908301789336410.post-1428612399358974888
+blogger_orig_url: https://researchdoneright.blogspot.com/2018/02/locality-phase-prediction.html
+---
+
+Authors:&nbsp; &nbsp; &nbsp;Xipeng Shen, Yutao Zhong, Chen Ding&nbsp; (University of Rochester)<br />Venue:&nbsp; &nbsp; &nbsp; &nbsp; ASPLOS 2004<br /><br />Locality Phase Prediction presents an offline phase detection and prediction scheme. While, previous phase detection works use repeating branches or performance counters to identify program phases, locality phases are defined by the data locality. More formally "a locality phase ... [is] a period of program execution that has stable or slow changing data locality inside the phase but disruptive transition periods between phases." Additionally, it is important to note their definition of a phase: "a phase is a unit of repeating behavior rather than a unit of uniform behavior." The claim is that these types of phases are particularly common in simulation-type programs, which will often process over a (data) structure many times, as they calculate behavior at each time-step. In order to extract the phases, they use data reuse distance, which is variably sampled. They then process the data with wavelet filtering which gives frequencies which occur over time.<br /><div style="box-sizing: border-box; margin-bottom: 16px;"><span style="color: #24292e;"><br /></span>While the techniques described seem interesting, the author's representation of results is rather abstract, which makes evaluating the method difficult. Overall, their technique is comparable to by-hand code injection and seems to outperform the BBV approach by Sherwood et. al. However, the biggest drawback from this approach is that it really only works for particular workloads. Data locality isn't always present, especially when you require a separate offline analysis step. I think they have something with the approach, but translating it to an online algorithm for my work probably doesn't make sense.<br /><br /><br /><a href="https://pdfs.semanticscholar.org/f316/e3a6729dd292a917fa1af2f9fb90c91cb6e4.pdf">Full Text</a><br /><br /><br /><div><br /></div></div>

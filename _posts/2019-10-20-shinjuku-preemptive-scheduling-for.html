@@ -1,0 +1,20 @@
+---
+layout: post
+title: 'Shinjuku: Preemptive Scheduling for microsecond-scale Tail Latency'
+date: '2019-10-20T20:26:00.002-07:00'
+author: Karl Taht
+tags:
+- operating systems
+- rocksDB
+- tail latency
+- DPDK
+- datacenter
+- microsecond
+- dataplane
+- networking
+modified_time: '2019-10-20T20:26:31.151-07:00'
+blogger_id: tag:blogger.com,1999:blog-2670908301789336410.post-7983177909369682560
+blogger_orig_url: https://researchdoneright.blogspot.com/2019/10/shinjuku-preemptive-scheduling-for.html
+---
+
+Authors: Kostis Kaffes, Timothy Chong, Jack Tigar Humphries, Adam Belay, David Mazieres, Christos Kozyrakis<br />Venue: NSDI 2019<br /><br />Shinjuku is a dataplane operating system that leverages hardware support for virtualization to enable microsecond-scale preemption. In network processing, there is a fundamental challenge between optimizing for throughput and latency. Interrupt cores too frequently, and throughput will drop because of context switching overheads. Conversely, infrequent preemption can lead to poor tail latency, as short requests can get stuck behind long requests. This is particularly prevalent in bimodal distributions -- such as DB server processing short get() and put() requests while also servicing scans.<br /><br />Shinjuku first greatly reduces context switching overhead by leveraging Dune, enabling direct access to APICs, and other optimizations. With low-overhead context swap enabled, the authors then focus on an effective preemptive scheduling algorithms. The authors utilize centralized dispatcher with a multi-queue architecture. A queue selection algorithm balances SLO, but enables servicing requests of varying SLO. They co-locate the network subsystem and dispatcher on the same physical core. They show that each dispatcher can effectively schedule ~8 worker cores. (It is not clear from the paper where the second dispatcher is scheduled). Overall, the work shows that utilizing VTX, shared memory, and some micro-optimizations for context switching, microsecond preemption is possible. They then leverage this along with a powerful queuing (dispatching) algorithm to achieve both high throughput and low tail latency. I aspire to someday write a paper this complete.

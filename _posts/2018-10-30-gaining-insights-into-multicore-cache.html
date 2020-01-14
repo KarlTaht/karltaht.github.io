@@ -1,0 +1,18 @@
+---
+layout: post
+title: 'Gaining Insights into Multicore cache Partitioning: Bridging the Gap between
+  Simulation and Real Systems'
+date: '2018-10-30T13:41:00.001-07:00'
+author: Karl Taht
+tags:
+- resource sharing
+- resource allocation
+- cache partitioning
+- real hardware
+- resource management
+modified_time: '2018-11-01T10:14:35.201-07:00'
+blogger_id: tag:blogger.com,1999:blog-2670908301789336410.post-2578352154840722872
+blogger_orig_url: https://researchdoneright.blogspot.com/2018/10/gaining-insights-into-multicore-cache.html
+---
+
+Authors: Jian Lin, Qingda Lu, .. P. Sadayappan et al.<br />Venue:&nbsp; &nbsp; HPCA 2008<br /><br />The authors of this paper present an in-depth analysis and optimization of cache partitioning on a real-system. They accomplish this by using OS-page coloring, which induces only ~2% overhead. Since they cite the goal of their study primarily as analysis and potential, they subtract out this overhead. The authors show significant discrepancy compared to previous studies, which they cite as an artifact of simulations which are too small in length, and use too small of datasets. The real system approach allows for much longer runs with larger datasets.<br /><br />Benchmarks are divided into 4 categories:<br /><br /><ul><li><i><span style="color: red;"><b>Red</b></span></i>: Highly sensitive to cache size (bzip2, mcf, omnetpp, astar, sphinx3, xalanc)</li><li><span style="color: #f1c232;"><b><i>Yellow</i></b></span>: Moderately sensitive (gcc, leslie3d, soplex, Gems, tonto, lbm, perl, catcus, h264)</li><li><span style="color: #38761d;"><b><i>Green</i></b></span>: Marginally sensitive (bwaves, zeus, gromacs, povray, libq, wrf)</li></ul><div>They create 27 workloads which each comprise of two benchmarks, such that all combinations of benchmark categories are covered. They demonstrate significant improvement across various metrics: throughput, weighted speedup, fair speedup and SMT Speedup. They show a larger differential in performance due to benchmark category combination. They also present a dynamic optimization algorithm, which appears to work in a hill-climbing approach. They show that often an oracle static analysis can often outperform an online, dynamic optimization scheme.&nbsp;</div><div><br /></div><div>The authors also provide a study to see how well different formulations of fairness via miss rates correlate to actual fairness via IPC. They find none of the policies to be particularly good indicators and each suffer in particularly cases (via different mixes of benchmarks). This prompts for the need to use IPC directly for the optimization framework. In this study, they also demonstrate that dynamic optimization works much better when a baseline IPC is known prior.&nbsp;</div><div><br /></div><div><a href="http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.152.1475&amp;rep=rep1&amp;type=pdf">Full Text</a></div><div><br /></div><div><br /></div>

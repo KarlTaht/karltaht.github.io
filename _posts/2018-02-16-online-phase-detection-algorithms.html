@@ -1,0 +1,13 @@
+---
+layout: post
+title: Online Phase Detection Algorithms
+date: '2018-02-16T13:44:00.003-08:00'
+author: Karl Taht
+tags:
+- phase detection
+modified_time: '2018-02-17T11:04:00.483-08:00'
+blogger_id: tag:blogger.com,1999:blog-2670908301789336410.post-5080309948257964629
+blogger_orig_url: https://researchdoneright.blogspot.com/2018/02/online-phase-detection-algorithms.html
+---
+
+<br /><div>Authors:&nbsp; &nbsp; &nbsp;Priya Nagpurkar ...et.al ...&nbsp; V.T. Rajan (UC Santa Barbara, IBM Research)<br />Venue:&nbsp; &nbsp; &nbsp; &nbsp; International Symposium on Code Generation and Optimization, 2006<br /><br />The paper presents a novel phase detection algorithm The main claims are: a client- and machine-independent baseline methodology for evaluating the accuracy of an online phase detector, a metric to compare phase detectors, empirical evaluation of numerous phase detectors (using Java applications).<br /><br /></div>The phase detection in this paper builds off the idea that during execution, there exist two key states: stable phase, and transition period. They use a model which constant accepts inputs, and then when in a stable phase, grows the "trailing window" size to the size of the stable phase. They call this notion an adaptive trailing window policy. The paper uses an offline baseline to evaluate the online phase detection algorithms. The biggest contributions this paper seems to make is:<br /><ul><li>Adaptive phase sizes (and analysis windows) outperform fixed size windows.</li><li>Larger phase sizes (~100K branches) seem to perform better.</li><li>Weighing branches seems to perform better than unweighted</li><ul><li>Unweighted = did you see the branch A?</li><li>Weighted = how many times did you see branch A?</li></ul></ul><div><a href="http://www.cs.colorado.edu/~mozer/Teaching/syllabi/6622/papers/Nagpurkaretal.pdf">Full Text</a></div><div><br /></div>

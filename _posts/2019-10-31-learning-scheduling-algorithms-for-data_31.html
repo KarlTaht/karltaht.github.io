@@ -1,0 +1,19 @@
+---
+layout: post
+title: Learning Scheduling Algorithms for Data Processing Clusters
+date: '2019-10-31T09:57:00.002-07:00'
+author: Karl Taht
+tags:
+- data center
+- policy network
+- datacenter
+- reinforcement learning
+- graph
+- scheduling
+- DAG
+modified_time: '2019-10-31T09:57:51.368-07:00'
+blogger_id: tag:blogger.com,1999:blog-2670908301789336410.post-9110216053898811836
+blogger_orig_url: https://researchdoneright.blogspot.com/2019/10/learning-scheduling-algorithms-for-data_31.html
+---
+
+Authors: Hongzi Mao, Malte Schwarzkopf, Shaileshh Bojja Venkatakrishnan, Zili Meng, Mohammad Alizadeh<br />Venue: Proceedings of the ACM Special Interest Group on Data Communication<br /><br /><br />This paper utilizes reinforcement learning to schedule learn a scheduling policy for Spark jobs. The scheduler has two main decisions: (i) what stage to schedule and (ii) how much parallelism to exploit for that stage. The RL problem is formulated as given the state of the cluster and DAG input, output a scheduling action. Reward is defined as -T x J where T is the time step and J is the number of jobs in the system. The decision making process is particularly difficult because an job can present a DAG of any shape for dependencies, yet, the neural network input is of fixed size. To solve this, a method based on graph convolutional neural networks [1] is used. The RL policy network predicts a composite action of stage of maximum parallelism level. To train the network in the case of continuous job arrivals, differential reward is used for feedback. Additionally, the variance reduction techniques are applied to compensate for the "input driven" environment [2]. The net result performs 19% better than the fair scheduling algorithm.<br /><br /><br />Further reading:<br />[1]: T.N. Kipf, M. Welling. "Semi-Supervised Classification with Graph Convolutional Neural Networks"<br />[2]: H. Mao. et. al. "Variance Reduction for Reinforcement Learning in Input-Driven Environments."

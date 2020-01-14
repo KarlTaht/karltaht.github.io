@@ -1,0 +1,21 @@
+---
+layout: post
+title: 'AutoFDO: Automatic Feedback-Directed Optimization for Warehouse-Scale Applications'
+date: '2019-01-18T08:05:00.000-08:00'
+author: Karl Taht
+tags:
+- database
+- compiler optimization
+- Compiler
+- optimization
+- sampling
+- autotuning
+- cloud
+- profiling
+- LBR
+modified_time: '2019-01-18T08:05:49.669-08:00'
+blogger_id: tag:blogger.com,1999:blog-2670908301789336410.post-1106725692845490525
+blogger_orig_url: https://researchdoneright.blogspot.com/2019/01/autofdo-automatic-feedback-directed.html
+---
+
+Authors: Dehao Chen, David Xinliang Li, Tipp Moseley<br />Venue:&nbsp; &nbsp; CGO 2016<br /><br />This paper presents AutoFDO, a system used which profiles warehouse-scale applications, and applies feedback to the compilation for the next release. AutoFDO works by profiling and storing profiles in an aggregate database, annotating the profiles via an intermediate representation, and finally providing feedback. On average, this technique boosts performance by around 10% and works well even with stale releases.<br /><br />For profiles to be useful, they must be in an intermediate representation. This is built from binary-level profile, which uses LBR to map instruction frequencies. By using these frequencies, program counters, and the source, a source profile can be generated. The source profile can be used to build an annotated call-graph with edge frequencies, with some inaccuracy. These annotated call-graphs can then be used as feedback to the compiler. Because of the size of the applications and scale of deployment, the authors provide detail of their database used to maintain and update application profiles. In essence, AutoFDO is a complete framework is not just a PoC, and as a result, has been deployed into Google workloads.<br /><br /><a href="http://delivery.acm.org/10.1145/2860000/2854044/p12-chen.pdf?ip=73.34.42.35&amp;id=2854044&amp;acc=OA&amp;key=B63ACEF81C6334F5%2E43A2660A68B2F3B6%2E7CCD12EED3402D5D%2E5945DC2EABF3343C&amp;__acm__=1547827796_ae351a55d662c9c2dd61887e50e4730d">Full Text</a>

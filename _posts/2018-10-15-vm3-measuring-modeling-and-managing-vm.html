@@ -1,0 +1,19 @@
+---
+layout: post
+title: 'VM^3: Measuring, modeling and managing VM shared resources'
+date: '2018-10-15T16:08:00.000-07:00'
+author: Karl Taht
+tags:
+- datacenter
+- virtual machines
+- dynamic hardware
+- resource allocation
+- cloud
+- vm
+- resource management
+modified_time: '2018-10-15T16:16:41.057-07:00'
+blogger_id: tag:blogger.com,1999:blog-2670908301789336410.post-5773179916131905364
+blogger_orig_url: https://researchdoneright.blogspot.com/2018/10/vm3-measuring-modeling-and-managing-vm.html
+---
+
+Authors: Ravi Iyer, Ramesh Illikkal, Omesh Tickoo, Li Zhao, Padma Apparo, Don Newell<br />Venue:&nbsp; &nbsp;Computer Networks 2009<br /><br />The authors of this paper seek to understand the importance of resource allocation in a VM/cloud environment. At the time of publishing, only time-multiplexing and core allocation isolated VMs from a performance standpoint, which they refer to as a <i>Virtual Platform Architecture (VPA)</i>. The authors suggest that cache space, memory, bandwidth and power equally need to be virtualized as well. They focus on memory bandwidth and cache allocation. They motivate the problem by performing measurements and effects of resource contention and show significant performance degradation. Then then show that a simplistic model can perform fairly accurate predictions of cache occupancy, MPI, and cache contention.<br /><br />Perhaps the most elegant part of the paper is the description of the cache and memory bandwidth monitoring and allocation technology, which I assume laid foundations of Intel's RDT. Careful use of set-sampling and other techniques allow lightweight monitoring and partitioning of resources. The authors are very thorough with the implementation for dynamically monitoring and partitioning resources, even with the real-system constraints of limited numbers of monitoring IDs.<br /><br /><a href="https://www.sciencedirect.com/science/article/pii/S1389128609002187">Full Text</a>

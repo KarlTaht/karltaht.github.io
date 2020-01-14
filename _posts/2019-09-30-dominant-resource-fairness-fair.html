@@ -1,0 +1,19 @@
+---
+layout: post
+title: 'Dominant Resource Fairness: Fair Allocation of Multiple Resource Types'
+date: '2019-09-30T13:50:00.001-07:00'
+author: Karl Taht
+tags:
+- mesos
+- resource sharing
+- cloud
+- cloud computing
+- cluster computing
+- resource-aware scheduling
+- resource management
+modified_time: '2019-09-30T13:50:33.825-07:00'
+blogger_id: tag:blogger.com,1999:blog-2670908301789336410.post-8124007825088714028
+blogger_orig_url: https://researchdoneright.blogspot.com/2019/09/dominant-resource-fairness-fair.html
+---
+
+Authors: Ali Ghodsi, Matei Zaharia, Benjamin Hindman, Andy Konwinski, Scott Shenker, Ion Stoica<br />Venue:&nbsp; &nbsp;NSDI 2011<br /><br />This work presents a very computationally efficient scheduling algorithm in the context of data centers. The problem is presented as fair resource allocation, but the goal is accomplished through choosing which task to schedule (and how many of each). This done by assigning each task with a resource vector of it's requirements, and a corresponding vector of available resources. The algorithm considers each job's allocation via it's dominant resource. For example, if a job uses 1 CPU and 1 GB of memory, but there are 4 CPUs and 8GB of memory, it would be <i>dominated</i>&nbsp;by it's CPU usage (1/4 &gt; 1/8). Tasks are continually scheduled such that the job with the lowest dominant resource share will be given priority. The algorithm takes O(log(n)) for n tasks. The work presents 4 main properties, and was well as 4 other "nice to have". I'll briefly cover some of what I believe are particularly important.<br /><br />1. Strategy-proofness: It's impossible to claim you need more of a resource and achieve a greater share of resources. This will actually only result in less efficiency, as you'll be using a greater share of resources.<br /><br />2. Pareto Efficiency: It's not possible to increase the allocation of a user without decreasing the allocation of another user(s). This means the system is effectively maximally occupied.<br /><br />3. Population/Resource Monotonicity: Essentially, we can't decrease a job's resources because another job has completed a task, or the system's available resources have increased.<br /><br />4. Sharing Incentive: The algorithm will outperform a blind (1/n) partitioning scheme of all resources.<br /><br />Max-min Fairness:<br /><br />This paper is very well cited (900+ as of writing), and has lot of other interesting work that has in turn cited it. Overall, a very good read and direction for future reading.

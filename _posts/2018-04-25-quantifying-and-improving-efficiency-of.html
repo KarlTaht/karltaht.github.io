@@ -1,0 +1,16 @@
+---
+layout: post
+title: Quantifying and Improving the Efficiency of Hardware-based Mobile Malware Detectors
+date: '2018-04-25T12:09:00.000-07:00'
+author: Karl Taht
+tags:
+- malware detection
+- hardware performance counters
+- mobile
+- real hardware
+modified_time: '2018-04-25T12:09:12.481-07:00'
+blogger_id: tag:blogger.com,1999:blog-2670908301789336410.post-424364553408622643
+blogger_orig_url: https://researchdoneright.blogspot.com/2018/04/quantifying-and-improving-efficiency-of.html
+---
+
+Venue: &nbsp; &nbsp;MICRO 2016<br />Authors: Mikhail Kazdagli, Vijay Janapa Reddi, Mohit Tiwari<br /><br />This paper presents an analyze of hardware-based malware detection on a mobile platform, mainly Android. The paper does an exception job at modeling many different malware acts, analyzing not only their behaviors, but validating the attacks are operating correctly. The paper then uses hardware performance counters to detect malware. They note that this malware on mobile devices typically operates in the order of seconds.<br /><br />They create Sherlock, a Hardware Malware Detector (HMD), which samples number of instructions, number of memory loads/stores, immediate and indirect control flow execution counts, and number of mispredicted branches. They sample at a frequency of 1kHz, finding the overhead to be 0.3%. They extract features from each 100ms long time interval using Discrete Wavelet Transform (using the coefficients as a feature vector). They use these feature vectors to construct two models: (a) bag-of-words algorithm followed by a ocSVM and a (b) probabilistic Markov Model. They report that (a) performs better in most scenarios, but (b) performs better in others and suggest a tournament style approach. See paper for more details.<br /><br /><br />

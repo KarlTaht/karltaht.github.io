@@ -1,0 +1,15 @@
+---
+layout: post
+title: Scaling Datacenter Accelerators with Computation Reuse Architectures
+date: '2018-05-16T22:33:00.000-07:00'
+author: Surya Narayanan
+tags:
+- Input redundancy
+- Accelerator
+- Data centers
+modified_time: '2018-05-16T22:33:58.135-07:00'
+blogger_id: tag:blogger.com,1999:blog-2670908301789336410.post-432364829838952553
+blogger_orig_url: https://researchdoneright.blogspot.com/2018/05/scaling-datacenter-accelerators-with.html
+---
+
+<div dir="ltr" style="text-align: left;" trbidi="on">Authors: Adi Fuchs, David Wentzalff. Princeton University<br />Venue: ISCA 2018<br /><br />Being the third paper at ISCA-18 that exploits input redundancy in one way or other (after EVA2 and Euphrates), COREx (COmputation-REuse Accelerators) proposes an effective idea to improve speedup and energy efficiency of datacenters. The paper is motivated by the manifestation of <a href="https://en.wikipedia.org/wiki/Zipf%27s_law" target="_blank">Zipf's law</a>&nbsp;in data center workloads such as internet traffic and data compression.&nbsp; As the paper title suggests, COREx stores the outputs and inputs of common kernels, and skips computation by sending the stored output to the host, if the current input is the same as stored input. They define the storing step as "<i>memorization</i>" Trading communication for computation, this work is the exact opposite of AMNESIAC (published at ASPLOS-17), which trades computation for communication.<br /><br />They define 3 constraints that needs to be satisfied in-order for memorization to be successful. (1) Correct results: Memorization must produce the same result as a non-memorized system. For example, a search query like "where am I" depends not just on the input, but also depends on the location of the user, (2) Constrained storage: understanding the variance of inputs is important in designing the storage system required for memorization, (3) Cost-worthy reuse: for memorization to be effective, the cost of storing, looking-up and fetching should be less than doing the actual computation.<br /><br />The COREx architecture consists of 3 main components: 1. Input Hashing Unit (IHU), 2. Input Look-up Unit (ILU), and 3. Computation History Table (CHT). IHU constructs two hashes from input blocks, index hash and pointer hash. ILU acts as a cache for CHT. ILU indexed based on index hash, and the pointer hash is stored in the data array, which acts as index to the CHT. CHT stores the &lt;input, output&gt; tuple. The input part is compared, and if it's a hit, the output is sent to the host, thereby avoiding computation and hence saving energy and time.<br /><br /><br /></div>

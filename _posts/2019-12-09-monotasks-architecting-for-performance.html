@@ -1,0 +1,16 @@
+---
+layout: post
+title: 'Monotasks: Architecting for Performance Clarity in Data Analytics Frameworks'
+date: '2019-12-09T10:29:00.001-08:00'
+author: Karl Taht
+tags:
+- spark
+- performance
+- big data
+- data analytics
+modified_time: '2019-12-09T10:29:35.806-08:00'
+blogger_id: tag:blogger.com,1999:blog-2670908301789336410.post-5506609322344676223
+blogger_orig_url: https://researchdoneright.blogspot.com/2019/12/monotasks-architecting-for-performance.html
+---
+
+Authors: Kay Outerhout, Christopher Canel, Sylvia Ratnasamy, Scott Shenker<br />Venue: SOSP 2017<br /><br />This paper presents a data analytics framework which focuses or providing performance clarity first. Consider a user running there analytics framework on EC2. They need to improve performance. Do they invest in more vCPUs, more memory, more disks per node or more network bandwidth? If they do upgrade, what will the expected performance improvement be? To solve this, Monotasks centralizes on building a framework which decomposes all tasks into single-resource utilization: disk use, network I/O, or CPU.<br /><br />The framework is integrated into Spark, and referred to as "MonoSpark". By simply decomposing tasks at the worker level, the existing Spark API is maintained. By dividing tasks into individual units of disk/network/CPU, the framework can track the precise total amount of work for each, and then determine the performance changes based on the new resource constraints. Most queries are with 9% of the predicted performance. One limitation MonoSpark has, is that when you change the number of machines, the amount of network communication changes due to data spread. As a result, MonoSpark is less accurate in this scenario.<br /><br />The system is mainly targets at achieving predictable performance and scaling, but the paper claims that the system is within 9% of Spark performance. It is also pointed out that the paper uses a number of simple implementations which could be improved, such as scheduling network tasks, queuing monotasks, and managing concurrency. In terms of replacing Spark with MonoSpark practically, the biggest pitfall is increased disk writes. Spark uses fine-grained pipelining, which interleaves compute and I/O operations, which not only boosts performance but allow for operation on tasks that are larger than what fits into the host's memory. MonoSpark separates tasks into coarse-grained operations, breaking the built-in pipeline. The result is increased disk writes, particularly with big data benchmark -- arguably the most relevant to the context of Spark deployments. This would not only wear disks faster, but reduce performance and potentially cause OOMs. This isn't to say MonoTasks can't increase performance, it does when the default would have caused significant contention.<br /><br />My overall take away is that users should run an instance of MonoSpark to measure bottlenecks and make changes, but use traditional Spark for actual deployment.<br /><br /><a href="https://par.nsf.gov/servlets/purl/10074894">Full text</a>

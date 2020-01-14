@@ -1,0 +1,16 @@
+---
+layout: post
+title: Using Multiple Input, Multiple Output Formal Control to Maximize Resource Efficiency
+  in Architectures
+date: '2018-05-27T11:23:00.001-07:00'
+author: Karl Taht
+tags:
+- control theory
+- tuning
+- dynamic hardware
+modified_time: '2018-05-27T11:23:22.452-07:00'
+blogger_id: tag:blogger.com,1999:blog-2670908301789336410.post-3604821567730180191
+blogger_orig_url: https://researchdoneright.blogspot.com/2018/05/using-multiple-input-multiple-output.html
+---
+
+Authors: Raghavendra Pradyumna Pothukuchi, Amin Ansari, Petros Voulgaris, and Josep Torellas<br />Venue: &nbsp; &nbsp;ISCA 2016<br /><br />This paper using control theory to design an adaptive system. While many approaches exist, the key novelty to this work is the multiple-input, multiple-output coordination which considers multiple trade-offs simultaneously to tune the system. The framework essentially uses several "training set" workloads to train a controller which is able to predict power and performance. Then, a "test set" of workloads is used to evaluate the controller's performance when trying to tune the power-performance trade-offs. The benefit is formal guarantees, however, the cost is the user requirement to specify reference values. More specifically, rather than "maximize <i>x</i>&nbsp;trade-off", MIMO controller works best by specifying "achieve values x1, x2, with weights w1 and w2" for importance.<br /><br />Overall, this work excellently integrates considerations such as monitoring frequency, reconfiguration overheads, and variables goals (power vs. performance).

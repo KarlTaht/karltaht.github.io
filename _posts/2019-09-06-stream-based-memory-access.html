@@ -1,0 +1,15 @@
+---
+layout: post
+title: Stream-based Memory Access Specialization for General Purpose Processors
+date: '2019-09-06T14:40:00.002-07:00'
+author: Karl Taht
+tags:
+- isa
+- speculation
+- memory
+modified_time: '2019-09-06T15:08:43.383-07:00'
+blogger_id: tag:blogger.com,1999:blog-2670908301789336410.post-7475454482744309220
+blogger_orig_url: https://researchdoneright.blogspot.com/2019/09/stream-based-memory-access.html
+---
+
+<span style="font-family: &quot;helvetica neue&quot; , &quot;arial&quot; , &quot;helvetica&quot; , sans-serif;">Authors: Zhengrong Wang, Tony Nowatzki</span><br /><span style="font-family: &quot;helvetica neue&quot; , &quot;arial&quot; , &quot;helvetica&quot; , sans-serif;">Venue:&nbsp; &nbsp; ISCA 2019</span><br /><span style="font-family: &quot;helvetica neue&quot; , &quot;arial&quot; , &quot;helvetica&quot; , sans-serif;"><br /></span><span style="font-family: &quot;helvetica neue&quot; , &quot;arial&quot; , &quot;helvetica&quot; , sans-serif;">This paper presents change to architecture, ISA, and compilers to optimize the performance of memory loading in load/store streams. Streams are defined as "the dynamic sequence of memory operations associated with a static instruction, where the longest extent is defined as the entry and exit of the outermost containing loop." These can be characterized as affine (simple strides), indirect (based off a single pointer), or pointer-chasing. Most streams are affine or indirect via the author's measurements.<br /><br />To accelerate the memory subsystem, code must be augmented with sematics which pass information to the proposed stream engine. Based off this and other code information, the stream engine can fetch instructions ahead of time. The authors also extend this design with the option to bypass the cache in streaming designs. The mechanism as a whole outperforms 1000 instruction run-ahead processing as well as hardware prefetching designs.&nbsp;</span><br /><span style="font-family: &quot;helvetica neue&quot; , &quot;arial&quot; , &quot;helvetica&quot; , sans-serif;"><br /></span><span style="font-family: &quot;helvetica neue&quot; , &quot;arial&quot; , &quot;helvetica&quot; , sans-serif;">Discussion: One of the key benefits to this approach seems to be prefetching beyond page boundaries, which hardware prefetchers are limited to. The additional semantic information augments the approach, but at the cost of recompilation, ISA changes, etc. The paper also presents a potential security vulnerability via side-channel, as prefetched accesses can bypass memory protection faults. Despite this, the paper still establishes a new state-of-the-art in what I would deem a well-studied area. The paper is well-written definitely worth a read if interested in memory sub-system improvements at the prefetcher/ISA level.</span><br /><span style="font-family: &quot;helvetica neue&quot; , &quot;arial&quot; , &quot;helvetica&quot; , sans-serif;"><br /></span><a href="https://dl.acm.org/citation.cfm?id=3322229"><span style="font-family: &quot;helvetica neue&quot; , &quot;arial&quot; , &quot;helvetica&quot; , sans-serif;">Full Text</span></a>

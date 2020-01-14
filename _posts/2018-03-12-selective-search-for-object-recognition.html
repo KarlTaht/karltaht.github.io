@@ -1,0 +1,16 @@
+---
+layout: post
+title: Selective Search for Object Recognition
+date: '2018-03-12T21:59:00.001-07:00'
+author: Karl Taht
+tags:
+- image classification
+- image segmentation
+- IJCV
+- object recognition
+modified_time: '2018-03-12T21:59:35.162-07:00'
+blogger_id: tag:blogger.com,1999:blog-2670908301789336410.post-7361623546614697955
+blogger_orig_url: https://researchdoneright.blogspot.com/2018/03/selective-search-for-object-recognition.html
+---
+
+Authors: J.R.R. Uijlings, K.E.A. van de Sande, T. Gevers, and A.W.M. Smeulders<br />Venue: Tech Report / IJCV 2012<br /><br />Note that I did not read this paper in it's entirety, but mainly tried to focus on the ideas presented in this paper. Selective Search image segmentation uses a hierarchical clustering approach to segment the image into different related objects, motivated by the intuitive hierarchical relationship images have. When clustering, the algorithm takes into account the color similiarity of regions as well as texture similarity. For color similarity, they make use of multiple color scales such as RGB, grayscale, and HSV which each provide different properties. For texture measurements, they use SIFT (Scale-invarient feature transform).<br /><br />To analyze the hierarchical component, they compare there approach to flat clustering approach, Efficient Graph-based Image Segmentation. To analyze their overall performance, they compare to many other approaches, and do so rather exhaustively. This is the component of reading I skipped over. In the context of our work, they do a deep dive measuring the importance of different color encodings, showing that other encodings perform better than RGB.

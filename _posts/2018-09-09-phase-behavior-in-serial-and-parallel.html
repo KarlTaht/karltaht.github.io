@@ -1,0 +1,17 @@
+---
+layout: post
+title: Phase Behavior in Serial and Parallel Applications
+date: '2018-09-09T14:34:00.000-07:00'
+author: Karl Taht
+tags:
+- multi-threaded phase detection
+- phase detection
+- parsec
+- online phase detection
+- spec2006
+modified_time: '2018-09-09T14:34:04.510-07:00'
+blogger_id: tag:blogger.com,1999:blog-2670908301789336410.post-6992731666256892157
+blogger_orig_url: https://researchdoneright.blogspot.com/2018/09/phase-behavior-in-serial-and-parallel.html
+---
+
+Authors: Andreas Sembrant, David Black-Schaffer, Erik Hagersten<br />Venue:&nbsp; &nbsp; IISWC 2012<br /><br />This paper extends ScarPhase to be feasible in a multi-threaded environment. This is made possible by tracking the same data as ScarPhase on a per-phase basis. The authors make note that global sharing (phase IDs, phase predictors) does not improve performance much, this seems to be due to the fact that when new "phases" arrive, they arrive simultaneously in multiple threads. Thus global sharing would not improve the accuracy or quality of the phase detection, but rather remove redundancy. However, the redundancy may be preferable from an implementation perspective.<br /><br />This paper primary focus on workload analysis rather than the phase detection algorithm. The authors show that PARSEC displays much less phase behavior when compared to Spec2006. Additionally, as the number of threads scales in data-parallel applications, phases becoming increasingly shorter (assuming the same data), and eventually such phases fall below the window of the phase detector. It seems that the key insight is phase detection may be less important in a multi-threaded environment.<br /><br /><a href="http://www.it.uu.se/katalog/andse541/iiswc12-final.pdf">Full Text</a>

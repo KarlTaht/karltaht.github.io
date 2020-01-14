@@ -1,0 +1,18 @@
+---
+layout: post
+title: Prediction based Execution on Deep Neural Networks
+date: '2018-11-05T09:48:00.000-08:00'
+author: Karl Taht
+tags:
+- CNN
+- pruning
+- Accelerator
+- DNN
+- convolutional neural networks
+- deep neural networks
+modified_time: '2018-11-05T09:48:31.469-08:00'
+blogger_id: tag:blogger.com,1999:blog-2670908301789336410.post-7454418565123485690
+blogger_orig_url: https://researchdoneright.blogspot.com/2018/11/prediction-based-execution-on-deep.html
+---
+
+Authors: Mingcong Song, Jiechen Zhao, Yang Hu, Jiaqi Zhang, and Tao Li<br />Venue:&nbsp; &nbsp;ISCA 2018<br /><br />The authors of this paper present a technique to further reduce computations within deep-neural network computation, and present a scale-out design which is able to achieve 2.5X speedup compared to traditional accelerators, and 1.9-2.0X compared to Cnvlutin/Stripes. The concept is based on removing the computations of ineffectual neurons (iEONs). In order to do so, they use first compute the upper bits to determine if the result is likely to have a non-negative value. This is exceedingly elegant, as this means the predictor for computation is actually part of the computation itself--no extra work is being performed. Not only that, the technique requires no retraining and incurs no accuracy loss. The caveat is that the number of upper bits for prediction must be experimentally determined (still no retraining though).<br /><br />The challenge is that the iEONs are typically randomly dispersed throughout OFMs, creating bubbles in the pipeline. The bubbles mean energy savings, but latency isn't improved. To circumvent this, the authors realize that the <i>number</i>&nbsp;of iEONs typically has low variance for Max-Pooling layers within a network, and similarly they are able to leverage input sharing in ReLU layers. Tracking these iEONs (OFM and IFM depending on layer type) allows for near-full utilization of an accelerator architecture. The benefit can be stacked on top of other techniques as well (e.g. Cnvlutin and Stripes) and nets an overall positive benefit. In summary, this work does dynamic "pruning" based on partial computations, and is able to significantly improve both performance and energy compared to prior art.&nbsp;
