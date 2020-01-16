@@ -10,10 +10,5 @@ currently migrating those posts into this new GitHub-based site.
 
 
 {% for post in site.categories.research %}
-  - [{{ post.title }}]({{ post.url }}) 
-
-    {{post.custom_excerpt}}
-    
-    Published on <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%B %-d, %Y" }}</time>
-    
+  {% include archive-single.html %}    
 {% endfor %}

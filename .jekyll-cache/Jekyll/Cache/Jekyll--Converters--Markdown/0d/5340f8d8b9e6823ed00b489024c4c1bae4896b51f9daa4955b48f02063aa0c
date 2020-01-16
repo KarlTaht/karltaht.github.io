@@ -1,0 +1,30 @@
+I"�<p>Since 2018, I’ve been summarizing every research paper I read. I find this helps
+me remember works better, and recall them when I need to find relevant work. I’m
+currently migrating those posts into this new GitHub-based site.</p>
+
+<div class="list__item">
+  <article class="archive__item" itemscope="" itemtype="https://schema.org/CreativeWork">
+    
+    <h2 class="archive__item-title" itemprop="headline">
+      
+        <a href="/research-papers/research/multi-resource-packing-for-cluster/" rel="permalink">Multi-Resource Packing for Cluster Schedulers (Tetris)
+</a>
+      
+    </h2>
+    
+      <p class="page__meta"><i class="far fa-clock" aria-hidden="true"></i> 
+
+
+
+
+  1 minute read
+
+ | <time datetime="2020-01-08T09:57:00-07:00">January 8, 2020</time></p>
+    
+
+    <p class="archive__item-excerpt" itemprop="description">This work presents a resource-aware cluster scheduling scheme which maximizes performance and includes additional parameters to balance fairness requirements.
+</p>
+  </article>
+</div>
+
+:ET

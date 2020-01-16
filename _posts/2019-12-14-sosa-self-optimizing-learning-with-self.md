@@ -1,0 +1,32 @@
+---
+layout: posts
+title: 'SOSA: Self-Optimizing Learning with Self-Adaptive Control for Hierarchical
+  System-on-chip Management'
+date: '2019-12-14T17:19:00.001-08:00'
+author: Karl Taht
+categories: [research-papers, research]
+tags:
+- control theory
+- LCT
+- reinforcement learning
+- dynamic hardware
+- autotuning
+custom_excerpt: This work presents a control theory / reinforcement learning hybrid approach to solve online parameter tuning for SoC's called SOSA.
+modified_time: '2019-12-14T17:21:09.507-08:00'
+blogger_id: tag:blogger.com,1999:blog-2670908301789336410.post-3574862341734665186
+blogger_orig_url: https://researchdoneright.blogspot.com/2019/12/sosa-self-optimizing-learning-with-self.html
+---
+
+Authors: Bryan Donyanavard, Tiago Muck, Amir M. Rahmani, Nikil Dutt, Armin Sadighi, Florian Mauer, Andreas Herkersdorf
+
+Venue: MICRO 2019
+
+This work presents a control theory / reinforcement learning hybrid approach to solve online parameter tuning for SoC's called SOSA. While controllers are typically known for being light weight, and RL expensive, the authors build the hierarchy opposite from what you might expect. The RL models, Learning Classifier Tables (LCTs), are used as low-level controllers, and high level supervisor controller uses Supervisory Control Theory (SCT). The SCT controls a high-level system model abstraction, which must be consistent with the low-level system "as defined in the Ramadge-Wonham control mechanism" [1]. This assumption requires further investigation.
+
+LCTs are a simpler RL algorithm compared to today's deep neural network approaches. They utilize rule-based learning to to target an objective function, which may be multi-variate. The error between the objective value and achieved value (via the action) is used to calculate error, which is used as the reward signal for the agent. Note that the error also requires the max performance as a scaling factor. For IPC this is a reasonable, but may not be the case for other metrics.
+
+Evaluation is performed both in simulation and on an FPGA which implements SPARCv8 architecture. In the experiments, the authors tune DVFS and task migration. Load distribution is also a very odd target, particularly because CFS already solves the load balancing in hierarchical fashion, and utilizes the same metric of CPU utilization to perform the balancing. Results indicate that after a few seconds the models converge to an optimum, and can re-converge after a new task is added. However, I felt that the efficacy of the approach was hard to evaluate given the unusual benchmark setup and simulation framework. How much better SOSA is that existing real-world load balancing and firmware governors (which consist of both power saving and performance modes) is unclear.
+
+Objectively, I have a few issues with this paper. One one hand, it's a novel approach to use both control theory and reinforcement learning in a hybrid solution to solve the knob tuning problem. However, the motivation and results section seem to disagree with themselves. One of the benefits of RL is that lack of a requirement for specifying a particular target, and simply aiming to minimize or maximize a value, yet the use of RL in this case is to minimize error ... while hitting a particular target. Moreover, if the supervisor is simply specifying "the operating frequency of each core", then what exactly are the LCTs doing? Finally, the hardware cost of the approach--and why evaluation is FPGA/Simulation based--seems high (~9.6%), about 2% of which is due to the LCT's. Is that worth it for 5ms response time? The work is very interesting, but the application of RL seems misplaced. As the number of knobs scale, RL is known to have variance issues. I don't see how the LCT's will stand up in terms of convergence rate and hardware/computational complexity as the number of knobs scale. And what happens when a system is overloaded and constantly shuffling tasks?
+
+[1] Brandin, Bertil A., and W. Murray Wonham. "Supervisory control of timed discrete-event systems. IEEE Transactions on Automatic Control (1994): 329-342.

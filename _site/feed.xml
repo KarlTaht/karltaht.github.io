@@ -1,4 +1,55 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-01-14T11:34:14-07:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Karl’s Personal Page</title><subtitle>An array of Interests</subtitle><author><name>Karl Taht</name></author><entry><title type="html">Paper Rejection Reflection</title><link href="http://localhost:4000/reality/phd/rejected/" rel="alternate" type="text/html" title="Paper Rejection Reflection" /><published>2020-01-14T00:00:00-07:00</published><updated>2020-01-14T00:00:00-07:00</updated><id>http://localhost:4000/reality/phd/rejected</id><content type="html" xml:base="http://localhost:4000/reality/phd/rejected/">&lt;p&gt;Today, I found out my submission to the ISPASS conference was rejected. The
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-01-15T17:02:31-07:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Karl’s Personal Page</title><subtitle>An array of Interests</subtitle><author><name>Karl Taht</name></author><entry><title type="html">Flow and the Pomodoro Study Technique</title><link href="http://localhost:4000/reality/phd/pomodoro/" rel="alternate" type="text/html" title="Flow and the Pomodoro Study Technique" /><published>2020-01-15T00:00:00-07:00</published><updated>2020-01-15T00:00:00-07:00</updated><id>http://localhost:4000/reality/phd/pomodoro</id><content type="html" xml:base="http://localhost:4000/reality/phd/pomodoro/">&lt;p&gt;One thing about studying, or really, any kind of working that has limited human
+interaction faces one key challenge: staying focused. I think that’s true now 
+more than ever with cell phones, social media, email. Everything is trying to 
+pull us away from what we’re working on right now. We can make to-do list’s and
+stay organized, but eventually we will have to sit down and simply use our mind.&lt;/p&gt;
+
+&lt;p&gt;The first thing is – don’t discredit your to-lists and organizations. I keep
+a journal, more specifically, a bullet journal, to track all my daily, monthly,
+and longer term goals. Once you have these tasks distilled to a reasonable level,
+you at least know where you focus &lt;strong&gt;should&lt;/strong&gt; be, and that’s step one. Now, how
+do you force yourself to focus?&lt;/p&gt;
+
+&lt;h2 id=&quot;flow&quot;&gt;Flow&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/flow.png&quot; alt=&quot;Challenge vs Ability&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;There’s this really interesting chart that demonstrates this notion of “flow”, 
+when we are focused on what we are doing and happy, and by extension, most 
+productive. In reality, its really hard to achieve this state. Maybe your 
+current projectis boring because it’s too easy. Maybe it’s intimidating and 
+even starting stresses you out. So, is there a way we can force ourselves into
+flow?&lt;/p&gt;
+
+&lt;h2 id=&quot;the-pomodoro-technique&quot;&gt;The Pomodoro Technique&lt;/h2&gt;
+
+&lt;p&gt;The Pomodoro techinque is exceedingly simple, and involves disecting time into
+manageable increments. You’ll work in 25-minute “sprints” with short breaks, and
+after 4 of these sprints, you’ll take a longer break. Let’s lay it out:&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Select the task you want to work on. If you have your to-do list, this should
+be easy.&lt;/li&gt;
+  &lt;li&gt;Set a 25-minute timer. Eliminate all disractions and dive into the task at 
+hand, and nothing else. No checking Facebook, emails, messages, etc. You work
+until the timer goes off. The Pomodoro begins.&lt;/li&gt;
+  &lt;li&gt;Physically WRITE a check-mark down on the paper. You’ve completed a Pomodoro.&lt;/li&gt;
+  &lt;li&gt;Take a short break for 3-5 minutes. Grab yourself a drink, check those IMs. 
+Do something NOT work related.&lt;/li&gt;
+  &lt;li&gt;Every 4 pomodoros, take a longer break like 20-30 minutes. I call a group
+of 4 pomodoros a “pomodoro session”.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;I think what I love about this technique is how simple it is. One of my “to-do”
+items every day now includes “Pomodoro Sessions x …” based on how much time I 
+think I have to work that day. Now I’ll be honest, sessions 1 and 2 usually go
+really well for me, but the 3rd session is usually a significantly harder.&lt;/p&gt;
+
+&lt;p&gt;Full disclosure, I used this technique a lot in early 2019 when I first started
+working completely from home, and had a good amount of success. I completely
+forgot about it however, after returning from my internship. I only recently 
+recalled and it put it back to use, and I’m really pleased with the results. 
+Time to hit 2020 running!&lt;/p&gt;</content><author><name>Karl Taht</name></author><summary type="html">One thing about studying, or really, any kind of working that has limited human interaction faces one key challenge: staying focused. I think that’s true now more than ever with cell phones, social media, email. Everything is trying to pull us away from what we’re working on right now. We can make to-do list’s and stay organized, but eventually we will have to sit down and simply use our mind.</summary></entry><entry><title type="html">Paper Rejection Reflection</title><link href="http://localhost:4000/reality/phd/rejected/" rel="alternate" type="text/html" title="Paper Rejection Reflection" /><published>2020-01-14T00:00:00-07:00</published><updated>2020-01-14T00:00:00-07:00</updated><id>http://localhost:4000/reality/phd/rejected</id><content type="html" xml:base="http://localhost:4000/reality/phd/rejected/">&lt;p&gt;Today, I found out my submission to the ISPASS conference was rejected. The
 strange thing about it is, I mostly just feel confused. How should you really 
 feel when a your work is rejected? Discredited? Angry? Confused? For me, I just
 feel blank.&lt;/p&gt;
@@ -67,4 +118,30 @@ but a big part of reality that is ignored is the lows. This is a low, and that�
 
 &lt;p&gt;In addition to the basic setup, Tetris also includes additional heuristic properties to ensure no low-hanging fruit is left on the table. Firstly, shortest remaining time first (SRFT) algorithm is incorporated into the scheduling calculations, such that dot products are weighted to favor jobs nearly completions. The next optimization comes from the nature of map-reduce and DAG dependencies. Again, when a job is nearing the end of a stage, it’s tasks a favored so that it can begin the next stage sooner. The last significant optimization is regarding the “remote penalty”. When a job is scheduled away from data locality, it’s network requirements will increase. Thus, jobs which cause this are assigned a penalty (note this part is a bit vague in the details from my reading).&lt;/p&gt;
 
-&lt;p&gt;Overall, exceptional gains are achieved of a 40% improvement in job completion time and 41% improvement in job makespan (the total time for all jobs to complete). This occurs with a minimal impact in fairness, where about 6% jobs are delayed more than 10%. It would have been nice to see an S-curve of job improvements to illustrate the details more clearly, but nevertheless fairness seems to suffer marginally.&lt;/p&gt;</content><author><name>Karl Taht</name></author><category term="cluster scheduling" /><category term="spark" /><category term="resource allocation" /><category term="tetris" /><category term="cluster computing" /><category term="map-reduce" /><category term="resource-aware scheduling" /><category term="resource management" /><summary type="html">Authors: Robert Grandl, Ganesh Anathanarayanan, Srikanth Kandula, Sriram Rao, Aditya Akella</summary></entry></feed>
+&lt;p&gt;Overall, exceptional gains are achieved of a 40% improvement in job completion time and 41% improvement in job makespan (the total time for all jobs to complete). This occurs with a minimal impact in fairness, where about 6% jobs are delayed more than 10%. It would have been nice to see an S-curve of job improvements to illustrate the details more clearly, but nevertheless fairness seems to suffer marginally.&lt;/p&gt;</content><author><name>Karl Taht</name></author><category term="cluster scheduling" /><category term="spark" /><category term="resource allocation" /><category term="tetris" /><category term="cluster computing" /><category term="map-reduce" /><category term="resource-aware scheduling" /><category term="resource management" /><summary type="html">Authors: Robert Grandl, Ganesh Anathanarayanan, Srikanth Kandula, Sriram Rao, Aditya Akella</summary></entry><entry><title type="html">Sparrow: Distributed, Low Latency Scheduling</title><link href="http://localhost:4000/research-papers/research/sparrow-distributed-low-latency/" rel="alternate" type="text/html" title="Sparrow: Distributed, Low Latency Scheduling" /><published>2019-12-18T10:15:00-07:00</published><updated>2019-12-18T10:15:00-07:00</updated><id>http://localhost:4000/research-papers/research/sparrow-distributed-low-latency</id><content type="html" xml:base="http://localhost:4000/research-papers/research/sparrow-distributed-low-latency/">&lt;p&gt;Authors: Kay Ousterhout, Patrick Wendell, Matei Zaharia, Ion Stoica
+Venue:    SOSP 2013&lt;/p&gt;
+
+&lt;p&gt;This work presents Sparrow, a stateless, decentralized scheduler for cluster scheduling. The scheduling component uses two key ideas: batch sampling and late binding. Batch sampling is an extension of the power of two choices [1], which shows that the “tail” can quickly be cut off by simply sampling between two machines versus randomly selecting one. Batch sampling generalizes this by sampling dm machines, and placing the m tasks on the machine with the lowest load. Late binding delays the actual task transfer until the machine is ready to process the request. This can be thought of as having a place holder in the worker’s queue, and when the worker is finally ready to process it, the actual task is transferred from the scheduler to the worker. This avoids having to rely on inaccurate metrics such as queue depth. Each worker maintains its “instance” of Sparrow, which uses multiple queues to enforce global policies. Additionally, Sparrow is orthogonal to straggler mitigation techniques, and they could be applied in conjunction.&lt;/p&gt;
+
+&lt;p&gt;Sparrow does have the following limitations:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Limitations of placement constraints: “my job should not be run on machine where User X’s jobs are run”&lt;/li&gt;
+  &lt;li&gt;No bin-packing (for performance, I assume)&lt;/li&gt;
+  &lt;li&gt;No gang scheduling&lt;/li&gt;
+  &lt;li&gt;No preemption, so by extension, struggles with (highly) heterogeneous tasks&lt;/li&gt;
+  &lt;li&gt;Despite the limitations, the end result is extremely impressive – within 12% of an optimal scheduler. And the optimal scheduler is very idealistic (assumes no transfer time).&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;[1]: Mitzenmacher, Michael. “The power of two choices in randomized load balancing.” IEEE Transactions on Parallel and Distributed Systems 12.10 (2001): 1094-1104.&lt;/p&gt;</content><author><name>Karl Taht</name></author><category term="cluster scheduling" /><category term="spark" /><category term="ec2" /><category term="scheduling" /><category term="cluster computing" /><category term="latency" /><category term="tpc" /><summary type="html">Authors: Kay Ousterhout, Patrick Wendell, Matei Zaharia, Ion Stoica Venue: SOSP 2013</summary></entry><entry><title type="html">SOSA: Self-Optimizing Learning with Self-Adaptive Control for Hierarchical System-on-chip Management</title><link href="http://localhost:4000/research-papers/research/sosa-self-optimizing-learning-with-self/" rel="alternate" type="text/html" title="SOSA: Self-Optimizing Learning with Self-Adaptive Control for Hierarchical System-on-chip Management" /><published>2019-12-14T18:19:00-07:00</published><updated>2019-12-14T18:19:00-07:00</updated><id>http://localhost:4000/research-papers/research/sosa-self-optimizing-learning-with-self</id><content type="html" xml:base="http://localhost:4000/research-papers/research/sosa-self-optimizing-learning-with-self/">&lt;p&gt;Authors: Bryan Donyanavard, Tiago Muck, Amir M. Rahmani, Nikil Dutt, Armin Sadighi, Florian Mauer, Andreas Herkersdorf&lt;/p&gt;
+
+&lt;p&gt;Venue: MICRO 2019&lt;/p&gt;
+
+&lt;p&gt;This work presents a control theory / reinforcement learning hybrid approach to solve online parameter tuning for SoC’s called SOSA. While controllers are typically known for being light weight, and RL expensive, the authors build the hierarchy opposite from what you might expect. The RL models, Learning Classifier Tables (LCTs), are used as low-level controllers, and high level supervisor controller uses Supervisory Control Theory (SCT). The SCT controls a high-level system model abstraction, which must be consistent with the low-level system “as defined in the Ramadge-Wonham control mechanism” [1]. This assumption requires further investigation.&lt;/p&gt;
+
+&lt;p&gt;LCTs are a simpler RL algorithm compared to today’s deep neural network approaches. They utilize rule-based learning to to target an objective function, which may be multi-variate. The error between the objective value and achieved value (via the action) is used to calculate error, which is used as the reward signal for the agent. Note that the error also requires the max performance as a scaling factor. For IPC this is a reasonable, but may not be the case for other metrics.&lt;/p&gt;
+
+&lt;p&gt;Evaluation is performed both in simulation and on an FPGA which implements SPARCv8 architecture. In the experiments, the authors tune DVFS and task migration. Load distribution is also a very odd target, particularly because CFS already solves the load balancing in hierarchical fashion, and utilizes the same metric of CPU utilization to perform the balancing. Results indicate that after a few seconds the models converge to an optimum, and can re-converge after a new task is added. However, I felt that the efficacy of the approach was hard to evaluate given the unusual benchmark setup and simulation framework. How much better SOSA is that existing real-world load balancing and firmware governors (which consist of both power saving and performance modes) is unclear.&lt;/p&gt;
+
+&lt;p&gt;Objectively, I have a few issues with this paper. One one hand, it’s a novel approach to use both control theory and reinforcement learning in a hybrid solution to solve the knob tuning problem. However, the motivation and results section seem to disagree with themselves. One of the benefits of RL is that lack of a requirement for specifying a particular target, and simply aiming to minimize or maximize a value, yet the use of RL in this case is to minimize error … while hitting a particular target. Moreover, if the supervisor is simply specifying “the operating frequency of each core”, then what exactly are the LCTs doing? Finally, the hardware cost of the approach–and why evaluation is FPGA/Simulation based–seems high (~9.6%), about 2% of which is due to the LCT’s. Is that worth it for 5ms response time? The work is very interesting, but the application of RL seems misplaced. As the number of knobs scale, RL is known to have variance issues. I don’t see how the LCT’s will stand up in terms of convergence rate and hardware/computational complexity as the number of knobs scale. And what happens when a system is overloaded and constantly shuffling tasks?&lt;/p&gt;
+
+&lt;p&gt;[1] Brandin, Bertil A., and W. Murray Wonham. “Supervisory control of timed discrete-event systems. IEEE Transactions on Automatic Control (1994): 329-342.&lt;/p&gt;</content><author><name>Karl Taht</name></author><category term="control theory" /><category term="LCT" /><category term="reinforcement learning" /><category term="dynamic hardware" /><category term="autotuning" /><summary type="html">Authors: Bryan Donyanavard, Tiago Muck, Amir M. Rahmani, Nikil Dutt, Armin Sadighi, Florian Mauer, Andreas Herkersdorf</summary></entry></feed>
