@@ -9,38 +9,38 @@
   <head>
     <meta charset="utf-8">
 
-<!-- begin _includes/seo.html --><title>Paper Rejection Reflection - Karl’s Personal Page</title>
-<meta name="description" content="Today, I found out my submission to the ISPASS conference was rejected. Thestrange thing about it is, I mostly just feel confused. How should you really feel when a your work is rejected? Discredited? Angry? Confused? For me, I justfeel blank.">
+<!-- begin _includes/seo.html --><title>Asynchronous Methods for Deep Reinforcement Learning (A3C) - Karl’s Personal Page</title>
+<meta name="description" content="This paper presents a framework to perform asynchronous gradient descent for optimization of deep nerual networks in the scope of reinforcement learningproblems. Most importantly, this work presents the asynchronous advantage actor-critic framework (A3C), which is currently thought of as the state-of-the-artfor deep reinforcement learning.">
 
 
 
 <meta property="og:type" content="article">
 <meta property="og:locale" content="en_US">
 <meta property="og:site_name" content="Karl's Personal Page">
-<meta property="og:title" content="Paper Rejection Reflection">
-<meta property="og:url" content="http://localhost:4000/reality/phd/rejected/">
+<meta property="og:title" content="Asynchronous Methods for Deep Reinforcement Learning (A3C)">
+<meta property="og:url" content="http://localhost:4000/research-papers/research/a3c/">
 
 
-  <meta property="og:description" content="Today, I found out my submission to the ISPASS conference was rejected. Thestrange thing about it is, I mostly just feel confused. How should you really feel when a your work is rejected? Discredited? Angry? Confused? For me, I justfeel blank.">
-
-
-
-
-
-
-
-  <meta property="article:published_time" content="2020-01-14T00:00:00-07:00">
+  <meta property="og:description" content="This paper presents a framework to perform asynchronous gradient descent for optimization of deep nerual networks in the scope of reinforcement learningproblems. Most importantly, this work presents the asynchronous advantage actor-critic framework (A3C), which is currently thought of as the state-of-the-artfor deep reinforcement learning.">
 
 
 
 
 
-  
+
+
+  <meta property="article:published_time" content="2020-01-16T09:57:00-07:00">
+
+
+
+
 
   
 
+  
 
-<link rel="canonical" href="http://localhost:4000/reality/phd/rejected/">
+
+<link rel="canonical" href="http://localhost:4000/research-papers/research/a3c/">
 
 
 
@@ -239,68 +239,35 @@
 
   <div class="archive">
     
-      <h1 id="page-title" class="page__title">Paper Rejection Reflection</h1>
+      <h1 id="page-title" class="page__title">Asynchronous Methods for Deep Reinforcement Learning (A3C)</h1>
     
-    <p>Today, I found out my submission to the ISPASS conference was rejected. The
-strange thing about it is, I mostly just feel confused. How should you really 
-feel when a your work is rejected? Discredited? Angry? Confused? For me, I just
-feel blank.</p>
+    <p>This paper presents a framework to perform asynchronous gradient descent for 
+optimization of deep nerual networks in the scope of reinforcement learning
+problems. Most importantly, this work presents the asynchronous advantage 
+actor-critic framework (A3C), which is currently thought of as the state-of-the-art
+for deep reinforcement learning.</p>
 
-<p>You see, at the University of Utah in the Computer Science department, PhD 
-candidates are expected to output at least 3 top-tier publications before defending
-and graduating. In reality, that translates to something like 5-10 submissions
-of varying caliber throughout the program. While I think I’ve submitted something
-like 5 works, this submission was my 2nd <strong>major</strong> work, in that, I really 
-wanted/needed it to get accepted.</p>
+<p>While neural networks are powerful universal function approximators making them
+conceptually ideal for approximate reinforcement learning, they suffer from 
+an inherit problem of instability and variance making convergence difficult to
+achieve. As such, reinforcement learning has traditionally focused on off-policy
+learning algorithms which were able to aggregate sufficient data during update
+phases. However, this work changes that by providing a framework which reduces
+resource requirements (for storing gradients) while maintaining reliability.</p>
 
-<p>The odd thing is, the rejection felt expected. Objectively, I defend the paper. 
-I think it should have gotten in. It had novelty. It had results. It was cohesive. 
-But in the end the results weren’t good <strong>enough</strong> for the reviewers it seems.</p>
+<p>The framework centralizes models on a single machine, reducing communication 
+costs. Gradient descent can be done in a similar fashion to <a href="https://papers.nips.cc/paper/4390-hogwild-a-lock-free-approach-to-parallelizing-stochastic-gradient-descent.pdf">Hogwild!</a>. Unlike
+previous works, each simulated environment runs with different exploration policies
+and different environments. Since the updates occur online, this reduces the 
+likelihood that two parallel learners will have the same bias. The result
+is a technique which can be applied to a variety of RL algorithms (one-step SARSA,
+n-step Q-Learning, and advantage actor-critic). The A3C approach is most successful
+and represents the current state-of-the-art.</p>
 
-<p>One thing I’ve found about research in general, there are really two high-level
-avenues to research. There’s work that focuses on improving industry scale solutions,
-research that optimizes the current reality. In general, these types of works will net 
-incremental improvement. Intuitively, 
-if it’s a problem that really matters many people will be focused on solving that
-problem, so the existing solution is probably pretty good. Nevertheless, the
-incremental 1\% improvement results in positive impact on 99\% of users.</p>
+<h3 id="the-a3c-algorithm">The A3C Algorithm</h3>
 
-<p>The alternative type of research, is the niche but truly novel. This is the type
-of work where  a solution improves the current state-of-the-art by many times 
-over. The novelty and improvement shows promise in a field either forgotton or
-never before seen. With this type of work, there’s two possible implications. 
-People realize that this novel area is worth further investigation, and it opens
-up a new domain of research, or, it fades into nothing.</p>
+<p><img src="/images/a3c_alg.png" alt="A3C Algorithm" /></p>
 
-<p>On the rare occassion, a work will vastly improve the state-of-the-art AND be
-impactful at a large scale. These are the “big name works” if you will,
-the ones that made people famous and impacted the world. These 
-types of works which hit on both levels require a real tenacity for the field, 
-in addition to brilliance.</p>
-
-<p>I think the reason why I feel rather detached from the whole situation is that
-when I look at my work as well as the work of most of my colleagues, I feel we
-slot nicely into either the “real” or “novel”. For example, my interest in Spark
-compute engine improvements are very real – changes could quickly make it to 
-industry and effect thousands of servers. On the other hand, my colleagues’ work
-is novel. They are designing completely new computer architectures to optmize
-neural networks. However, the likeliihood that their chip will be fabricated is 
-low, and it’s even less likely that the chip design will be widely adopted into
-industry.</p>
-
-<p>Now, my point isn’t to argue which is better or more interesting – I think that’s
-clearly in the eyes of the beholder – but fundamentally, I think we can become
-disconnected from importance of our work as researchers. Does what we do really
-matter if it’s just 1% improvement or a niche design? Clearly, the answer is yes.
-Those 1% improvements stack up from all over the world, and those niche designs
-continue to improve until they can no longer be ignored. But simple knowledge
-doesn’t override emotional response.</p>
-
-<p>And I think that’s the real crux: the paper rejection pushes me to believe my
-incremental improvement is just that. It distances me from believing my work
-matters and leaves me feeling blank. While I don’t like ending on such a negative
-note, I think I must. Social media promotes only sharing the best aspects of life,
-but a big part of reality that is ignored is the lows. This is a low, and that’s okay.</p>
 
 
 <ul class="taxonomy__index">

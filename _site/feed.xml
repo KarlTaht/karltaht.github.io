@@ -1,4 +1,29 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-01-15T17:02:31-07:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Karl’s Personal Page</title><subtitle>An array of Interests</subtitle><author><name>Karl Taht</name></author><entry><title type="html">Flow and the Pomodoro Study Technique</title><link href="http://localhost:4000/reality/phd/pomodoro/" rel="alternate" type="text/html" title="Flow and the Pomodoro Study Technique" /><published>2020-01-15T00:00:00-07:00</published><updated>2020-01-15T00:00:00-07:00</updated><id>http://localhost:4000/reality/phd/pomodoro</id><content type="html" xml:base="http://localhost:4000/reality/phd/pomodoro/">&lt;p&gt;One thing about studying, or really, any kind of working that has limited human
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-01-16T15:29:01-07:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Karl’s Personal Page</title><subtitle>An array of Interests</subtitle><author><name>Karl Taht</name></author><entry><title type="html">Asynchronous Methods for Deep Reinforcement Learning (A3C)</title><link href="http://localhost:4000/research-papers/research/a3c/" rel="alternate" type="text/html" title="Asynchronous Methods for Deep Reinforcement Learning (A3C)" /><published>2020-01-16T09:57:00-07:00</published><updated>2020-01-16T09:57:00-07:00</updated><id>http://localhost:4000/research-papers/research/a3c</id><content type="html" xml:base="http://localhost:4000/research-papers/research/a3c/">&lt;p&gt;This paper presents a framework to perform asynchronous gradient descent for 
+optimization of deep nerual networks in the scope of reinforcement learning
+problems. Most importantly, this work presents the asynchronous advantage 
+actor-critic framework (A3C), which is currently thought of as the state-of-the-art
+for deep reinforcement learning.&lt;/p&gt;
+
+&lt;p&gt;While neural networks are powerful universal function approximators making them
+conceptually ideal for approximate reinforcement learning, they suffer from 
+an inherit problem of instability and variance making convergence difficult to
+achieve. As such, reinforcement learning has traditionally focused on off-policy
+learning algorithms which were able to aggregate sufficient data during update
+phases. However, this work changes that by providing a framework which reduces
+resource requirements (for storing gradients) while maintaining reliability.&lt;/p&gt;
+
+&lt;p&gt;The framework centralizes models on a single machine, reducing communication 
+costs. Gradient descent can be done in a similar fashion to &lt;a href=&quot;https://papers.nips.cc/paper/4390-hogwild-a-lock-free-approach-to-parallelizing-stochastic-gradient-descent.pdf&quot;&gt;Hogwild!&lt;/a&gt;. Unlike
+previous works, each simulated environment runs with different exploration policies
+and different environments. Since the updates occur online, this reduces the 
+likelihood that two parallel learners will have the same bias. The result
+is a technique which can be applied to a variety of RL algorithms (one-step SARSA,
+n-step Q-Learning, and advantage actor-critic). The A3C approach is most successful
+and represents the current state-of-the-art.&lt;/p&gt;
+
+&lt;h3 id=&quot;the-a3c-algorithm&quot;&gt;The A3C Algorithm&lt;/h3&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/a3c_alg.png&quot; alt=&quot;A3C Algorithm&quot; /&gt;&lt;/p&gt;</content><author><name>Karl Taht</name></author><category term="Reinforcement Learning" /><category term="RL" /><category term="A3C" /><summary type="html">This paper presents a framework to perform asynchronous gradient descent for optimization of deep nerual networks in the scope of reinforcement learning problems. Most importantly, this work presents the asynchronous advantage actor-critic framework (A3C), which is currently thought of as the state-of-the-art for deep reinforcement learning.</summary></entry><entry><title type="html">Flow and the Pomodoro Study Technique</title><link href="http://localhost:4000/reality/phd/pomodoro/" rel="alternate" type="text/html" title="Flow and the Pomodoro Study Technique" /><published>2020-01-15T00:00:00-07:00</published><updated>2020-01-15T00:00:00-07:00</updated><id>http://localhost:4000/reality/phd/pomodoro</id><content type="html" xml:base="http://localhost:4000/reality/phd/pomodoro/">&lt;p&gt;One thing about studying, or really, any kind of working that has limited human
 interaction faces one key challenge: staying focused. I think that’s true now 
 more than ever with cell phones, social media, email. Everything is trying to 
 pull us away from what we’re working on right now. We can make to-do list’s and

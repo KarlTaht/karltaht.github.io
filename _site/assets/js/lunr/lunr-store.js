@@ -23,4 +23,9 @@ var store = [{
         "excerpt":"One thing about studying, or really, any kind of working that has limited human interaction faces one key challenge: staying focused. I think that’s true now more than ever with cell phones, social media, email. Everything is trying to pull us away from what we’re working on right now. We...","categories": ["reality","phd"],
         "tags": [],
         "url": "http://localhost:4000/reality/phd/pomodoro/",
+        "teaser":null},{
+        "title": "Asynchronous Methods for Deep Reinforcement Learning (A3C)",
+        "excerpt":"This paper presents a framework to perform asynchronous gradient descent for optimization of deep nerual networks in the scope of reinforcement learning problems. Most importantly, this work presents the asynchronous advantage actor-critic framework (A3C), which is currently thought of as the state-of-the-art for deep reinforcement learning. While neural networks are...","categories": ["research-papers","research"],
+        "tags": ["Reinforcement Learning","RL","A3C"],
+        "url": "http://localhost:4000/research-papers/research/a3c/",
         "teaser":null}]
