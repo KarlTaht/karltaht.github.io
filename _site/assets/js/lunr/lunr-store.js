@@ -25,7 +25,17 @@ var store = [{
         "url": "http://localhost:4000/reality/phd/pomodoro/",
         "teaser":null},{
         "title": "Asynchronous Methods for Deep Reinforcement Learning (A3C)",
-        "excerpt":"This paper presents a framework to perform asynchronous gradient descent for optimization of deep nerual networks in the scope of reinforcement learning problems. Most importantly, this work presents the asynchronous advantage actor-critic framework (A3C), which is currently thought of as the state-of-the-art for deep reinforcement learning. While neural networks are...","categories": ["research-papers","research"],
+        "excerpt":"This paper presents a framework to perform asynchronous gradient descent for optimization of deep nerual networks in the scope of reinforcement learning problems. Most importantly, this work presents the asynchronous advantage actor-critic framework (A3C), which is currently one of the state-of-the-art frameworks for deep reinforcement learning. While neural networks are...","categories": ["research-papers","research"],
         "tags": ["Reinforcement Learning","RL","A3C"],
         "url": "http://localhost:4000/research-papers/research/a3c/",
+        "teaser":null},{
+        "title": "Five Axioms for Productivity",
+        "excerpt":"If you’re anything like me, you often find yourself reading or learning about new techniques to improve yourself and your life. I think when you come across these ideas they seem new and fresh and at face value always make a lot of sense. The problem is that if you...","categories": ["reality","phd"],
+        "tags": [],
+        "url": "http://localhost:4000/reality/phd/11_rules/",
+        "teaser":null},{
+        "title": "Week 4 Recap, 2020",
+        "excerpt":"This is going to the first of what I hope are many “weekly recaps”. Think of it as kind of hybrid between a personal sprint (see: ) and freeform journaling. Time Tracking Note: Monday was holiday, and we were moving. Category Time Research 34 hr, 51 min Reading 0 hr,...","categories": ["reality","phd"],
+        "tags": [],
+        "url": "http://localhost:4000/reality/phd/weekly-recap/",
         "teaser":null}]

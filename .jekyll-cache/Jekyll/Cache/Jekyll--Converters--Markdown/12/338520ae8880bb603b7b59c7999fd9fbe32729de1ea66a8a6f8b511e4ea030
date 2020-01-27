@@ -1,6 +1,0 @@
-I"a<p>This paper presents a framework to perform asynchronous gradient descent for 
-optimization of deep nerual networks in the scope of reinforcement learning
-problems. Most importantly, this work presents the asynchronous advantage 
-actor-critic framework (A3C), which is currently thought of as the state-of-the-art
-for deep reinforcement learning.</p>
-:ET
