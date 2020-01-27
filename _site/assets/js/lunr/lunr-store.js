@@ -38,4 +38,9 @@ var store = [{
         "excerpt":"This is going to the first of what I hope are many “weekly recaps”. Think of it as kind of hybrid between a personal sprint (see: ) and freeform journaling. Time Tracking Note: Monday was holiday, and we were moving. Category Time Research 34 hr, 51 min Reading 0 hr,...","categories": ["reality","phd"],
         "tags": [],
         "url": "http://localhost:4000/reality/phd/weekly-recap/",
+        "teaser":null},{
+        "title": "Reinforcement Learning Resources",
+        "excerpt":"Books     Reinforcement Learning: An Introduction (Sutton and Barto)   Lectures     Stanford, Lecture 14: Reinforcement Learning            Great overview of all RL basics, closely follows Sutton and Barto’s text       Lecture       Slides           Code     Stable Baselines            This is my personal favorite respitory for RL algorithms       Documentation available           Practical Implementions of OpenAI Gym Algorithms  ","categories": ["phd"],
+        "tags": [],
+        "url": "http://localhost:4000/phd/reinforcement-learning/",
         "teaser":null}]

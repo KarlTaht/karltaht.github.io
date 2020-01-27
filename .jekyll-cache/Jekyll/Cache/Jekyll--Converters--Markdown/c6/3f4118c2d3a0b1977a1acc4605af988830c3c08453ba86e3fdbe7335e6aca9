@@ -1,0 +1,23 @@
+I"ª<h2 id="concepts">Concepts</h2>
+
+<ul>
+  <li><a href="https://web.stanford.edu/class/psych209/Readings/SuttonBartoIPRLBook2ndEd.pdf">Reinforcement Learning: An Introduction (Sutton and Barto)</a></li>
+</ul>
+
+<p>A whirlwind lecture through reinforcement learning, closely following Sutton and Bartoâ€™s text:</p>
+<ul>
+  <li><a href="https://www.youtube.com/watch?v=lvoHnicueoE">Lecture</a></li>
+  <li><a href="http://cs231n.stanford.edu/slides/2017/cs231n_2017_lecture14.pdf">Slides</a></li>
+</ul>
+
+<h2 id="code">Code</h2>
+<ul>
+  <li><a href="https://github.com/hill-a/stable-baselines">Stable Baselines</a>
+    <ul>
+      <li>This is my personal favorite respitory for RL algorithms</li>
+      <li><a href="https://stable-baselines.readthedocs.io/en/master/">Documentation available</a></li>
+    </ul>
+  </li>
+  <li><a href="https://github.com/rlcode/reinforcement-learning">Practical Implementions of OpenAI Gym Algorithms</a></li>
+</ul>
+:ET
