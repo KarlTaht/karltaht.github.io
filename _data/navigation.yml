@@ -4,9 +4,10 @@ main:
     url: /about/
   - title: "Reality"
     url: /reality/
-  - title: "Research Paper Summaries"
-    url: /research-papers/
-  
+  - title: "Research"
+    url: /research/
+  - title: "Search"
+    url: /search/
   # - title: "Sample Posts"
   #   url: /year-archive/
   # - title: "Sample Collections"

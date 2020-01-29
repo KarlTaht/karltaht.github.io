@@ -46,7 +46,13 @@
 <loc>http://localhost:4000/reality/</loc>
 </url>
 <url>
+<loc>http://localhost:4000/research/</loc>
+</url>
+<url>
 <loc>http://localhost:4000/research-papers/</loc>
+</url>
+<url>
+<loc>http://localhost:4000/search/</loc>
 </url>
 <url>
 <loc>http://localhost:4000/page2/</loc>
