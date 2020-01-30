@@ -1,19 +1,30 @@
-I"%<h2 id="research">Research</h2>
-
-<p>I’m interested in the intersection of reinforcement learning and computer systems. Every research has certain things that just find really “cool”, no matter how nerdy they may be.
-For me, reinforcement learning is that thing. The ability that you can simply train an artificial thing to perform a task simply by telling it how “good” it’s currently doing is mind blowing. Yet, most of my experience is in hardware as an EE undergrad and part of the Utah Arch Lab. So my research focuses on asking questions like: how can we teach systems to perform better? How can we build systems which are more adaptive and responsive? Essentially applying that power of learning of computer systems.</p>
-
-<p>Since reinforcement learning–like most modern AI–is computationally heavy, I currently focus on systems level optimization that allows for substantially more freedom than being confined to hardware. Not only that, I simply enjoy writing software. Working in systems is really a treat, as there’s so much freedom to explore the optimization space. We can take cues from end users, software performance metrics, and even tap into the hardware itself.</p>
-
-<p>While not all my work is glamorous as my interests, it takes a lot of foundational learning to get to where you ultimately like what you do. Below you’ll find my publications list:</p>
-
-<h3 id="publications">Publications</h3>
-
-<h2 id="research-paper-summaries"><a href="/research-papers/">Research Paper Summaries</a></h2>
-
-<p>Since 2018, I’ve been summarizing every research paper I read. I find this helps
+I"V<p>Since 2018, I’ve been summarizing every research paper I read. I find this helps
 me remember works better, and recall them when I need to find relevant work. I’m
 currently migrating those posts into this new GitHub-based site.</p>
+
+<div class="list__item">
+  <article class="archive__item" itemscope="" itemtype="https://schema.org/CreativeWork">
+    
+    <h2 class="archive__item-title" itemprop="headline">
+      
+        <a href="/research-papers/research/iswitch/" rel="permalink">Accelerating Distributed Reinforcement Learning with In-Switch Computing
+</a>
+      
+    </h2>
+    
+      <p class="page__meta"><i class="far fa-clock" aria-hidden="true"></i> 
+
+
+
+
+  1 minute read
+
+ | <time datetime="2020-01-29T00:00:00-07:00">January 29, 2020</time></p>
+    
+
+    
+  </article>
+</div>
 
 <div class="list__item">
   <article class="archive__item" itemscope="" itemtype="https://schema.org/CreativeWork">

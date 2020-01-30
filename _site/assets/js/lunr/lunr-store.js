@@ -43,4 +43,9 @@ var store = [{
         "excerpt":"Books     Reinforcement Learning: An Introduction (Sutton and Barto)   Lectures     Stanford, Lecture 14: Reinforcement Learning            Great overview of all RL basics, closely follows Sutton and Barto’s text       Lecture       Slides           Code     Stable Baselines            This is my personal favorite respitory for RL algorithms       Documentation available           Practical Implementions of OpenAI Gym Algorithms  ","categories": ["phd"],
         "tags": [],
         "url": "http://localhost:4000/phd/reinforcement-learning/",
+        "teaser":null},{
+        "title": "Accelerating Distributed Reinforcement Learning with In-Switch Computing",
+        "excerpt":"Venue: ISCA 2019 Authors: Youjie Li, Iou-Jen Li, Yifan Yuan, Deming Chen, Alexander Schwing, Jian Huang This paper presents iSwitch, an in-switch accelerator which improves the performance of distributed machine learning training – specifically reinforcement learning. While reinforcement learning (RL) models are typically small compared to other DNN applications, they...","categories": ["research-papers","research"],
+        "tags": ["distributed machine learning","reinforcement learning","in-switch accelerator"],
+        "url": "http://localhost:4000/research-papers/research/iswitch/",
         "teaser":null}]
