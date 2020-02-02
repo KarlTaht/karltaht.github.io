@@ -1,6 +1,16 @@
-I"V<p>Since 2018, I’ve been summarizing every research paper I read. I find this helps
+I"<h2 id="research">Research</h2>
+
+<p>While I work in the Utah Architecture lab, my main research project is closer to software and systems. My thesis centralizes around program phase detection and both hardware and software performance optimization, all with a machine learning flavor. Through my research, I’ve had the opportunity to intern with Intel Labs twice were I worked on these problems from a hardware engineer’s perspective. More recently, I have shifted my focus towards warehouse scale performance optimization. I recently completed an internship at Facebook with the Warehouse Java Efficiency team, where I plans to join full-time in 2020.</p>
+
+<!-- ## Publications
+
+It takes a lot of foundational learning to get to where you ultimately like what you do. Below you'll find my publications -->
+
+<h2 id="research-paper-summaries"><a href="/research-papers/">Research Paper Summaries</a></h2>
+
+<p>Since 2018, I’ve been summarizing every research paper I read. I find this helps
 me remember works better, and recall them when I need to find relevant work. I’m
-currently migrating those posts into this new GitHub-based site.</p>
+currently migrating those posts into this new GitHub-based site. Below you’ll find the most recent papers I’ve read and summarized.</p>
 
 <div class="list__item">
   <article class="archive__item" itemscope="" itemtype="https://schema.org/CreativeWork">
@@ -22,7 +32,7 @@ currently migrating those posts into this new GitHub-based site.</p>
  | <time datetime="2020-01-29T00:00:00-07:00">January 29, 2020</time></p>
     
 
-    
+    <p class="archive__item-excerpt" itemprop="description">This paper presents iSwitch, an in-switch accelerator which improves the performance of distributed machine learning training – specifically reinforcement le...</p>
   </article>
 </div>
 

@@ -48,4 +48,9 @@ var store = [{
         "excerpt":"Venue: ISCA 2019 Authors: Youjie Li, Iou-Jen Li, Yifan Yuan, Deming Chen, Alexander Schwing, Jian Huang This paper presents iSwitch, an in-switch accelerator which improves the performance of distributed machine learning training – specifically reinforcement learning. While reinforcement learning (RL) models are typically small compared to other DNN applications, they...","categories": ["research-papers","research"],
         "tags": ["distributed machine learning","reinforcement learning","in-switch accelerator"],
         "url": "http://localhost:4000/research-papers/research/iswitch/",
+        "teaser":null},{
+        "title": "January 2020 Recap",
+        "excerpt":"Well, since I’m wrapping up weeks, I might as well wrap up months too, right? Time Tracking This is going to be a bit messy since I’ve only recently started being more diligent, so bear in mind – a lot of missing hours! Category Time Notes Research 106 hr, 18...","categories": ["reality","phd"],
+        "tags": [],
+        "url": "http://localhost:4000/reality/phd/january-recap/",
         "teaser":null}]
