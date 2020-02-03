@@ -58,4 +58,9 @@ var store = [{
         "excerpt":"This paper provides a high-level overview of Google’s cluster manager: Borg. The paper describes the data warehouse environment, Borg’s architecture, and discusses performance related choices in more detail. Google’s Datacenter Environment Services and user work is submitted to Google clusters via notion of “jobs”, which consistent of one or more...","categories": ["research-papers","research"],
         "tags": ["Cluster management","borg","scale","datacenter","datawarehouse"],
         "url": "http://localhost:4000/research-papers/research/borg/",
+        "teaser":null},{
+        "title": "Week 5 Recap, 2020",
+        "excerpt":"Metrics Tracking Going to track time and some other hard metrics. We’ll see how many I keep. Category This Week Last Week Notes Work &gt; Research &gt; Reading 44 hr, 33 min 41 hr, 57 min 2 hr, 35 min 34 hr, 51 min Untracked untracked + 9.7 hours Reading...","categories": ["reality","phd"],
+        "tags": [],
+        "url": "http://localhost:4000/reality/phd/weekly-recap/",
         "teaser":null}]

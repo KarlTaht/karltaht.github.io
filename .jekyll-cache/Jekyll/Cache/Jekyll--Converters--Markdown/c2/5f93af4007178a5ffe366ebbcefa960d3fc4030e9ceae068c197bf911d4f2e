@@ -1,0 +1,124 @@
+I"<h2 id="metrics-tracking">Metrics Tracking</h2>
+
+<p>Going to track time and some other hard metrics. We’ll see how many I keep.</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>Category</th>
+      <th>This Week</th>
+      <th>Last Week</th>
+      <th>Notes</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Work <br /> &gt; Research <br /> &gt; Reading <br /></td>
+      <td>44 hr, 33 min <br /> 41 hr, 57 min <br /> 2 hr, 35 min</td>
+      <td>34 hr, 51 min <br /> Untracked <br /> untracked</td>
+      <td>+ 9.7 hours</td>
+    </tr>
+    <tr>
+      <td>Reading</td>
+      <td>0 hr, 8 min</td>
+      <td>Untracked</td>
+      <td>Underestimated…</td>
+    </tr>
+    <tr>
+      <td>Writing</td>
+      <td>39 min</td>
+      <td>Untracked</td>
+      <td>Here as well</td>
+    </tr>
+    <tr>
+      <td>Papers</td>
+      <td>1</td>
+      <td>1</td>
+      <td>Annual Total: 4</td>
+    </tr>
+    <tr>
+      <td>Posts</td>
+      <td>5</td>
+      <td>2</td>
+      <td>Annual Total: 11</td>
+    </tr>
+    <tr>
+      <td>Gym</td>
+      <td>1</td>
+      <td>0</td>
+      <td>Annual Total: 11</td>
+    </tr>
+    <tr>
+      <td>LoC</td>
+      <td>1695 (<span style="color:green"><strong>+1388</strong></span>/<span style="color:red"><strong>-307</strong></span>)</td>
+      <td>Untracked</td>
+      <td> </td>
+    </tr>
+  </tbody>
+</table>
+
+<!--
+LOC: git log --since=2020-01-26 --shortstat --oneline
+-->
+
+<h2 id="notable-accomplishments">Notable Accomplishments:</h2>
+
+<ul>
+  <li>Submitted Paper to Conference</li>
+  <li>Applied for Graduation</li>
+  <li>Back to the gym!</li>
+  <li>Successful reading club presentation</li>
+  <li>Pre-defense meeting with a committee member - 2 more to go.</li>
+</ul>
+
+<h2 id="what-worked-well">What Worked Well?</h2>
+
+<p>This week was a cluster! I think I realized that fully by Wednesay. As a result, 
+I more or less treated like Tuesday/Wednesday as my “working weekend”, and told
+myself I’d put in full-time days on the weekend. And I did! Realizing the state
+of affairs was good, and while at the time it felt like procastination, it was a
+good trade off. My daily to-do list were long, but of mostly shorter tasks. This is
+a list of what I had going on this week</p>
+
+<ul>
+  <li>Paper re-write for resubmission</li>
+  <li>Graduation logistics (actually confusing as hell)</li>
+  <li>Scheduling meetings for 3 professors for my proposal</li>
+  <li>Preparing for those meetings</li>
+  <li>Reading and presenting a paper for arch reading club</li>
+  <li>RiTC Workshop website logistics</li>
+  <li>RiTC Workshop registration??</li>
+</ul>
+
+<p>Seriously, way to much to make any real progress on my main research…until the
+weekend. I came in to the lab both Saturday in Sunday and wrote about 1000 lines of code.</p>
+
+<h2 id="what-needs-improvement">What Needs Improvement?</h2>
+
+<p>I was sloppy with some of my bullet journal tasks, and as a result a lot of stuff
+either didn’t get done or was migrated. My goals need to be a little bit more
+well thought through. If the goal is to setup a framework but it’s not clear what
+the requirements are, the task should be setting up the requirements. More tasks
+can always be added as they arise, rather than trying to make up stuff. Also need 
+to be honest about the to-do list for this paper submission. The biggest “oof”
+this week was missing a time sensitive email by a full 24 hours. Felt bad.</p>
+
+<h2 id="what-could-make-you-happier">What could make you happier?</h2>
+
+<p>Two main things bring me down: missing something critical and feeling like there’s
+no time for fun. Organization is going to be key to make sure things don’t slip
+through the cracks and bite me. Staying focused will help me ensure there IS
+time to enjoy life, too.</p>
+
+<h2 id="goals-for-next-week">Goals for Next Week</h2>
+
+<ul>
+  <li>Take care when making daily goals</li>
+  <li>Finalize PhD committee</li>
+  <li>Finish revisions for ICS submission</li>
+  <li>Start writing MICRO submission</li>
+  <li>Detailed Goal list for MICRO submission</li>
+  <li>Measurements for simulation parameters</li>
+  <li>Progress on simulation environment</li>
+</ul>
+:ET

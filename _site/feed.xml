@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-02-02T18:20:59-07:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Karl’s Personal Page</title><subtitle>An array of Interests</subtitle><author><name>Karl Taht</name></author><entry><title type="html">Large-scale Cluster Management at Google with Borg</title><link href="http://localhost:4000/research-papers/research/borg/" rel="alternate" type="text/html" title="Large-scale Cluster Management at Google with Borg" /><published>2020-02-02T00:00:00-07:00</published><updated>2020-02-02T00:00:00-07:00</updated><id>http://localhost:4000/research-papers/research/borg</id><content type="html" xml:base="http://localhost:4000/research-papers/research/borg/">&lt;p&gt;This paper provides a high-level overview of Google’s cluster manager: Borg. The paper describes the data warehouse environment, Borg’s architecture, and discusses performance related choices in more detail.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-02-02T20:42:53-07:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Karl’s Personal Page</title><subtitle>An array of Interests</subtitle><author><name>Karl Taht</name></author><entry><title type="html">Large-scale Cluster Management at Google with Borg</title><link href="http://localhost:4000/research-papers/research/borg/" rel="alternate" type="text/html" title="Large-scale Cluster Management at Google with Borg" /><published>2020-02-02T00:00:00-07:00</published><updated>2020-02-02T00:00:00-07:00</updated><id>http://localhost:4000/research-papers/research/borg</id><content type="html" xml:base="http://localhost:4000/research-papers/research/borg/">&lt;p&gt;This paper provides a high-level overview of Google’s cluster manager: Borg. The paper describes the data warehouse environment, Borg’s architecture, and discusses performance related choices in more detail.&lt;/p&gt;
 
 &lt;h3 id=&quot;googles-datacenter-environment&quot;&gt;Google’s Datacenter Environment&lt;/h3&gt;
 
@@ -27,7 +27,141 @@
   &lt;li&gt;&lt;a href=&quot;https://www.usenix.org/conference/osdi14/technical-sessions/presentation/boutin&quot;&gt;Apollo&lt;/a&gt;, Microsoft’s cluster manager. Includes per-job schedulers.&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;http://eprints.whiterose.ac.uk/91136/&quot;&gt;Fuxi&lt;/a&gt;, Alibab’s cluster manager. Uses a resource offering scheduling technique.&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;https://engineering.fb.com/data-center-engineering/tupperware/&quot;&gt;Tupperware&lt;/a&gt;, Facebook’s container scheduling service&lt;/li&gt;
-&lt;/ul&gt;</content><author><name>Karl Taht</name></author><category term="Cluster management" /><category term="borg" /><category term="scale" /><category term="datacenter" /><category term="datawarehouse" /><summary type="html">This paper provides a high-level overview of Google’s cluster manager: Borg. The paper describes the data warehouse environment, Borg’s architecture, and discusses performance related choices in more detail.</summary></entry><entry><title type="html">January 2020 Recap</title><link href="http://localhost:4000/reality/phd/january-recap/" rel="alternate" type="text/html" title="January 2020 Recap" /><published>2020-02-01T00:00:00-07:00</published><updated>2020-02-01T00:00:00-07:00</updated><id>http://localhost:4000/reality/phd/january-recap</id><content type="html" xml:base="http://localhost:4000/reality/phd/january-recap/">&lt;p&gt;Well, since I’m wrapping up weeks, I might as well wrap up months too, right?&lt;/p&gt;
+&lt;/ul&gt;</content><author><name>Karl Taht</name></author><category term="Cluster management" /><category term="borg" /><category term="scale" /><category term="datacenter" /><category term="datawarehouse" /><summary type="html">This paper provides a high-level overview of Google’s cluster manager: Borg. The paper describes the data warehouse environment, Borg’s architecture, and discusses performance related choices in more detail.</summary></entry><entry><title type="html">Week 5 Recap, 2020</title><link href="http://localhost:4000/reality/phd/weekly-recap/" rel="alternate" type="text/html" title="Week 5 Recap, 2020" /><published>2020-02-02T00:00:00-07:00</published><updated>2020-02-02T00:00:00-07:00</updated><id>http://localhost:4000/reality/phd/weekly-recap</id><content type="html" xml:base="http://localhost:4000/reality/phd/weekly-recap/">&lt;h2 id=&quot;metrics-tracking&quot;&gt;Metrics Tracking&lt;/h2&gt;
+
+&lt;p&gt;Going to track time and some other hard metrics. We’ll see how many I keep.&lt;/p&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;Category&lt;/th&gt;
+      &lt;th&gt;This Week&lt;/th&gt;
+      &lt;th&gt;Last Week&lt;/th&gt;
+      &lt;th&gt;Notes&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Work &lt;br /&gt; &amp;gt; Research &lt;br /&gt; &amp;gt; Reading &lt;br /&gt;&lt;/td&gt;
+      &lt;td&gt;44 hr, 33 min &lt;br /&gt; 41 hr, 57 min &lt;br /&gt; 2 hr, 35 min&lt;/td&gt;
+      &lt;td&gt;34 hr, 51 min &lt;br /&gt; Untracked &lt;br /&gt; untracked&lt;/td&gt;
+      &lt;td&gt;+ 9.7 hours&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Reading&lt;/td&gt;
+      &lt;td&gt;0 hr, 8 min&lt;/td&gt;
+      &lt;td&gt;Untracked&lt;/td&gt;
+      &lt;td&gt;Underestimated…&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Writing&lt;/td&gt;
+      &lt;td&gt;39 min&lt;/td&gt;
+      &lt;td&gt;Untracked&lt;/td&gt;
+      &lt;td&gt;I don’t include paper summaries here.&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Papers&lt;/td&gt;
+      &lt;td&gt;1&lt;/td&gt;
+      &lt;td&gt;1&lt;/td&gt;
+      &lt;td&gt;Annual Total: 4&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Posts&lt;/td&gt;
+      &lt;td&gt;5&lt;/td&gt;
+      &lt;td&gt;2&lt;/td&gt;
+      &lt;td&gt;Annual Total: 11&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Gym&lt;/td&gt;
+      &lt;td&gt;1&lt;/td&gt;
+      &lt;td&gt;0&lt;/td&gt;
+      &lt;td&gt;Annual Total: 11&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;LoC&lt;/td&gt;
+      &lt;td&gt;1695&lt;/td&gt;
+      &lt;td&gt;Untracked&lt;/td&gt;
+      &lt;td&gt;(&lt;span style=&quot;color:green&quot;&gt;&lt;strong&gt;+1388&lt;/strong&gt;&lt;/span&gt;/&lt;span style=&quot;color:red&quot;&gt;&lt;strong&gt;-307&lt;/strong&gt;&lt;/span&gt;)&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;!--
+LOC: git log --since=2020-01-26 --shortstat --oneline
+--&gt;
+
+&lt;h2 id=&quot;notable-accomplishments&quot;&gt;Notable Accomplishments:&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Submitted Paper to Conference&lt;/li&gt;
+  &lt;li&gt;Applied for Graduation&lt;/li&gt;
+  &lt;li&gt;Back to the gym!&lt;/li&gt;
+  &lt;li&gt;Successful reading club presentation&lt;/li&gt;
+  &lt;li&gt;Pre-defense meeting with a committee member - 2 more to go.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;what-worked-well&quot;&gt;What Worked Well?&lt;/h2&gt;
+
+&lt;p&gt;&lt;em&gt;This week was a cluster f@$&amp;amp;!&lt;/em&gt; I think I realized that fully by Wednesay. As a result, 
+I more or less treated like Tuesday/Wednesday as my “working weekend”, and told
+myself I’d put in full-time days on the weekend. And I did! I realized the state
+of affairs and made a decision. While at the time it felt like procastination, it was a
+good trade off. My daily to-do list were long, but of mostly shorter tasks. This is
+a list of what I had going on this week:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Paper re-write for resubmission&lt;/li&gt;
+  &lt;li&gt;Graduation logistics (actually confusing as hell)&lt;/li&gt;
+  &lt;li&gt;Scheduling meetings with 3 professors for my PhD proposal reviews&lt;/li&gt;
+  &lt;li&gt;Preparing for those meetings&lt;/li&gt;
+  &lt;li&gt;Reading and presenting a paper for arch reading club&lt;/li&gt;
+  &lt;li&gt;RiTC Workshop website logistics&lt;/li&gt;
+  &lt;li&gt;RiTC Workshop registration??&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Seriously, way to much to make any real progress on my main research…&lt;strong&gt;until the
+weekend.&lt;/strong&gt; I came in to the lab both Saturday in Sunday and wrote about 1000 lines of code.&lt;/p&gt;
+
+&lt;h2 id=&quot;what-needs-improvement&quot;&gt;What Needs Improvement?&lt;/h2&gt;
+
+&lt;p&gt;As easy as it is to justify the craziness, I’d be lying if I didn’t admit some things
+slipped through the cracks. For instance, I wasn’t able to secure a sponsorship for traveling
+to HPCA, so I wanted to check in with Rajeev before registering. Normally, he is
+always in attendance at reading club, which was coincidentally also the last day
+of early registration. Unfortunately, he wasn’t able to make it, and I totally 
+spaced on following up – oof. Explainable, yes. Acceptable, no. If I do go to HPCA,
+I’ll fork over my own money for the registration.&lt;/p&gt;
+
+&lt;p&gt;The other major thing that I should touch on is momentum. I find between 4-6 hours into
+a day, my productivity tanks. Like seriously. Hours one and two I’m at like 110%. Hours three and four, 85-90%. Hour 5 boom. 50%. Either that or I take a pause to eat lunch or something, and I lose my momentum completely. My initial thought was to get up and move around – and I think that’s right – but, where you move is critical. For instance, if you’ve lost your momentum then come home you’re going to cave into entertainment. I think moving around, walking, and then maybe moving to an alternate productive environment is the way to go.&lt;/p&gt;
+
+&lt;p&gt;As an example, today after about 5 hours of coding, I enjoyed a 15 minute walk through crisp winter air to the library. I setup in my favorite corner, surrounded by the wonderful musty smell of old books, and 
+got to reading a paper. After an hour of active  reading, I felt like I had digested a really complex paper and wrote a summary I’m happy with. So yes, moving in itself is good, but perhaps more importantly, moving to a space which fosters productivity is even better.&lt;/p&gt;
+
+&lt;h2 id=&quot;what-could-make-you-happier&quot;&gt;What could make you happier?&lt;/h2&gt;
+
+&lt;p&gt;I really enjoy the time and metrics tracking, but I want to streamline it. While
+the time tracking is pretty quick (I do it all with an app), the other metrics
+aren’t streamlined yet and take a bit longer to compile. Would be nice to do that
+quicker without feeling like I’m wasting time compiling extraneous information…
+what can I say, I love data?&lt;/p&gt;
+
+&lt;h2 id=&quot;goals-for-next-week&quot;&gt;Goals for Next Week&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Make Lyndsey’s 25th birthday awesome&lt;/li&gt;
+  &lt;li&gt;Hit the gym at least once&lt;/li&gt;
+  &lt;li&gt;End-to-end reinforcement learning on real system implementation&lt;/li&gt;
+  &lt;li&gt;Start paper and nail down the story&lt;/li&gt;
+  &lt;li&gt;Read 2 papers&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;strategies&quot;&gt;Strategies&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;February strategy: No phone for the first 15 minutes of every day&lt;/li&gt;
+  &lt;li&gt;Keep applying pomodoro technique through the coding grind&lt;/li&gt;
+  &lt;li&gt;Experiment with changing the environment&lt;/li&gt;
+&lt;/ul&gt;</content><author><name>Karl Taht</name></author><summary type="html">Metrics Tracking</summary></entry><entry><title type="html">January 2020 Recap</title><link href="http://localhost:4000/reality/phd/january-recap/" rel="alternate" type="text/html" title="January 2020 Recap" /><published>2020-02-01T00:00:00-07:00</published><updated>2020-02-01T00:00:00-07:00</updated><id>http://localhost:4000/reality/phd/january-recap</id><content type="html" xml:base="http://localhost:4000/reality/phd/january-recap/">&lt;p&gt;Well, since I’m wrapping up weeks, I might as well wrap up months too, right?&lt;/p&gt;
 
 &lt;h2 id=&quot;time-tracking&quot;&gt;Time Tracking&lt;/h2&gt;
 
@@ -498,14 +632,4 @@ doesn’t override emotional response.&lt;/p&gt;
 incremental improvement is just that. It distances me from believing my work
 matters and leaves me feeling blank. While I don’t like ending on such a negative
 note, I think I must. Social media promotes only sharing the best aspects of life,
-but a big part of reality that is ignored is the lows. This is a low, and that’s okay.&lt;/p&gt;</content><author><name>Karl Taht</name></author><summary type="html">Today, I found out my submission to the ISPASS conference was rejected. The strange thing about it is, I mostly just feel confused. How should you really feel when a your work is rejected? Discredited? Angry? Confused? For me, I just feel blank.</summary></entry><entry><title type="html">Multi-Resource Packing for Cluster Schedulers (Tetris)</title><link href="http://localhost:4000/research-papers/research/multi-resource-packing-for-cluster/" rel="alternate" type="text/html" title="Multi-Resource Packing for Cluster Schedulers (Tetris)" /><published>2020-01-08T09:57:00-07:00</published><updated>2020-01-08T09:57:00-07:00</updated><id>http://localhost:4000/research-papers/research/multi-resource-packing-for-cluster</id><content type="html" xml:base="http://localhost:4000/research-papers/research/multi-resource-packing-for-cluster/">&lt;p&gt;Authors: Robert Grandl, Ganesh Anathanarayanan, Srikanth Kandula, Sriram Rao, Aditya Akella&lt;/p&gt;
-
-&lt;p&gt;Venue: SIGCOMM 2014&lt;/p&gt;
-
-&lt;p&gt;Cluster level scheduling is a complex topic in which performance, fairness, and hard constraints must all be considered. Fundamentally, a perfectly fair solution sacrifices performance. This work presents a resource-aware cluster scheduling scheme which maximizes performance and includes additional parameters to balance fairness requirements. &lt;!--more--&gt; For simplicity, I will divide the discussion into two sections: the central idea and additional heuristics.&lt;/p&gt;
-
-&lt;p&gt;Tetris performs scheduling by analyzing jobs resource requirements in terms of CPUs, memory, disk I/O, and network usage. Each job, task (a subset of a job), and machine is assigned a resource vector. To determine the optimal positioning of a task, a heuristic is used which takes the dot product of the job’s resource requirements vs a candidates available resources. The machine with the maximum dot product is selected to place the job. To incorporate fairness into the approach, the number of candidate jobs can be adjusted. Maximizing fairness will only place jobs in the global queue order, while maximizing performance will consider all jobs in the queue.&lt;/p&gt;
-
-&lt;p&gt;In addition to the basic setup, Tetris also includes additional heuristic properties to ensure no low-hanging fruit is left on the table. Firstly, shortest remaining time first (SRFT) algorithm is incorporated into the scheduling calculations, such that dot products are weighted to favor jobs nearly completions. The next optimization comes from the nature of map-reduce and DAG dependencies. Again, when a job is nearing the end of a stage, it’s tasks a favored so that it can begin the next stage sooner. The last significant optimization is regarding the “remote penalty”. When a job is scheduled away from data locality, it’s network requirements will increase. Thus, jobs which cause this are assigned a penalty (note this part is a bit vague in the details from my reading).&lt;/p&gt;
-
-&lt;p&gt;Overall, exceptional gains are achieved of a 40% improvement in job completion time and 41% improvement in job makespan (the total time for all jobs to complete). This occurs with a minimal impact in fairness, where about 6% jobs are delayed more than 10%. It would have been nice to see an S-curve of job improvements to illustrate the details more clearly, but nevertheless fairness seems to suffer marginally.&lt;/p&gt;</content><author><name>Karl Taht</name></author><category term="cluster scheduling" /><category term="spark" /><category term="resource allocation" /><category term="tetris" /><category term="cluster computing" /><category term="map-reduce" /><category term="resource-aware scheduling" /><category term="resource management" /><summary type="html">Authors: Robert Grandl, Ganesh Anathanarayanan, Srikanth Kandula, Sriram Rao, Aditya Akella</summary></entry></feed>
+but a big part of reality that is ignored is the lows. This is a low, and that’s okay.&lt;/p&gt;</content><author><name>Karl Taht</name></author><summary type="html">Today, I found out my submission to the ISPASS conference was rejected. The strange thing about it is, I mostly just feel confused. How should you really feel when a your work is rejected? Discredited? Angry? Confused? For me, I just feel blank.</summary></entry></feed>
