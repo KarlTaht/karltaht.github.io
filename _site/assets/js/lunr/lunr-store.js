@@ -53,4 +53,9 @@ var store = [{
         "excerpt":"Well, since I’m wrapping up weeks, I might as well wrap up months too, right? Time Tracking This is going to be a bit messy since I’ve only recently started being more diligent, so bear in mind – a lot of missing hours! Category Time Notes Research 106 hr, 18...","categories": ["reality","phd"],
         "tags": [],
         "url": "http://localhost:4000/reality/phd/january-recap/",
+        "teaser":null},{
+        "title": "Large-scale Cluster Management at Google with Borg",
+        "excerpt":"This paper provides a high-level overview of Google’s cluster manager: Borg. The paper describes the data warehouse environment, Borg’s architecture, and discusses performance related choices in more detail. Google’s Datacenter Environment Services and user work is submitted to Google clusters via notion of “jobs”, which consistent of one or more...","categories": ["research-papers","research"],
+        "tags": ["Cluster management","borg","scale","datacenter","datawarehouse"],
+        "url": "http://localhost:4000/research-papers/research/borg/",
         "teaser":null}]
