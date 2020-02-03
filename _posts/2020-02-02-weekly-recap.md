@@ -9,14 +9,13 @@ as kind of hybrid between a personal sprint and freeform journaling"
 ---
 
 
-
 ## Time Tracking
 
 Still unsure how to categorize things, but getting better
 
 | Category | This Week | Last Week | Notes|
 |----------|----------------|---------------|---------|
-| Research | 44 hr, 33 min  | 34 hr, 51 min | 
+| Work <br> Research <br> Reading <br> | 44 hr, 33 min <br> 41 hr, 57 min <br> 2 hr, 35 min | 34 hr, 51 min <br> Untracked <br> untracked | 
 | Reading  | 0 hr, 0 min    |
 | Writing  | Untracked      |
 
