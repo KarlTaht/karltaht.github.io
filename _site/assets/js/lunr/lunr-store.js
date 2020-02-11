@@ -63,4 +63,9 @@ var store = [{
         "excerpt":"Metrics Tracking Going to track time and some other hard metrics. We’ll see how many I keep. Category This Week Last Week Notes Work &gt; Research &gt; Reading 44 hr, 33 min 41 hr, 57 min 2 hr, 35 min 34 hr, 51 min Untracked untracked + 9.7 hours Reading...","categories": ["reality","phd"],
         "tags": [],
         "url": "http://localhost:4000/reality/phd/weekly-recap/",
+        "teaser":null},{
+        "title": "Week 6 Recap, 2020",
+        "excerpt":"Metrics Tracking Category This Week Last Week Change Work &gt; Research &gt; Reading 18 hr, 54 min 18 hr, 23 min 0 hr, 30 min 44 hr, 33 min 41 hr, 57 min 2 hr, 35 min -25.6 hr Reading 36 min 8 min +28 min Writing 0 39 min...","categories": ["reality","phd"],
+        "tags": [],
+        "url": "http://localhost:4000/reality/phd/weekly-recap/",
         "teaser":null}]

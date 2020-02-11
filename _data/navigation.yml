@@ -4,6 +4,8 @@ main:
     url: /about/
   - title: "Reality"
     url: /reality/
+  - title: "Racing"
+    url: /racing/
   - title: "Research"
     url: /research/
   - title: "Search"

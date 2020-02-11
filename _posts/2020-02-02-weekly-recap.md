@@ -19,7 +19,7 @@ Going to track time and some other hard metrics. We'll see how many I keep.
 | Writing  | 39 min      | Untracked | I don't include paper summaries here. | 
 | Papers   | 1 | 1 | Annual Total: 4 | 
 | Posts    | 5 | 2 | Annual Total: 11 | 
-| Gym      | 1 | 0 | Annual Total: 11 |
+| Gym      | 1 | 0 | Annual Total: 1 |
 | LoC      | 1695  | Untracked |(<span style="color:green">**+1388**</span>/<span style="color:red">**-307**</span>) |
 
 <!--

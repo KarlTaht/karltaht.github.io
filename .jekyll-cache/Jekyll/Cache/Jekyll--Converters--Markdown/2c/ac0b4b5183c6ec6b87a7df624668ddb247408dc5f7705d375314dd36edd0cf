@@ -1,0 +1,133 @@
+I"�<h2 id="metrics-tracking">Metrics Tracking</h2>
+
+<table>
+  <thead>
+    <tr>
+      <th>Category</th>
+      <th>This Week</th>
+      <th>Last Week</th>
+      <th>Change</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Work <br /> &gt; Research <br /> &gt; Reading <br /></td>
+      <td>18 hr, 54 min <br /> 18 hr, 23 min <br /> 0 hr, 30 min</td>
+      <td>44 hr, 33 min <br /> 41 hr, 57 min <br /> 2 hr, 35 min</td>
+      <td><span style="color:red"><strong>-25.6 hr</strong></span></td>
+    </tr>
+    <tr>
+      <td>Reading</td>
+      <td>36 min</td>
+      <td>8 min</td>
+      <td><span style="color:green"><strong>+28 min</strong></span></td>
+    </tr>
+    <tr>
+      <td>Writing</td>
+      <td>0</td>
+      <td>39 min</td>
+      <td><span style="color:red"><strong>-39 min</strong></span></td>
+    </tr>
+    <tr>
+      <td>Papers</td>
+      <td>0</td>
+      <td>1</td>
+      <td>Annual Total: 4</td>
+    </tr>
+    <tr>
+      <td>Posts</td>
+      <td>0</td>
+      <td>5</td>
+      <td>Annual Total: 12</td>
+    </tr>
+    <tr>
+      <td>Gym</td>
+      <td>1</td>
+      <td>1</td>
+      <td>Annual Total: 2</td>
+    </tr>
+    <tr>
+      <td>LoC</td>
+      <td>670</td>
+      <td>1695</td>
+      <td>(<span style="color:green"><strong>+453</strong></span>/<span style="color:red"><strong>-217</strong></span>)</td>
+    </tr>
+  </tbody>
+</table>
+
+<!--
+LOC: git log --since=2020-02-03 --until=2020-02-09 --shortstat --oneline
+-->
+
+<h2 id="notable-accomplishments">Notable Accomplishments:</h2>
+
+<ul>
+  <li>Massive success in executing Lyndsey’s 25th birthday</li>
+  <li>Connected PCM Monitoring into Python</li>
+  <li>Built data logger framework</li>
+  <li>Built out <a href="https://datadrivenmotorsports.github.io/">DDM website</a> (might look familiar)</li>
+  <li>Gym goal maintained!</li>
+</ul>
+
+<h2 id="what-worked-well">What Worked Well?</h2>
+
+<p>Having a clear goal this week was awesome. During Monday - Wednesday, the goal was
+really just to work on research. On Monday that didn’t quite happen, because of a 
+snowday and the massive 7 day straight grind, but, Tuesday and Wednesday were very
+productive. Thursday, I turned my focus to the main goal this week: absolutely 
+slaying Lyndsey’s 25th birthday. Sometimes you have to take a step back from craziness
+and remember what really matters to you. For me, that’s easily my wife. And if I
+need to choose taking a 3 day weekend + a half day so I can deliver an awesome
+once-in-a-lifetime type birthday, hell yeah I’m gonna do it. I can’t say it helped
+my research, but I priorized and succeeding in not only her birthday, but also 
+enjoying the weekend myself.</p>
+
+<h2 id="what-needs-improvement">What Needs Improvement?</h2>
+
+<p>There are three areas I want to touch on:</p>
+<ol>
+  <li>Planning out in detail beyond one day</li>
+  <li>Staying accountable</li>
+  <li>Pomodoro and focus</li>
+</ol>
+
+<p>Regarding point <strong>1</strong>, I’ve been focused on the maximizing my daily grind and also producing
+high quality code. I feel I’ve been rushing as is (turns out the single responsibility
+principle is non-trivial), and still falling behind the “schedule”. I use quotes
+because in reality, I haven’t planned things out in too much detail because of two
+main reasons: fear and focus. On one hand, I’m scared of the time table and requirements,
+as I know this deadline is pretty damn unrealistic. On the other hand, I also knew
+I had spent too much time planning, and wanted to spend more time doing. If I take
+a step back from the deadline, I am very happy with my rate of progress. Nevertheless,
+it’s not quite enough. I need to make some sort of high level time table (<strong>1</strong>),
+and stay accountable to that time table (<strong>2</strong>).</p>
+
+<p>Despite some very productive days, there also points where I am exceedingly unproductive
+for extended periods. It looks something like this: start focusing on problem. 
+Realize problem has many feasible solutions. Try to choose a solution. Get stuck. 
+Check Facebook Messenger. The Pomodoro technique (<strong>3</strong>) is explicitly meant to conquer
+that “stuckness” and prevail over set backs. I’ll be working to employ it as much
+as possible this week.</p>
+
+<h2 id="what-could-make-you-happier">What could make you happier?</h2>
+
+<p>I really just want all of this to come together. It feels like that would be just
+magic if it did, but hey, sometimes you have to ask for the impossible.</p>
+
+<h2 id="goals-for-next-week">Goals for Next Week</h2>
+
+<ul>
+  <li>Freaking. Grind. I need 60+ hours this week if I have any hopes for success.</li>
+  <li>Gym at least once</li>
+  <li>RL End-to-End</li>
+  <li>Example with differing workloads</li>
+  <li>Abstract, Introduction and Design</li>
+</ul>
+
+<h2 id="strategies">Strategies</h2>
+<ul>
+  <li>February strategy: No phone for the first 15 minutes of every day</li>
+  <li>Keep applying pomodoro technique through the coding grind</li>
+  <li>Clean to-do lists for day and WEEK.</li>
+</ul>
+:ET
