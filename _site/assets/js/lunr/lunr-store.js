@@ -68,4 +68,9 @@ var store = [{
         "excerpt":"Metrics Tracking Category This Week Last Week Change Work &gt; Research &gt; Reading 18 hr, 54 min 18 hr, 23 min 0 hr, 30 min 44 hr, 33 min 41 hr, 57 min 2 hr, 35 min -25.6 hr Reading 36 min 8 min +28 min Writing 0 39 min...","categories": ["reality","phd"],
         "tags": [],
         "url": "http://localhost:4000/reality/phd/weekly-recap/",
+        "teaser":null},{
+        "title": "Week 7 Recap, 2020",
+        "excerpt":"Metrics Tracking Category This Week Last Week Change Research 47 hr,15 min 18 hr, 54 min +28 hr, 21 min Academic Reading 0 min 30 min -30 min Personal Reading 40 min 36 min +4 min Writing 34 min 0 min +34 min Papers 0 0 Annual Total: 4 Posts...","categories": ["reality","phd"],
+        "tags": [],
+        "url": "http://localhost:4000/reality/phd/weekly-recap/",
         "teaser":null}]

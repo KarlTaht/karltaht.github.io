@@ -1,4 +1,4 @@
-I"�<h2 id="metrics-tracking">Metrics Tracking</h2>
+I"�<h2 id="metrics-tracking">Metrics Tracking</h2>
 
 <table>
   <thead>
@@ -11,76 +11,74 @@
   </thead>
   <tbody>
     <tr>
-      <td>Work <br /> &gt; Research <br /> &gt; Reading <br /></td>
-      <td>18 hr, 54 min <br /> 18 hr, 23 min <br /> 0 hr, 30 min</td>
-      <td>44 hr, 33 min <br /> 41 hr, 57 min <br /> 2 hr, 35 min</td>
-      <td><span style="color:red"><strong>-25.6 hr</strong></span></td>
+      <td>Research</td>
+      <td>47 hr,15 min</td>
+      <td>18 hr, 54 min</td>
+      <td><span style="color:green"><strong>+28 hr, 21 min</strong></span></td>
     </tr>
     <tr>
-      <td>Reading</td>
+      <td>Academic Reading</td>
+      <td>0 min</td>
+      <td>30 min</td>
+      <td><span style="color:red"><strong>-30 min</strong></span></td>
+    </tr>
+    <tr>
+      <td>Personal Reading</td>
+      <td>40 min</td>
       <td>36 min</td>
-      <td>8 min</td>
-      <td><span style="color:green"><strong>+28 min</strong></span></td>
+      <td><span style="color:green"><strong>+4 min</strong></span></td>
     </tr>
     <tr>
       <td>Writing</td>
-      <td>0</td>
-      <td>39 min</td>
-      <td><span style="color:red"><strong>-39 min</strong></span></td>
+      <td>34 min</td>
+      <td>0 min</td>
+      <td><span style="color:green"><strong>+34 min</strong></span></td>
     </tr>
     <tr>
       <td>Papers</td>
       <td>0</td>
-      <td>1</td>
+      <td>0</td>
       <td>Annual Total: 4</td>
     </tr>
     <tr>
       <td>Posts</td>
-      <td>0</td>
-      <td>5</td>
-      <td>Annual Total: 12</td>
+      <td>1</td>
+      <td>1</td>
+      <td>Annual Total: 15</td>
     </tr>
     <tr>
       <td>Gym</td>
-      <td>1</td>
+      <td>0</td>
       <td>1</td>
       <td>Annual Total: 2</td>
     </tr>
     <tr>
       <td>LoC</td>
+      <td>3414</td>
       <td>670</td>
-      <td>1695</td>
-      <td>(<span style="color:green"><strong>+453</strong></span>/<span style="color:red"><strong>-217</strong></span>)</td>
+      <td>(<span style="color:green"><strong>+2657</strong></span>/<span style="color:red"><strong>-757</strong></span>)</td>
     </tr>
   </tbody>
 </table>
 
 <!--
-LOC: git log --since=2020-01-26 --shortstat --oneline
+LOC: git log --since=2020-02-03 --until=2020-02-09 --shortstat --oneline
 -->
 
 <h2 id="notable-accomplishments">Notable Accomplishments:</h2>
 
 <ul>
-  <li>Massive success in executing Lyndsey’s 25th birthday</li>
-  <li>Connected PCM Monitoring into Python</li>
-  <li>Built data logger framework</li>
-  <li>Built out <a href="https://datadrivenmotorsports.github.io/">DDM website</a> (might look familiar)</li>
-  <li>Gym goal maintained!</li>
+  <li>Reinforcement Learning Scheduler Implemented End-to-End</li>
+  <li>Logging and analysis for RL Scheduler Implemented</li>
+  <li>Began experimental collection and fine tuning</li>
+  <li>Defense scheduling phase 1 completed, phase 2 started</li>
+  <li>Another pre-defense meeting done, 1 left!</li>
 </ul>
 
 <h2 id="what-worked-well">What Worked Well?</h2>
 
-<p>Having a clear goal this week was awesome. During Monday - Wednesday, the goal was
-really just to work on research. On Monday that didn’t quite happen, because of a 
-snowday and the massive 7 day straight grind, but, Tuesday and Wednesday were very
-productive. Thursday, I turned my focus to the main goal this week: absolutely 
-slaying Lyndsey’s 25th birthday. Sometimes you have to take a step back from craziness
-and remember what really matters to you. For me, that’s easily my wife. And if I
-need to choose taking a 3 day weekend + a half day so I can deliver an awesome
-once-in-a-lifetime type birthday, hell yeah I’m gonna do it. I can’t say it helped
-my research, but I priorized and succeeding in not only her birthday, but also 
-enjoying the weekend myself.</p>
+<p>I told myself I was going to grind this week, and I definitely started that way.
+Monday, Tuesday, and Wednesday I wrote an immense amount of code</p>
 
 <h2 id="what-needs-improvement">What Needs Improvement?</h2>
 
@@ -118,13 +116,23 @@ magic if it did, but hey, sometimes you have to ask for the impossible.</p>
 
 <ul>
   <li>Freaking. Grind. I need 60+ hours this week if I have any hopes for success.</li>
-  <li>Gym</li>
+  <li>Gym at least once</li>
+  <li>RL End-to-End</li>
+  <li>Schedule defense</li>
+  <li>Example with differing workloads</li>
+  <li>Abstract, Introduction and Design</li>
 </ul>
 
 <h2 id="strategies">Strategies</h2>
+<p>Focus:</p>
 <ul>
   <li>February strategy: No phone for the first 15 minutes of every day</li>
+  <li>Plan the to-do list the night before</li>
+</ul>
+
+<p>Additional:</p>
+<ul>
   <li>Keep applying pomodoro technique through the coding grind</li>
-  <li>Clean to-do lists for code implementations</li>
+  <li>Clean to-do lists for day and WEEK.</li>
 </ul>
 :ET
