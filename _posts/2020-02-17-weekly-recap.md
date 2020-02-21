@@ -4,7 +4,7 @@ title: Week 7 Recap, 2020
 date: '2020-02-17'
 author: Karl Taht
 categories: [reality, phd]
-custom_excerpt: "Trusting yourself and establishing priorities is one of the most important things in life."
+custom_excerpt: "3400 lines of code later."
 ---
 
 
