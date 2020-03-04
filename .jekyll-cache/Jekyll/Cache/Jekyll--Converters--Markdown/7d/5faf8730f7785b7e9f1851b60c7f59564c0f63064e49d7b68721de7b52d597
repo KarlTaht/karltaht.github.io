@@ -1,4 +1,4 @@
-I""<p>While this site has a few very focused sections, such as my research paper 
+I"U<p>While this site has a few very focused sections, such as my research paper 
 summaries, there’s a lot of things I feel are worth writing down but don’t fall
 into some particular category, other than that they are life, they are reality.</p>
 
@@ -22,7 +22,32 @@ into some particular category, other than that they are life, they are reality.<
  | <time datetime="2020-03-04T00:00:00-07:00">March 4, 2020</time></p>
     
 
-    <p class="archive__item-excerpt" itemprop="description">Well, since I’m wrapping up weeks, I might as well wrap up months too, right?
+    <p class="archive__item-excerpt" itemprop="description">This was a good month.
+</p>
+  </article>
+</div>
+
+<div class="list__item">
+  <article class="archive__item" itemscope="" itemtype="https://schema.org/CreativeWork">
+    
+    <h2 class="archive__item-title" itemprop="headline">
+      
+        <a href="/reality/phd/clean-code/" rel="permalink">My Take on Clean Code
+</a>
+      
+    </h2>
+    
+      <p class="page__meta"><i class="far fa-clock" aria-hidden="true"></i> 
+
+
+
+
+  less than 1 minute read
+
+ | <time datetime="2020-03-04T00:00:00-07:00">March 4, 2020</time></p>
+    
+
+    <p class="archive__item-excerpt" itemprop="description">Distilling the handbook fo agile software craftsmanship.
 </p>
   </article>
 </div>

@@ -79,6 +79,11 @@ var store = [{
         "tags": [],
         "url": "http://localhost:4000/reality/phd/weekly-recap/",
         "teaser":null},{
+        "title": "My Take on Clean Code",
+        "excerpt":"The 5S Philosophy Right off the bat, this book captured me with this notion of the “5S philosophy”, a methodology centered around maintaing high productivity workspaces. The origins are rooted in Japanese culture, and intially developed for manufacturing and maintenance. Seiri (Sort) Tasks should be prioritized and simple. Seiton (Systemization)...","categories": ["reality","phd"],
+        "tags": [],
+        "url": "http://localhost:4000/reality/phd/clean-code/",
+        "teaser":null},{
         "title": "February 2020 Recap",
         "excerpt":"February was, well, kind of awesome in all honesty. It’s crazy how small decisions snowball, and, how that can work for the better. Take this blog, this writing. It’s inspired me to make 2020 the year of growth. I’m taking it upon myself to try as many new strategies and...","categories": ["reality","phd"],
         "tags": [],

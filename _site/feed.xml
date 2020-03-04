@@ -1,4 +1,41 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-03-04T16:08:51-07:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Karl’s Personal Page</title><subtitle>An array of Interests</subtitle><author><name>Karl Taht</name></author><entry><title type="html">February 2020 Recap</title><link href="http://localhost:4000/reality/phd/february-recap-copy/" rel="alternate" type="text/html" title="February 2020 Recap" /><published>2020-03-04T00:00:00-07:00</published><updated>2020-03-04T00:00:00-07:00</updated><id>http://localhost:4000/reality/phd/february-recap%20copy</id><content type="html" xml:base="http://localhost:4000/reality/phd/february-recap-copy/">&lt;p&gt;February was, well, kind of awesome in all honesty. It’s crazy how small decisions
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-03-04T16:28:33-07:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Karl’s Personal Page</title><subtitle>An array of Interests</subtitle><author><name>Karl Taht</name></author><entry><title type="html">My Take on Clean Code</title><link href="http://localhost:4000/reality/phd/clean-code/" rel="alternate" type="text/html" title="My Take on Clean Code" /><published>2020-03-04T00:00:00-07:00</published><updated>2020-03-04T00:00:00-07:00</updated><id>http://localhost:4000/reality/phd/clean-code</id><content type="html" xml:base="http://localhost:4000/reality/phd/clean-code/">&lt;h2 id=&quot;the-5s-philosophy&quot;&gt;The 5S Philosophy&lt;/h2&gt;
+
+&lt;p&gt;Right off the bat, this book captured me with this notion of the “5S philosophy”,
+a methodology centered around maintaing high productivity workspaces. The origins 
+are rooted in Japanese culture, and intially developed for manufacturing and 
+maintenance.&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;&lt;em&gt;Seiri&lt;/em&gt; (Sort)
+    &lt;ul&gt;
+      &lt;li&gt;Tasks should be prioritized and simple.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;em&gt;Seiton&lt;/em&gt; (Systemization)
+    &lt;ul&gt;
+      &lt;li&gt;The environment should support the productivity of tasks by through
+its orderliness.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;em&gt;Seiso&lt;/em&gt; (Shine)
+    &lt;ul&gt;
+      &lt;li&gt;To maintain an orderly system, we must devote explicit time to cleaning and
+sustaining it.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;em&gt;Seiketsu&lt;/em&gt; (Standardize)
+    &lt;ul&gt;
+      &lt;li&gt;All practices must be standardized. When things diverge from a standard, systemization
+is lost.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;em&gt;Shitsuke&lt;/em&gt; (Sustain)
+    &lt;ul&gt;
+      &lt;li&gt;Self-discipline. All techniques must be continuously applied to achieve
+their ultimate goal.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;</content><author><name>Karl Taht</name></author><summary type="html">The 5S Philosophy</summary></entry><entry><title type="html">February 2020 Recap</title><link href="http://localhost:4000/reality/phd/february-recap-copy/" rel="alternate" type="text/html" title="February 2020 Recap" /><published>2020-03-04T00:00:00-07:00</published><updated>2020-03-04T00:00:00-07:00</updated><id>http://localhost:4000/reality/phd/february-recap%20copy</id><content type="html" xml:base="http://localhost:4000/reality/phd/february-recap-copy/">&lt;p&gt;February was, well, kind of awesome in all honesty. It’s crazy how small decisions
 snowball, and, how that can work for the better. Take this blog, this writing. It’s
 inspired me to make 2020 the year of growth.  I’m taking it upon myself to try as many
 new strategies and as possible for self-improvement. I’m employing new “strategies”
@@ -824,77 +861,4 @@ Authors: Youjie Li, Iou-Jen Li, Yifan Yuan, Deming Chen, Alexander Schwing, Jian
     &lt;/ul&gt;
   &lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;https://github.com/rlcode/reinforcement-learning&quot;&gt;Practical Implementions of OpenAI Gym Algorithms&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</content><author><name>Karl Taht</name></author><summary type="html">Books Reinforcement Learning: An Introduction (Sutton and Barto)</summary></entry><entry><title type="html">Week 4 Recap, 2020</title><link href="http://localhost:4000/reality/phd/weekly-recap/" rel="alternate" type="text/html" title="Week 4 Recap, 2020" /><published>2020-01-26T00:00:00-07:00</published><updated>2020-01-26T00:00:00-07:00</updated><id>http://localhost:4000/reality/phd/weekly-recap</id><content type="html" xml:base="http://localhost:4000/reality/phd/weekly-recap/">&lt;p&gt;This is going to the first of what I hope are many “weekly recaps”. Think of it
-as kind of hybrid between a personal sprint (see: ) and freeform journaling.&lt;/p&gt;
-
-&lt;h2 id=&quot;time-tracking&quot;&gt;Time Tracking&lt;/h2&gt;
-
-&lt;p&gt;&lt;em&gt;Note:&lt;/em&gt; Monday was holiday, and we were moving.&lt;/p&gt;
-
-&lt;table&gt;
-  &lt;thead&gt;
-    &lt;tr&gt;
-      &lt;th&gt;Category&lt;/th&gt;
-      &lt;th&gt;Time&lt;/th&gt;
-    &lt;/tr&gt;
-  &lt;/thead&gt;
-  &lt;tbody&gt;
-    &lt;tr&gt;
-      &lt;td&gt;Research&lt;/td&gt;
-      &lt;td&gt;34 hr, 51 min&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;Reading&lt;/td&gt;
-      &lt;td&gt;0 hr, 0 min&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;Writing&lt;/td&gt;
-      &lt;td&gt;Untracked&lt;/td&gt;
-    &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;
-
-&lt;h2 id=&quot;notable-accomplishments&quot;&gt;Notable Accomplishments:&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Implemented Reinforcement Learning Synthetic environment using A2C framework&lt;/li&gt;
-  &lt;li&gt;Moved back SLC and am setup for maximum attack!&lt;/li&gt;
-  &lt;li&gt;Logistical graduation requirements squared&lt;/li&gt;
-  &lt;li&gt;Paper Registered for ICS 2020&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;what-worked-well&quot;&gt;What Worked Well?&lt;/h2&gt;
-
-&lt;p&gt;It’s definitely nice being back in the lab and having a place to go work,
-particularly when my wife is around. When I work from home and she leaves from
-work, it kind of feels like I’m still just at home and not in “work mode”. Having
-an office to go to when she’s around is definitely needed to keep that focus.&lt;/p&gt;
-
-&lt;h2 id=&quot;what-needs-improvement&quot;&gt;What Needs Improvement?&lt;/h2&gt;
-
-&lt;p&gt;I was sloppy with some of my bullet journal tasks, and as a result a lot of stuff
-either didn’t get done or was migrated. My goals need to be a little bit more
-well thought through. If the goal is to setup a framework but it’s not clear what
-the requirements are, the task should be setting up the requirements. More tasks
-can always be added as they arise, rather than trying to make up stuff. Also need 
-to be honest about the to-do list for this paper submission. The biggest “oof”
-this week was missing a time sensitive email by a full 24 hours. Felt bad.&lt;/p&gt;
-
-&lt;h2 id=&quot;what-could-make-you-happier&quot;&gt;What could make you happier?&lt;/h2&gt;
-
-&lt;p&gt;Two main things bring me down: missing something critical and feeling like there’s
-no time for fun. Organization is going to be key to make sure things don’t slip
-through the cracks and bite me. Staying focused will help me ensure there IS
-time to enjoy life, too.&lt;/p&gt;
-
-&lt;h2 id=&quot;goals-for-next-week&quot;&gt;Goals for Next Week&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Take care when making daily goals&lt;/li&gt;
-  &lt;li&gt;Finalize PhD committee&lt;/li&gt;
-  &lt;li&gt;Finish revisions for ICS submission&lt;/li&gt;
-  &lt;li&gt;Start writing MICRO submission&lt;/li&gt;
-  &lt;li&gt;Detailed Goal list for MICRO submission&lt;/li&gt;
-  &lt;li&gt;Measurements for simulation parameters&lt;/li&gt;
-  &lt;li&gt;Progress on simulation environment&lt;/li&gt;
-&lt;/ul&gt;</content><author><name>Karl Taht</name></author><summary type="html">This is going to the first of what I hope are many “weekly recaps”. Think of it as kind of hybrid between a personal sprint (see: ) and freeform journaling.</summary></entry></feed>
+&lt;/ul&gt;</content><author><name>Karl Taht</name></author><summary type="html">Books Reinforcement Learning: An Introduction (Sutton and Barto)</summary></entry></feed>
