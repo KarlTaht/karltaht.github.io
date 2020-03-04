@@ -9,38 +9,38 @@
   <head>
     <meta charset="utf-8">
 
-<!-- begin _includes/seo.html --><title>Accelerating Distributed Reinforcement Learning with In-Switch Computing - Karl’s Personal Page</title>
-<meta name="description" content="Venue:  ISCA 2019Authors: Youjie Li, Iou-Jen Li, Yifan Yuan, Deming Chen, Alexander Schwing, Jian Huang">
+<!-- begin _includes/seo.html --><title>February 2020 Recap - Karl’s Personal Page</title>
+<meta name="description" content="February was, well, kind of awesome in all honesty. It’s crazy how small decisionssnowball, and, how that can work for the better. Take this blog, this writing. It’sinspired me to make 2020 the year of growth.  I’m taking it upon myself to try as manynew strategies and as possible for self-improvement. I’m employing new “strategies”and constantly experimenting with ways to improve my life.  I’m working to betterunderstand myself, and align my goals with my reality. While there’s always things to do better, 2020 is on track to be an awesome year. I’m really excitedto see who I am at the end.">
 
 
 
 <meta property="og:type" content="article">
 <meta property="og:locale" content="en_US">
 <meta property="og:site_name" content="Karl's Personal Page">
-<meta property="og:title" content="Accelerating Distributed Reinforcement Learning with In-Switch Computing">
-<meta property="og:url" content="http://localhost:4000/research-papers/research/iswitch/">
+<meta property="og:title" content="February 2020 Recap">
+<meta property="og:url" content="http://localhost:4000/reality/phd/february-recap-copy/">
 
 
-  <meta property="og:description" content="Venue:  ISCA 2019Authors: Youjie Li, Iou-Jen Li, Yifan Yuan, Deming Chen, Alexander Schwing, Jian Huang">
-
-
-
-
-
-
-
-  <meta property="article:published_time" content="2020-01-29T00:00:00-07:00">
+  <meta property="og:description" content="February was, well, kind of awesome in all honesty. It’s crazy how small decisionssnowball, and, how that can work for the better. Take this blog, this writing. It’sinspired me to make 2020 the year of growth.  I’m taking it upon myself to try as manynew strategies and as possible for self-improvement. I’m employing new “strategies”and constantly experimenting with ways to improve my life.  I’m working to betterunderstand myself, and align my goals with my reality. While there’s always things to do better, 2020 is on track to be an awesome year. I’m really excitedto see who I am at the end.">
 
 
 
 
 
-  
+
+
+  <meta property="article:published_time" content="2020-03-04T00:00:00-07:00">
+
+
+
+
 
   
 
+  
 
-<link rel="canonical" href="http://localhost:4000/research-papers/research/iswitch/">
+
+<link rel="canonical" href="http://localhost:4000/reality/phd/february-recap-copy/">
 
 
 
@@ -243,19 +243,112 @@
 
   <div class="archive">
     
-      <h1 id="page-title" class="page__title">Accelerating Distributed Reinforcement Learning with In-Switch Computing</h1>
+      <h1 id="page-title" class="page__title">February 2020 Recap</h1>
     
-    <p>Venue:  ISCA 2019
-Authors: Youjie Li, Iou-Jen Li, Yifan Yuan, Deming Chen, Alexander Schwing, Jian Huang</p>
+    <p>February was, well, kind of awesome in all honesty. It’s crazy how small decisions
+snowball, and, how that can work for the better. Take this blog, this writing. It’s
+inspired me to make 2020 the year of growth.  I’m taking it upon myself to try as many
+new strategies and as possible for self-improvement. I’m employing new “strategies”
+and constantly experimenting with ways to improve my life.  I’m working to better
+understand myself, and align my goals with my reality. While there’s always 
+things to do better, 2020 is on track to be an awesome year. I’m really excited
+to see who I am at the end.</p>
 
-<p>This paper presents iSwitch, an in-switch accelerator which improves the performance of distributed machine learning training – specifically reinforcement learning. While reinforcement learning (RL) models are typically small compared to other DNN applications, they require significantly more training epochs to achieve convergence. As such, distributed training typically suffers from high communication costs because of frequent gradient aggregation and model updates. As such, the authors utilize a NetFPGA board to implement gradient aggregation within the switch itself, significantly reducing both communication and latency. Results are demonstated in for both synchronous and asychronous gradient updates, as well as with two baselines: a central parameter server (PS) and AllReduce-based training (AR).</p>
+<h2 id="time-tracking">Time Tracking</h2>
 
-<p>Latency improves because gradient aggregation can happen as soon as gradients arrive at the switch. This happens asynchronously since environments, episodes, and overall experimental noise cause slight difference in gradient arrival time. The latency improvement also means that in the asynchronous scenario, training converges faster compared to the baseline since models are not so out of date with each other. Additionally, iSwitch is implemented such that gradient updates happen on each individual worker node, rather than at a centralized parameter server. Again, since communication is the dominant factor, it’s worth duplicating this work on individual worker nodes rather than performing the communication. Note that without gradient aggregation at the switch, you can’t perform worker level model updates with having a separate method for aggregation.</p>
+<table>
+  <thead>
+    <tr>
+      <th>Category</th>
+      <th>Time</th>
+      <th>Notes</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Research</td>
+      <td>155 hr, 22 min</td>
+      <td>Wow.</td>
+    </tr>
+    <tr>
+      <td>Reading</td>
+      <td>4 hr, 41 min</td>
+      <td>Academic and non-academic.</td>
+    </tr>
+    <tr>
+      <td>Writing</td>
+      <td>2 hr, 47 min</td>
+      <td>Non-academic</td>
+    </tr>
+  </tbody>
+</table>
 
-<p><a href="https://dl.acm.org/doi/abs/10.1145/3307650.3322259">Paper</a>
- / <a href="https://yifanyuan3.github.io/files/iswitch.pdf">Slides</a></p>
+<h2 id="notable-accomplishments">Notable Accomplishments:</h2>
 
-<p><em>Personal take:</em> To the best of my knowledge, this is the first paper which proposes a switch-level optimization to improve machine learning training. However, the first paper to propose asynchronous gradient updates for RL (see my <a href="https://karltaht.github.io/research-papers/research/a3c/">A3C Post</a>) mentions the key benefit is that all of this can be done a single machine, eliminating the majority of communication costs. In essense, state-of-the-art RL isn’t trained in a distributed fashion because 1) the models are small enough and 2) the communication is the bottleneck, so keeping everything on one machine is bonus. So while it’s clear the authors chose reinforcement learning because of it’s unique bottleneck of communication overheads, but I think this paper is equally important for scaling distributed training, just that RL was chosen because the benefits are more significant than other ML applications.</p>
+<ul>
+  <li>My main research project is fully-implemented, now for fine tuning.</li>
+  <li>My committee is finalized and tentative defense date set
+*</li>
+</ul>
+
+<h2 id="what-worked-well">What Worked Well?</h2>
+
+<p>Mono-tasking. When you’re in doing something, do it. If you’re
+chilling on the couch, chill. If you’re at work, work. Be exactly where you are. 
+Of all the things that have improved my happines, productivity, and generally
+made me feel “successful”, being in the moment is the key. Make no mistake–this
+does not mean disregarding in the future, it just means not multi-tasking. The
+real challenge <em>how</em> to achieve this.</p>
+
+<h2 id="what-needs-improvement">What Needs Improvement?</h2>
+
+<p>Staying focused and getting re-focused. It’s easier for things to break your
+focus during the day – a colleague walks in, a friend pings you on Facebook,
+an email rolls in. Hell, it can even be internal “oh shoot, I need to…”. When
+we do that, we stop mono-tasking. Ultimately, if we keep adding to what we need
+to do and keep switching between those things, we never actually get anything
+completely done. But if we focus on <em>exactly one thing</em>, maybe, we can. I need
+to find more strategies to pull myself back into focus after getting distracted.
+Here’s my current methods, or “toolbox” if you will:</p>
+
+<ul>
+  <li>Start a Pomodoro session</li>
+  <li>Put down my cellphone, and read for a fixed amount of time</li>
+</ul>
+
+<h2 id="what-could-make-you-happier">What could make you happier?</h2>
+
+<p>Take the things I want to do and integrate them into the things I have to do. I 
+want to be a better developer, so I’m reading about good software practices and
+applying that to my research. I want to be healthier, but I’m short on time and
+motivation. So, I’m going to swap out beers for tea and coffee this month. Caffeine
+is arguably healthier (or at least lower calorie) than beer, health box check. Alcohol
+kills my productivity, so I’ll buy back some time too. Let’s see how this reallocation
+of mental energy and physical time fair this month.</p>
+
+<h2 id="strategies-for-next-month">Strategies for Next Month</h2>
+
+<ul>
+  <li>No cellphone use for the first 15 minutes of every <em>weekday</em>
+    <ul>
+      <li>Important when days need to be productive.</li>
+    </ul>
+  </li>
+  <li>Read 15 minutes each day
+    <ul>
+      <li>Setting aside time to explicitly learn</li>
+    </ul>
+  </li>
+  <li>Pomodoro as much as possible.</li>
+</ul>
+
+<h2 id="goals-for-next-month">Goals for Next Month</h2>
+
+<ul>
+  <li>Break the cellphone rule fewer than 5 times</li>
+  <li>Drink fewer than 5 days this month</li>
+  <li>Hit the gym at least 3 times</li>
+</ul>
 
 
 
@@ -391,7 +484,7 @@ Authors: Youjie Li, Iou-Jen Li, Yifan Yuan, Deming Chen, Alexander Schwing, Jian
 
 
 
-  3 minute read
+  2 minute read
 
  | <time datetime="2020-02-10T00:00:00-07:00">February 10, 2020</time></p>
     

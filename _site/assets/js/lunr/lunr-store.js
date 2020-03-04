@@ -73,4 +73,14 @@ var store = [{
         "excerpt":"Metrics Tracking Category This Week Last Week Change Research 47 hr,15 min 18 hr, 54 min +28 hr, 21 min Academic Reading 0 min 30 min -30 min Personal Reading 40 min 36 min +4 min Writing 34 min 0 min +34 min Papers 0 0 Annual Total: 4 Posts...","categories": ["reality","phd"],
         "tags": [],
         "url": "http://localhost:4000/reality/phd/weekly-recap/",
+        "teaser":null},{
+        "title": "Week 9 Recap, 2020",
+        "excerpt":"Metrics Tracking Category This Week Last Week Change Research 26 hr, 22 min 57 hr, 17 min - 30 hr, 55 min Academic Reading 0 min 0 min None Personal Reading 0 min 18 min -18 min Writing 0 min 32 min -32 min Papers 0 0 Annual Total: 4...","categories": ["reality","phd"],
+        "tags": [],
+        "url": "http://localhost:4000/reality/phd/weekly-recap/",
+        "teaser":null},{
+        "title": "February 2020 Recap",
+        "excerpt":"February was, well, kind of awesome in all honesty. It’s crazy how small decisions snowball, and, how that can work for the better. Take this blog, this writing. It’s inspired me to make 2020 the year of growth. I’m taking it upon myself to try as many new strategies and...","categories": ["reality","phd"],
+        "tags": [],
+        "url": "http://localhost:4000/reality/phd/february-recap-copy/",
         "teaser":null}]

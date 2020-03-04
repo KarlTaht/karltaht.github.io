@@ -1,0 +1,119 @@
+I"�<h2 id="metrics-tracking">Metrics Tracking</h2>
+
+<table>
+  <thead>
+    <tr>
+      <th>Category</th>
+      <th>This Week</th>
+      <th>Last Week</th>
+      <th>Change</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Research</td>
+      <td>26 hr, 22 min</td>
+      <td>57 hr, 17 min</td>
+      <td><span style="color:green"><strong>+ hr, 21 min</strong></span></td>
+    </tr>
+    <tr>
+      <td>Academic Reading</td>
+      <td>0 min</td>
+      <td>30 min</td>
+      <td><span style="color:red"><strong>-30 min</strong></span></td>
+    </tr>
+    <tr>
+      <td>Personal Reading</td>
+      <td>40 min</td>
+      <td>36 min</td>
+      <td><span style="color:green"><strong>+4 min</strong></span></td>
+    </tr>
+    <tr>
+      <td>Writing</td>
+      <td>34 min</td>
+      <td>0 min</td>
+      <td><span style="color:green"><strong>+34 min</strong></span></td>
+    </tr>
+    <tr>
+      <td>Papers</td>
+      <td>0</td>
+      <td>0</td>
+      <td>Annual Total: 4</td>
+    </tr>
+    <tr>
+      <td>Posts</td>
+      <td>1</td>
+      <td>0</td>
+      <td>Annual Total: 15</td>
+    </tr>
+    <tr>
+      <td>Gym</td>
+      <td>0</td>
+      <td>1</td>
+      <td>Annual Total: 2</td>
+    </tr>
+  </tbody>
+</table>
+
+<!--
+LOC: git log --since=2020-02-03 --until=2020-02-09 --shortstat --oneline
+-->
+
+<h2 id="notable-accomplishments">Notable Accomplishments:</h2>
+<ul>
+  <li>Implemented RL Simulation</li>
+  <li>Wrote majority of paper submission</li>
+</ul>
+
+<h2 id="sitrep">Sitrep</h2>
+
+<p>Before diving into this, I want to note two important things. Firstly, I had a 
+paper scheduled for Monday, February 24th. On Monday, February 24th, I found out
+the deadline was extended by one week to March 2nd. It’s kind of like having massive
+stress about a deadline for 1 week, failing to hit that deadline, then reliving that
+week again. Icing on the cake is, because of a friend’s Bachelor party, I spent
+February 24th to March 2nd down in Texas, away from the lab and my usual setup.</p>
+
+<h2 id="what-worked-well">What Worked Well?</h2>
+
+<p>If it’s not clear – the past two weeks were objectively high stress. Paper deadline.
+Last minute changes. Paper extension. Traveling. Bachelor party vs paper. Being
+a a good friend vs being a good employee. Boom. And that’s when it hit me. My job
+right now is to be a student, a PhD student. That implies responsibility to perform
+research and publish papers. However, that is only <em>part</em> of what defines me.</p>
+
+<p>I think the most pivotal moment was Friday night, the Monday before the extended
+deadline. I was supposed to spend the weekend down in Austin, yet it was clear
+this paper had no chance for success if I devoted the next days to partying instead
+of this paper. On one hand, being there to celebrate my friend is key. On the other, 
+this is my PhD we’re talking about. It was in the kitchen, sipping a cup of black
+coffee that I compromised, because, I wasn’t willing to sacrifice either entirely. I
+spent a day in Austin, and the next back in Dallas. My paper still didn’t make it.</p>
+
+<p>Jokes aside, I realized the decisions I was making we’re just about me being a PhD
+student and the obligations there. My decisions reflect my character as a friend. 
+I feel good about both sides.</p>
+
+<h2 id="what-needs-improvement">What Needs Improvement?</h2>
+
+<p>Let’s not pretend there isn’t room for improvement. I spent the week staying with
+a friend, and no doubt it drew my focus. I allocated my time poorly, and lacked
+the tenacity to buckle down during the day. As a result, my worked hours were
+significantly down.</p>
+
+<h2 id="what-could-make-you-happier">What could make you happier?</h2>
+
+<p>Experiment with strategies for productivity and success.</p>
+
+<h2 id="goals-for-next-week">Goals for Next Week</h2>
+
+<ul>
+  <li>Full refactor of code</li>
+  <li>Get the disseration of previous works ported</li>
+</ul>
+
+<h2 id="strategies">Strategies</h2>
+
+<p>Failed the 15-minutes on the phone thing around mid-way through last month, but
+got some good take aways. Will report more in the monthly post.</p>
+:ET

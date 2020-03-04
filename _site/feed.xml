@@ -1,4 +1,224 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-02-17T09:22:29-07:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Karl’s Personal Page</title><subtitle>An array of Interests</subtitle><author><name>Karl Taht</name></author><entry><title type="html">Week 7 Recap, 2020</title><link href="http://localhost:4000/reality/phd/weekly-recap/" rel="alternate" type="text/html" title="Week 7 Recap, 2020" /><published>2020-02-17T00:00:00-07:00</published><updated>2020-02-17T00:00:00-07:00</updated><id>http://localhost:4000/reality/phd/weekly-recap</id><content type="html" xml:base="http://localhost:4000/reality/phd/weekly-recap/">&lt;h2 id=&quot;metrics-tracking&quot;&gt;Metrics Tracking&lt;/h2&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-03-04T16:08:51-07:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Karl’s Personal Page</title><subtitle>An array of Interests</subtitle><author><name>Karl Taht</name></author><entry><title type="html">February 2020 Recap</title><link href="http://localhost:4000/reality/phd/february-recap-copy/" rel="alternate" type="text/html" title="February 2020 Recap" /><published>2020-03-04T00:00:00-07:00</published><updated>2020-03-04T00:00:00-07:00</updated><id>http://localhost:4000/reality/phd/february-recap%20copy</id><content type="html" xml:base="http://localhost:4000/reality/phd/february-recap-copy/">&lt;p&gt;February was, well, kind of awesome in all honesty. It’s crazy how small decisions
+snowball, and, how that can work for the better. Take this blog, this writing. It’s
+inspired me to make 2020 the year of growth.  I’m taking it upon myself to try as many
+new strategies and as possible for self-improvement. I’m employing new “strategies”
+and constantly experimenting with ways to improve my life.  I’m working to better
+understand myself, and align my goals with my reality. While there’s always 
+things to do better, 2020 is on track to be an awesome year. I’m really excited
+to see who I am at the end.&lt;/p&gt;
+
+&lt;h2 id=&quot;time-tracking&quot;&gt;Time Tracking&lt;/h2&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;Category&lt;/th&gt;
+      &lt;th&gt;Time&lt;/th&gt;
+      &lt;th&gt;Notes&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Research&lt;/td&gt;
+      &lt;td&gt;155 hr, 22 min&lt;/td&gt;
+      &lt;td&gt;Wow.&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Reading&lt;/td&gt;
+      &lt;td&gt;4 hr, 41 min&lt;/td&gt;
+      &lt;td&gt;Academic and non-academic.&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Writing&lt;/td&gt;
+      &lt;td&gt;2 hr, 47 min&lt;/td&gt;
+      &lt;td&gt;Non-academic&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;h2 id=&quot;notable-accomplishments&quot;&gt;Notable Accomplishments:&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;My main research project is fully-implemented, now for fine tuning.&lt;/li&gt;
+  &lt;li&gt;My committee is finalized and tentative defense date set
+*&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;what-worked-well&quot;&gt;What Worked Well?&lt;/h2&gt;
+
+&lt;p&gt;Mono-tasking. When you’re in doing something, do it. If you’re
+chilling on the couch, chill. If you’re at work, work. Be exactly where you are. 
+Of all the things that have improved my happines, productivity, and generally
+made me feel “successful”, being in the moment is the key. Make no mistake–this
+does not mean disregarding in the future, it just means not multi-tasking. The
+real challenge &lt;em&gt;how&lt;/em&gt; to achieve this.&lt;/p&gt;
+
+&lt;h2 id=&quot;what-needs-improvement&quot;&gt;What Needs Improvement?&lt;/h2&gt;
+
+&lt;p&gt;Staying focused and getting re-focused. It’s easier for things to break your
+focus during the day – a colleague walks in, a friend pings you on Facebook,
+an email rolls in. Hell, it can even be internal “oh shoot, I need to…”. When
+we do that, we stop mono-tasking. Ultimately, if we keep adding to what we need
+to do and keep switching between those things, we never actually get anything
+completely done. But if we focus on &lt;em&gt;exactly one thing&lt;/em&gt;, maybe, we can. I need
+to find more strategies to pull myself back into focus after getting distracted.
+Here’s my current methods, or “toolbox” if you will:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Start a Pomodoro session&lt;/li&gt;
+  &lt;li&gt;Put down my cellphone, and read for a fixed amount of time&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;what-could-make-you-happier&quot;&gt;What could make you happier?&lt;/h2&gt;
+
+&lt;p&gt;Take the things I want to do and integrate them into the things I have to do. I 
+want to be a better developer, so I’m reading about good software practices and
+applying that to my research. I want to be healthier, but I’m short on time and
+motivation. So, I’m going to swap out beers for tea and coffee this month. Caffeine
+is arguably healthier (or at least lower calorie) than beer, health box check. Alcohol
+kills my productivity, so I’ll buy back some time too. Let’s see how this reallocation
+of mental energy and physical time fair this month.&lt;/p&gt;
+
+&lt;h2 id=&quot;strategies-for-next-month&quot;&gt;Strategies for Next Month&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;No cellphone use for the first 15 minutes of every &lt;em&gt;weekday&lt;/em&gt;
+    &lt;ul&gt;
+      &lt;li&gt;Important when days need to be productive.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Read 15 minutes each day
+    &lt;ul&gt;
+      &lt;li&gt;Setting aside time to explicitly learn&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Pomodoro as much as possible.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;goals-for-next-month&quot;&gt;Goals for Next Month&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Break the cellphone rule fewer than 5 times&lt;/li&gt;
+  &lt;li&gt;Drink fewer than 5 days this month&lt;/li&gt;
+  &lt;li&gt;Hit the gym at least 3 times&lt;/li&gt;
+&lt;/ul&gt;</content><author><name>Karl Taht</name></author><summary type="html">February was, well, kind of awesome in all honesty. It’s crazy how small decisions snowball, and, how that can work for the better. Take this blog, this writing. It’s inspired me to make 2020 the year of growth. I’m taking it upon myself to try as many new strategies and as possible for self-improvement. I’m employing new “strategies” and constantly experimenting with ways to improve my life. I’m working to better understand myself, and align my goals with my reality. While there’s always things to do better, 2020 is on track to be an awesome year. I’m really excited to see who I am at the end.</summary></entry><entry><title type="html">Week 9 Recap, 2020</title><link href="http://localhost:4000/reality/phd/weekly-recap/" rel="alternate" type="text/html" title="Week 9 Recap, 2020" /><published>2020-03-02T00:00:00-07:00</published><updated>2020-03-02T00:00:00-07:00</updated><id>http://localhost:4000/reality/phd/weekly-recap</id><content type="html" xml:base="http://localhost:4000/reality/phd/weekly-recap/">&lt;h2 id=&quot;metrics-tracking&quot;&gt;Metrics Tracking&lt;/h2&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;Category&lt;/th&gt;
+      &lt;th&gt;This Week&lt;/th&gt;
+      &lt;th&gt;Last Week&lt;/th&gt;
+      &lt;th&gt;Change&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Research&lt;/td&gt;
+      &lt;td&gt;26 hr, 22 min&lt;/td&gt;
+      &lt;td&gt;57 hr, 17 min&lt;/td&gt;
+      &lt;td&gt;&lt;span style=&quot;color:green&quot;&gt;&lt;strong&gt;- 30 hr, 55 min&lt;/strong&gt;&lt;/span&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Academic Reading&lt;/td&gt;
+      &lt;td&gt;0 min&lt;/td&gt;
+      &lt;td&gt;0 min&lt;/td&gt;
+      &lt;td&gt;&lt;span style=&quot;color:blue&quot;&gt;&lt;strong&gt;None&lt;/strong&gt;&lt;/span&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Personal Reading&lt;/td&gt;
+      &lt;td&gt;0 min&lt;/td&gt;
+      &lt;td&gt;18 min&lt;/td&gt;
+      &lt;td&gt;&lt;span style=&quot;color:red&quot;&gt;&lt;strong&gt;-18 min&lt;/strong&gt;&lt;/span&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Writing&lt;/td&gt;
+      &lt;td&gt;0 min&lt;/td&gt;
+      &lt;td&gt;32 min&lt;/td&gt;
+      &lt;td&gt;&lt;span style=&quot;color:red&quot;&gt;&lt;strong&gt;-32 min&lt;/strong&gt;&lt;/span&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Papers&lt;/td&gt;
+      &lt;td&gt;0&lt;/td&gt;
+      &lt;td&gt;0&lt;/td&gt;
+      &lt;td&gt;Annual Total: 4&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Posts&lt;/td&gt;
+      &lt;td&gt;1&lt;/td&gt;
+      &lt;td&gt;0&lt;/td&gt;
+      &lt;td&gt;Annual Total: 15&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Gym&lt;/td&gt;
+      &lt;td&gt;0&lt;/td&gt;
+      &lt;td&gt;1&lt;/td&gt;
+      &lt;td&gt;Annual Total: 2&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;!--
+LOC: git log --since=2020-02-03 --until=2020-02-09 --shortstat --oneline
+--&gt;
+
+&lt;h2 id=&quot;notable-accomplishments&quot;&gt;Notable Accomplishments:&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;Implemented RL Simulation&lt;/li&gt;
+  &lt;li&gt;Wrote majority of paper submission&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;sitrep&quot;&gt;Sitrep&lt;/h2&gt;
+
+&lt;p&gt;Before diving into this, I want to note two important things. Firstly, I had a 
+paper scheduled for Monday, February 24th. On Monday, February 24th, I found out
+the deadline was extended by one week to March 2nd. It’s kind of like having massive
+stress about a deadline for 1 week, failing to hit that deadline, then reliving that
+week again. Icing on the cake is, because of a friend’s Bachelor party, I spent
+February 24th to March 2nd down in Texas, away from the lab and my usual setup.&lt;/p&gt;
+
+&lt;h2 id=&quot;what-worked-well&quot;&gt;What Worked Well?&lt;/h2&gt;
+
+&lt;p&gt;If it’s not clear – the past two weeks were objectively high stress. Paper deadline.
+Last minute changes. Paper extension. Traveling. Bachelor party vs paper. Being
+a a good friend vs being a good employee. Boom. And that’s when it hit me. My job
+right now is to be a student, a PhD student. That implies responsibility to perform
+research and publish papers. However, that is only &lt;em&gt;part&lt;/em&gt; of what defines me.&lt;/p&gt;
+
+&lt;p&gt;I think the most pivotal moment was Friday night, the Monday before the extended
+deadline. I was supposed to spend the weekend down in Austin, yet it was clear
+this paper had no chance for success if I devoted the next days to partying instead
+of this paper. On one hand, being there to celebrate my friend is key. On the other, 
+this is my PhD we’re talking about. It was in the kitchen, sipping a cup of black
+coffee that I compromised, because, I wasn’t willing to sacrifice either entirely. I
+spent a day in Austin, and the next back in Dallas. My paper still didn’t make it.&lt;/p&gt;
+
+&lt;p&gt;Jokes aside, I realized the decisions I was making we’re just about me being a PhD
+student and the obligations there. My decisions reflect my character as a friend. 
+I feel good about both sides.&lt;/p&gt;
+
+&lt;h2 id=&quot;what-needs-improvement&quot;&gt;What Needs Improvement?&lt;/h2&gt;
+
+&lt;p&gt;Let’s not pretend there isn’t room for improvement. I spent the week staying with
+a friend, and no doubt it drew my focus. I allocated my time poorly, and lacked
+the tenacity to buckle down during the day. As a result, my worked hours were
+significantly down. Just need to keep improving my will power and mental fortitude.&lt;/p&gt;
+
+&lt;h2 id=&quot;what-could-make-you-happier&quot;&gt;What could make you happier?&lt;/h2&gt;
+
+&lt;p&gt;Experiment with strategies for productivity and success.&lt;/p&gt;
+
+&lt;h2 id=&quot;goals-for-next-week&quot;&gt;Goals for Next Week&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Full refactor of code&lt;/li&gt;
+  &lt;li&gt;Get the disseration of previous works ported&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;strategies&quot;&gt;Strategies&lt;/h2&gt;
+
+&lt;p&gt;Failed the 15-minutes on the phone thing around mid-way through last month, but
+got some good take aways. Will report more in the monthly post.&lt;/p&gt;</content><author><name>Karl Taht</name></author><summary type="html">Metrics Tracking</summary></entry><entry><title type="html">Week 7 Recap, 2020</title><link href="http://localhost:4000/reality/phd/weekly-recap/" rel="alternate" type="text/html" title="Week 7 Recap, 2020" /><published>2020-02-17T00:00:00-07:00</published><updated>2020-02-17T00:00:00-07:00</updated><id>http://localhost:4000/reality/phd/weekly-recap</id><content type="html" xml:base="http://localhost:4000/reality/phd/weekly-recap/">&lt;h2 id=&quot;metrics-tracking&quot;&gt;Metrics Tracking&lt;/h2&gt;
 
 &lt;table&gt;
   &lt;thead&gt;
@@ -522,7 +742,7 @@ but paradoxically, chaos is the key incredient for inspiration and motivation.&l
 
 &lt;h2 id=&quot;what-needs-improvement&quot;&gt;What Needs Improvement?&lt;/h2&gt;
 
-&lt;p&gt;I think it’s a balance. I seem to either spending too much time planning things
+&lt;p&gt;I think it’s about balance. I seem to either spending too much time planning things
 out too intricately on the larger scale, but then whip together an unrealistic
 or unthoughtful daily todo list. Balancing having a good structure, yet having flexibility
 when things don’t go to plan. And I’m thinking, the antitode to this? A balanced strategy.&lt;/p&gt;
@@ -677,137 +897,4 @@ time to enjoy life, too.&lt;/p&gt;
   &lt;li&gt;Detailed Goal list for MICRO submission&lt;/li&gt;
   &lt;li&gt;Measurements for simulation parameters&lt;/li&gt;
   &lt;li&gt;Progress on simulation environment&lt;/li&gt;
-&lt;/ul&gt;</content><author><name>Karl Taht</name></author><summary type="html">This is going to the first of what I hope are many “weekly recaps”. Think of it as kind of hybrid between a personal sprint (see: ) and freeform journaling.</summary></entry><entry><title type="html">Five Axioms for Productivity</title><link href="http://localhost:4000/reality/phd/11_rules/" rel="alternate" type="text/html" title="Five Axioms for Productivity" /><published>2020-01-21T00:00:00-07:00</published><updated>2020-01-21T00:00:00-07:00</updated><id>http://localhost:4000/reality/phd/11_rules</id><content type="html" xml:base="http://localhost:4000/reality/phd/11_rules/">&lt;p&gt;If you’re anything like me, you often find yourself reading or learning about
-new techniques to improve yourself and your life. I think when you come across
-these ideas they seem new and fresh and at face value always make a lot of sense.
-The problem is that if you follow something like the self-improvement section on
-Medium, you’ll be getting doses of new and fresh ideas everyday. One one hand,
-this is really good. Things that are new keep us energized and excited to work
-on ourselves. On the other hand, it really muddies the field in terms of what is 
-important and what’s not. What really works versus what’s just interesting to 
-consider. However, there’s one article that summarized some “Rules to Live By”
-if you will, that I think are very powerful. I’m going to present them with my
-own spin, and try to order it as well.&lt;/p&gt;
-
-&lt;h2 id=&quot;1-do-the-most-important-thing-first&quot;&gt;1. Do the most important thing FIRST.&lt;/h2&gt;
-
-&lt;p&gt;Each day, you choose the &lt;strong&gt;order&lt;/strong&gt; of when to do the things you need to do. Whether that’s taking
-a shower and then having coffee, or grinding out an intensive task before checking
-your email.  For me as a PhD student no longer taking classes, I have a ton of freedom in this. 
-If I want to wake up at 1pm, spend the afternoon surfing YouTube, and start work
-at 6pm, I theoretically have nothing stopping me on most days. However, I think
-just reading that it’s pretty obvious that would be a terrible idea, but–why?&lt;/p&gt;
-
-&lt;p&gt;Well, I personally don’t think there’s a concrete answer. But, I do feel strongly 
-that once you reward yourself with something, you feel accomplished. You’re less
-incentivized to continue to work. Whether than be going straight to a reward
-(e.g. waking up and watching Netflix) or, doing a small task and feeling like
-you’ve made progress on your day (e.g. sending that email when you really need
-to code up a new algorithm).&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;The reality is, your day is defined by the most important thing you accomplish.&lt;/strong&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;2-dont-multi-task&quot;&gt;2. Don’t multi-task&lt;/h2&gt;
-
-&lt;p&gt;People think that multi-tasking somehow improves our efficiency. It doesn’t. Have
-you ever tried to scroll through Facebook while on the phone? You either missed
-the conversation or you didn’t really read that post. People can’t think about
-two things simulatenously. This is why I love the Pomodoro technique and wrote
-and article dedicated to it. The whole point is you pick &lt;strong&gt;precisely&lt;/strong&gt; what you’re
-going to focus on and do just that, no distractions.&lt;/p&gt;
-
-&lt;h2 id=&quot;3-own-your-time&quot;&gt;3. Own your time&lt;/h2&gt;
-
-&lt;p&gt;I feel like a lot of people have this mentality that hours in = progress out. In
-reality, hours in &lt;strong&gt;times&lt;/strong&gt; intensity &lt;strong&gt;times&lt;/strong&gt; meaningfulness = progress out. When
-we grind for too long, we lose focus both on what we’re doing and how we’re doing it.
-This means you can’t just commit hours to something, you have to own those hours.&lt;/p&gt;
-
-&lt;p&gt;There’s three main points for point number 3:&lt;/p&gt;
-
-&lt;h3 id=&quot;spending-at-least-50-of-your-time-doing&quot;&gt;Spending at least 50% of your time doing&lt;/h3&gt;
-
-&lt;p&gt;If you objectively look at your time, you probably spend a lot of time doing, well,
-not productive things. Or at least, not directly productive things. Meetings, emails,
-conversations, they are all necessary for progress and well being. But to truly
-make an impact, you have to create. You have to do. Analyze your time and DO.&lt;/p&gt;
-
-&lt;h3 id=&quot;give-yourself-time&quot;&gt;Give yourself time.&lt;/h3&gt;
-
-&lt;p&gt;As much as productive time matters, so does recharge time. During the day, this
-means taking a lunch break to take a step back from work. Make sure your focused
-and energized and ready for the afternoon. This also means scheduling – and I 
-really mean scheduling – time to do stuff you just LIKE. Stuff that doesn’t
-add toward self-improvement, but just self-happiness. It could be Netflix and Chill,
-videos games, taking a drive. Whatever it is, make time for you to be happy. If
-you’re not enjoying this thing called life, there’s really no point anyway.&lt;/p&gt;
-
-&lt;h3 id=&quot;track-your-time&quot;&gt;Track your time.&lt;/h3&gt;
-
-&lt;p&gt;Want to really know much you’re working? How much Netflix you watch? Get a time
-tracking app. There’s a lot of them out there, but I personally use “aTimeLogger”
-which is super simple. You simple open the app and tap it when you start doing 
-stuff. Be wary not to add too many categories or try to account for every minute
-of the day. Instead figure out precise things that will help you answer questions
-as to how you can better allocate your time. Maybe 20 hours of Netflix should be 
-15 hours of Netflix and 5 hours of reading. Maybe the reason your so drained is
-because you’re spending 60 hours at work and another 10 commuting. And don’t think
-you have to dedicate a lot of retrospection to it either. Most days I just use it
-to see, hey, have I really put in enough hours today? If not, how’s the week looking?&lt;/p&gt;
-
-&lt;p&gt;Lastly, proceed with caution here. It’s easy to get sucked into a vortex of trying
-to one-up yourself on how much time your spending on the things you “should be
-spending time on”. While hours in are likely to improve your success, they’re
-no guarantee of results. That’s why owning your time is 3, and doing what matters
-most is first.&lt;/p&gt;
-
-&lt;h2 id=&quot;4-write-it-down--on-paper&quot;&gt;4. Write it down – on Paper.&lt;/h2&gt;
-
-&lt;p&gt;While I love typing and am a bit of a keyboard fanatic, I think there will always
-be something borderline cerebral about physically writing with pen (or pencil) and
-paper. Physically writing a check mark when you finish a pomodoro session or crossing
-out an item on your to-do list. Besides that, the reality is we have shitty memories.&lt;/p&gt;
-
-&lt;p&gt;Physically writing things down helps us remember. It puts things in perspective. 
-When you write down a to-do list of what you’re going to do today and its 20 items
-long, you physically realize it’s too much. Now 20 is arbitrary, but if you’ll
-start doing this everyday you’ll realize what you can realistically accomplish in
-one day.&lt;/p&gt;
-
-&lt;p&gt;As of late, I like the bullet journal technique. I use it because it’s great way
-to track short, medium, and long term goals. More than that, it’s flexible. You
-can add sections that are relevant to you. Mine personally has a “Papers Read” 
-section as well as “Things I love about my PhD” section. You can also track goals
-easily and more. I highly recommending looking into it as it really took my 
-existing journaling technique to the next level, and I’m really happy with it.&lt;/p&gt;
-
-&lt;h2 id=&quot;5-discipline&quot;&gt;5. Discipline&lt;/h2&gt;
-
-&lt;p&gt;Finally, the last piece of the puzzle is grit. You have to really want to 
-improve yourself, and want it as often and as hard as possible. Believe in yourself,
-and invest in yourself.&lt;/p&gt;</content><author><name>Karl Taht</name></author><summary type="html">If you’re anything like me, you often find yourself reading or learning about new techniques to improve yourself and your life. I think when you come across these ideas they seem new and fresh and at face value always make a lot of sense. The problem is that if you follow something like the self-improvement section on Medium, you’ll be getting doses of new and fresh ideas everyday. One one hand, this is really good. Things that are new keep us energized and excited to work on ourselves. On the other hand, it really muddies the field in terms of what is important and what’s not. What really works versus what’s just interesting to consider. However, there’s one article that summarized some “Rules to Live By” if you will, that I think are very powerful. I’m going to present them with my own spin, and try to order it as well.</summary></entry><entry><title type="html">Asynchronous Methods for Deep Reinforcement Learning (A3C)</title><link href="http://localhost:4000/research-papers/research/a3c/" rel="alternate" type="text/html" title="Asynchronous Methods for Deep Reinforcement Learning (A3C)" /><published>2020-01-16T09:57:00-07:00</published><updated>2020-01-16T09:57:00-07:00</updated><id>http://localhost:4000/research-papers/research/a3c</id><content type="html" xml:base="http://localhost:4000/research-papers/research/a3c/">&lt;p&gt;This paper presents a framework to perform asynchronous gradient descent for 
-optimization of deep nerual networks in the scope of reinforcement learning
-problems. Most importantly, this work presents the asynchronous advantage 
-actor-critic framework (A3C), which is currently one of the state-of-the-art
-frameworks for deep reinforcement learning.&lt;/p&gt;
-
-&lt;p&gt;While neural networks are powerful universal function approximators making them
-conceptually ideal for approximate reinforcement learning, they suffer from 
-an inherit problem of instability and variance making convergence difficult to
-achieve. As such, reinforcement learning has traditionally focused on off-policy
-learning algorithms which were able to aggregate sufficient data during update
-phases. However, this work changes that by providing a framework which reduces
-resource requirements (for storing gradients) while maintaining reliability.&lt;/p&gt;
-
-&lt;p&gt;The framework centralizes models on a single machine, reducing communication 
-costs. Gradient descent can be done in a similar fashion to &lt;a href=&quot;https://papers.nips.cc/paper/4390-hogwild-a-lock-free-approach-to-parallelizing-stochastic-gradient-descent.pdf&quot;&gt;Hogwild!&lt;/a&gt;. Unlike
-previous works, each simulated environment runs with different exploration policies
-and different environments. Since the updates occur online, this reduces the 
-likelihood that two parallel learners will have the same bias. The result
-is a technique which can be applied to a variety of RL algorithms (one-step SARSA,
-n-step Q-Learning, and advantage actor-critic). As a general approach toward
-solving RL problems, A3C seems to be one of the most successful in general.&lt;/p&gt;
-
-&lt;h3 id=&quot;the-a3c-algorithm&quot;&gt;The A3C Algorithm&lt;/h3&gt;
-
-&lt;p&gt;&lt;img src=&quot;/images/a3c_alg.png&quot; alt=&quot;A3C Algorithm&quot; /&gt;&lt;/p&gt;</content><author><name>Karl Taht</name></author><category term="Reinforcement Learning" /><category term="RL" /><category term="A3C" /><summary type="html">This paper presents a framework to perform asynchronous gradient descent for optimization of deep nerual networks in the scope of reinforcement learning problems. Most importantly, this work presents the asynchronous advantage actor-critic framework (A3C), which is currently one of the state-of-the-art frameworks for deep reinforcement learning.</summary></entry></feed>
+&lt;/ul&gt;</content><author><name>Karl Taht</name></author><summary type="html">This is going to the first of what I hope are many “weekly recaps”. Think of it as kind of hybrid between a personal sprint (see: ) and freeform journaling.</summary></entry></feed>

@@ -50,7 +50,7 @@ but paradoxically, chaos is the key incredient for inspiration and motivation.
 
 ## What Needs Improvement?
 
-I think it's a balance. I seem to either spending too much time planning things
+I think it's about balance. I seem to either spending too much time planning things
 out too intricately on the larger scale, but then whip together an unrealistic
 or unthoughtful daily todo list. Balancing having a good structure, yet having flexibility
 when things don't go to plan. And I'm thinking, the antitode to this? A balanced strategy. 
