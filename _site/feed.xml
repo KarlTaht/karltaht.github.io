@@ -1,484 +1,484 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-03-04T16:28:33-07:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Karl’s Personal Page</title><subtitle>An array of Interests</subtitle><author><name>Karl Taht</name></author><entry><title type="html">My Take on Clean Code</title><link href="http://localhost:4000/reality/phd/clean-code/" rel="alternate" type="text/html" title="My Take on Clean Code" /><published>2020-03-04T00:00:00-07:00</published><updated>2020-03-04T00:00:00-07:00</updated><id>http://localhost:4000/reality/phd/clean-code</id><content type="html" xml:base="http://localhost:4000/reality/phd/clean-code/">&lt;h2 id=&quot;the-5s-philosophy&quot;&gt;The 5S Philosophy&lt;/h2&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.10.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2024-12-28T19:34:07-08:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Taht’s Thoughts</title><subtitle>An array of Interests</subtitle><author><name>Karl Taht</name></author><entry><title type="html">Prepping for the new year</title><link href="http://localhost:4000/reality/update/" rel="alternate" type="text/html" title="Prepping for the new year" /><published>2024-12-28T00:00:00-08:00</published><updated>2024-12-28T00:00:00-08:00</updated><id>http://localhost:4000/reality/update</id><content type="html" xml:base="http://localhost:4000/reality/update/"><![CDATA[<p>Trying to navigate this stuff.</p>]]></content><author><name>Karl Taht</name></author><category term="reality" /><summary type="html"><![CDATA[Trying to navigate this stuff.]]></summary></entry><entry><title type="html">Nested!!!</title><link href="http://localhost:4000/reality/phd/test/" rel="alternate" type="text/html" title="Nested!!!" /><published>2024-12-15T00:00:00-08:00</published><updated>2024-12-15T00:00:00-08:00</updated><id>http://localhost:4000/reality/phd/test</id><content type="html" xml:base="http://localhost:4000/reality/phd/test/"><![CDATA[<p>It’s Nested.</p>]]></content><author><name>Karl Taht</name></author><category term="reality" /><category term="phd" /><summary type="html"><![CDATA[It’s Nested.]]></summary></entry><entry><title type="html">My Take on Clean Code</title><link href="http://localhost:4000/reality/phd/clean-code/" rel="alternate" type="text/html" title="My Take on Clean Code" /><published>2020-03-04T00:00:00-08:00</published><updated>2020-03-04T00:00:00-08:00</updated><id>http://localhost:4000/reality/phd/clean-code</id><content type="html" xml:base="http://localhost:4000/reality/phd/clean-code/"><![CDATA[<h2 id="the-5s-philosophy">The 5S Philosophy</h2>
 
-&lt;p&gt;Right off the bat, this book captured me with this notion of the “5S philosophy”,
+<p>Right off the bat, this book captured me with this notion of the “5S philosophy”,
 a methodology centered around maintaing high productivity workspaces. The origins 
 are rooted in Japanese culture, and intially developed for manufacturing and 
-maintenance.&lt;/p&gt;
+maintenance.</p>
 
-&lt;ol&gt;
-  &lt;li&gt;&lt;em&gt;Seiri&lt;/em&gt; (Sort)
-    &lt;ul&gt;
-      &lt;li&gt;Tasks should be prioritized and simple.&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;&lt;em&gt;Seiton&lt;/em&gt; (Systemization)
-    &lt;ul&gt;
-      &lt;li&gt;The environment should support the productivity of tasks by through
-its orderliness.&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;&lt;em&gt;Seiso&lt;/em&gt; (Shine)
-    &lt;ul&gt;
-      &lt;li&gt;To maintain an orderly system, we must devote explicit time to cleaning and
-sustaining it.&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;&lt;em&gt;Seiketsu&lt;/em&gt; (Standardize)
-    &lt;ul&gt;
-      &lt;li&gt;All practices must be standardized. When things diverge from a standard, systemization
-is lost.&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;&lt;em&gt;Shitsuke&lt;/em&gt; (Sustain)
-    &lt;ul&gt;
-      &lt;li&gt;Self-discipline. All techniques must be continuously applied to achieve
-their ultimate goal.&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-&lt;/ol&gt;</content><author><name>Karl Taht</name></author><summary type="html">The 5S Philosophy</summary></entry><entry><title type="html">February 2020 Recap</title><link href="http://localhost:4000/reality/phd/february-recap-copy/" rel="alternate" type="text/html" title="February 2020 Recap" /><published>2020-03-04T00:00:00-07:00</published><updated>2020-03-04T00:00:00-07:00</updated><id>http://localhost:4000/reality/phd/february-recap%20copy</id><content type="html" xml:base="http://localhost:4000/reality/phd/february-recap-copy/">&lt;p&gt;February was, well, kind of awesome in all honesty. It’s crazy how small decisions
+<ol>
+  <li><em>Seiri</em> (Sort)
+    <ul>
+      <li>Tasks should be prioritized and simple.</li>
+    </ul>
+  </li>
+  <li><em>Seiton</em> (Systemization)
+    <ul>
+      <li>The environment should support the productivity of tasks by through
+its orderliness.</li>
+    </ul>
+  </li>
+  <li><em>Seiso</em> (Shine)
+    <ul>
+      <li>To maintain an orderly system, we must devote explicit time to cleaning and
+sustaining it.</li>
+    </ul>
+  </li>
+  <li><em>Seiketsu</em> (Standardize)
+    <ul>
+      <li>All practices must be standardized. When things diverge from a standard, systemization
+is lost.</li>
+    </ul>
+  </li>
+  <li><em>Shitsuke</em> (Sustain)
+    <ul>
+      <li>Self-discipline. All techniques must be continuously applied to achieve
+their ultimate goal.</li>
+    </ul>
+  </li>
+</ol>]]></content><author><name>Karl Taht</name></author><category term="reality" /><category term="phd" /><summary type="html"><![CDATA[The 5S Philosophy]]></summary></entry><entry><title type="html">February 2020 Recap</title><link href="http://localhost:4000/reality/phd/february-recap-copy/" rel="alternate" type="text/html" title="February 2020 Recap" /><published>2020-03-04T00:00:00-08:00</published><updated>2020-03-04T00:00:00-08:00</updated><id>http://localhost:4000/reality/phd/february-recap%20copy</id><content type="html" xml:base="http://localhost:4000/reality/phd/february-recap-copy/"><![CDATA[<p>February was, well, kind of awesome in all honesty. It’s crazy how small decisions
 snowball, and, how that can work for the better. Take this blog, this writing. It’s
 inspired me to make 2020 the year of growth.  I’m taking it upon myself to try as many
 new strategies and as possible for self-improvement. I’m employing new “strategies”
 and constantly experimenting with ways to improve my life.  I’m working to better
 understand myself, and align my goals with my reality. While there’s always 
 things to do better, 2020 is on track to be an awesome year. I’m really excited
-to see who I am at the end.&lt;/p&gt;
+to see who I am at the end.</p>
 
-&lt;h2 id=&quot;time-tracking&quot;&gt;Time Tracking&lt;/h2&gt;
+<h2 id="time-tracking">Time Tracking</h2>
 
-&lt;table&gt;
-  &lt;thead&gt;
-    &lt;tr&gt;
-      &lt;th&gt;Category&lt;/th&gt;
-      &lt;th&gt;Time&lt;/th&gt;
-      &lt;th&gt;Notes&lt;/th&gt;
-    &lt;/tr&gt;
-  &lt;/thead&gt;
-  &lt;tbody&gt;
-    &lt;tr&gt;
-      &lt;td&gt;Research&lt;/td&gt;
-      &lt;td&gt;155 hr, 22 min&lt;/td&gt;
-      &lt;td&gt;Wow.&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;Reading&lt;/td&gt;
-      &lt;td&gt;4 hr, 41 min&lt;/td&gt;
-      &lt;td&gt;Academic and non-academic.&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;Writing&lt;/td&gt;
-      &lt;td&gt;2 hr, 47 min&lt;/td&gt;
-      &lt;td&gt;Non-academic&lt;/td&gt;
-    &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;
+<table>
+  <thead>
+    <tr>
+      <th>Category</th>
+      <th>Time</th>
+      <th>Notes</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Research</td>
+      <td>155 hr, 22 min</td>
+      <td>Wow.</td>
+    </tr>
+    <tr>
+      <td>Reading</td>
+      <td>4 hr, 41 min</td>
+      <td>Academic and non-academic.</td>
+    </tr>
+    <tr>
+      <td>Writing</td>
+      <td>2 hr, 47 min</td>
+      <td>Non-academic</td>
+    </tr>
+  </tbody>
+</table>
 
-&lt;h2 id=&quot;notable-accomplishments&quot;&gt;Notable Accomplishments:&lt;/h2&gt;
+<h2 id="notable-accomplishments">Notable Accomplishments:</h2>
 
-&lt;ul&gt;
-  &lt;li&gt;My main research project is fully-implemented, now for fine tuning.&lt;/li&gt;
-  &lt;li&gt;My committee is finalized and tentative defense date set
-*&lt;/li&gt;
-&lt;/ul&gt;
+<ul>
+  <li>My main research project is fully-implemented, now for fine tuning.</li>
+  <li>My committee is finalized and tentative defense date set
+*</li>
+</ul>
 
-&lt;h2 id=&quot;what-worked-well&quot;&gt;What Worked Well?&lt;/h2&gt;
+<h2 id="what-worked-well">What Worked Well?</h2>
 
-&lt;p&gt;Mono-tasking. When you’re in doing something, do it. If you’re
+<p>Mono-tasking. When you’re in doing something, do it. If you’re
 chilling on the couch, chill. If you’re at work, work. Be exactly where you are. 
 Of all the things that have improved my happines, productivity, and generally
 made me feel “successful”, being in the moment is the key. Make no mistake–this
 does not mean disregarding in the future, it just means not multi-tasking. The
-real challenge &lt;em&gt;how&lt;/em&gt; to achieve this.&lt;/p&gt;
+real challenge <em>how</em> to achieve this.</p>
 
-&lt;h2 id=&quot;what-needs-improvement&quot;&gt;What Needs Improvement?&lt;/h2&gt;
+<h2 id="what-needs-improvement">What Needs Improvement?</h2>
 
-&lt;p&gt;Staying focused and getting re-focused. It’s easier for things to break your
+<p>Staying focused and getting re-focused. It’s easier for things to break your
 focus during the day – a colleague walks in, a friend pings you on Facebook,
 an email rolls in. Hell, it can even be internal “oh shoot, I need to…”. When
 we do that, we stop mono-tasking. Ultimately, if we keep adding to what we need
 to do and keep switching between those things, we never actually get anything
-completely done. But if we focus on &lt;em&gt;exactly one thing&lt;/em&gt;, maybe, we can. I need
+completely done. But if we focus on <em>exactly one thing</em>, maybe, we can. I need
 to find more strategies to pull myself back into focus after getting distracted.
-Here’s my current methods, or “toolbox” if you will:&lt;/p&gt;
+Here’s my current methods, or “toolbox” if you will:</p>
 
-&lt;ul&gt;
-  &lt;li&gt;Start a Pomodoro session&lt;/li&gt;
-  &lt;li&gt;Put down my cellphone, and read for a fixed amount of time&lt;/li&gt;
-&lt;/ul&gt;
+<ul>
+  <li>Start a Pomodoro session</li>
+  <li>Put down my cellphone, and read for a fixed amount of time</li>
+</ul>
 
-&lt;h2 id=&quot;what-could-make-you-happier&quot;&gt;What could make you happier?&lt;/h2&gt;
+<h2 id="what-could-make-you-happier">What could make you happier?</h2>
 
-&lt;p&gt;Take the things I want to do and integrate them into the things I have to do. I 
+<p>Take the things I want to do and integrate them into the things I have to do. I 
 want to be a better developer, so I’m reading about good software practices and
 applying that to my research. I want to be healthier, but I’m short on time and
 motivation. So, I’m going to swap out beers for tea and coffee this month. Caffeine
 is arguably healthier (or at least lower calorie) than beer, health box check. Alcohol
 kills my productivity, so I’ll buy back some time too. Let’s see how this reallocation
-of mental energy and physical time fair this month.&lt;/p&gt;
+of mental energy and physical time fair this month.</p>
 
-&lt;h2 id=&quot;strategies-for-next-month&quot;&gt;Strategies for Next Month&lt;/h2&gt;
+<h2 id="strategies-for-next-month">Strategies for Next Month</h2>
 
-&lt;ul&gt;
-  &lt;li&gt;No cellphone use for the first 15 minutes of every &lt;em&gt;weekday&lt;/em&gt;
-    &lt;ul&gt;
-      &lt;li&gt;Important when days need to be productive.&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;Read 15 minutes each day
-    &lt;ul&gt;
-      &lt;li&gt;Setting aside time to explicitly learn&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;Pomodoro as much as possible.&lt;/li&gt;
-&lt;/ul&gt;
+<ul>
+  <li>No cellphone use for the first 15 minutes of every <em>weekday</em>
+    <ul>
+      <li>Important when days need to be productive.</li>
+    </ul>
+  </li>
+  <li>Read 15 minutes each day
+    <ul>
+      <li>Setting aside time to explicitly learn</li>
+    </ul>
+  </li>
+  <li>Pomodoro as much as possible.</li>
+</ul>
 
-&lt;h2 id=&quot;goals-for-next-month&quot;&gt;Goals for Next Month&lt;/h2&gt;
+<h2 id="goals-for-next-month">Goals for Next Month</h2>
 
-&lt;ul&gt;
-  &lt;li&gt;Break the cellphone rule fewer than 5 times&lt;/li&gt;
-  &lt;li&gt;Drink fewer than 5 days this month&lt;/li&gt;
-  &lt;li&gt;Hit the gym at least 3 times&lt;/li&gt;
-&lt;/ul&gt;</content><author><name>Karl Taht</name></author><summary type="html">February was, well, kind of awesome in all honesty. It’s crazy how small decisions snowball, and, how that can work for the better. Take this blog, this writing. It’s inspired me to make 2020 the year of growth. I’m taking it upon myself to try as many new strategies and as possible for self-improvement. I’m employing new “strategies” and constantly experimenting with ways to improve my life. I’m working to better understand myself, and align my goals with my reality. While there’s always things to do better, 2020 is on track to be an awesome year. I’m really excited to see who I am at the end.</summary></entry><entry><title type="html">Week 9 Recap, 2020</title><link href="http://localhost:4000/reality/phd/weekly-recap/" rel="alternate" type="text/html" title="Week 9 Recap, 2020" /><published>2020-03-02T00:00:00-07:00</published><updated>2020-03-02T00:00:00-07:00</updated><id>http://localhost:4000/reality/phd/weekly-recap</id><content type="html" xml:base="http://localhost:4000/reality/phd/weekly-recap/">&lt;h2 id=&quot;metrics-tracking&quot;&gt;Metrics Tracking&lt;/h2&gt;
+<ul>
+  <li>Break the cellphone rule fewer than 5 times</li>
+  <li>Drink fewer than 5 days this month</li>
+  <li>Hit the gym at least 3 times</li>
+</ul>]]></content><author><name>Karl Taht</name></author><category term="reality" /><category term="phd" /><summary type="html"><![CDATA[February was, well, kind of awesome in all honesty. It’s crazy how small decisions snowball, and, how that can work for the better. Take this blog, this writing. It’s inspired me to make 2020 the year of growth. I’m taking it upon myself to try as many new strategies and as possible for self-improvement. I’m employing new “strategies” and constantly experimenting with ways to improve my life. I’m working to better understand myself, and align my goals with my reality. While there’s always things to do better, 2020 is on track to be an awesome year. I’m really excited to see who I am at the end.]]></summary></entry><entry><title type="html">Week 9 Recap, 2020</title><link href="http://localhost:4000/reality/phd/weekly-recap/" rel="alternate" type="text/html" title="Week 9 Recap, 2020" /><published>2020-03-02T00:00:00-08:00</published><updated>2020-03-02T00:00:00-08:00</updated><id>http://localhost:4000/reality/phd/weekly-recap</id><content type="html" xml:base="http://localhost:4000/reality/phd/weekly-recap/"><![CDATA[<h2 id="metrics-tracking">Metrics Tracking</h2>
 
-&lt;table&gt;
-  &lt;thead&gt;
-    &lt;tr&gt;
-      &lt;th&gt;Category&lt;/th&gt;
-      &lt;th&gt;This Week&lt;/th&gt;
-      &lt;th&gt;Last Week&lt;/th&gt;
-      &lt;th&gt;Change&lt;/th&gt;
-    &lt;/tr&gt;
-  &lt;/thead&gt;
-  &lt;tbody&gt;
-    &lt;tr&gt;
-      &lt;td&gt;Research&lt;/td&gt;
-      &lt;td&gt;26 hr, 22 min&lt;/td&gt;
-      &lt;td&gt;57 hr, 17 min&lt;/td&gt;
-      &lt;td&gt;&lt;span style=&quot;color:green&quot;&gt;&lt;strong&gt;- 30 hr, 55 min&lt;/strong&gt;&lt;/span&gt;&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;Academic Reading&lt;/td&gt;
-      &lt;td&gt;0 min&lt;/td&gt;
-      &lt;td&gt;0 min&lt;/td&gt;
-      &lt;td&gt;&lt;span style=&quot;color:blue&quot;&gt;&lt;strong&gt;None&lt;/strong&gt;&lt;/span&gt;&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;Personal Reading&lt;/td&gt;
-      &lt;td&gt;0 min&lt;/td&gt;
-      &lt;td&gt;18 min&lt;/td&gt;
-      &lt;td&gt;&lt;span style=&quot;color:red&quot;&gt;&lt;strong&gt;-18 min&lt;/strong&gt;&lt;/span&gt;&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;Writing&lt;/td&gt;
-      &lt;td&gt;0 min&lt;/td&gt;
-      &lt;td&gt;32 min&lt;/td&gt;
-      &lt;td&gt;&lt;span style=&quot;color:red&quot;&gt;&lt;strong&gt;-32 min&lt;/strong&gt;&lt;/span&gt;&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;Papers&lt;/td&gt;
-      &lt;td&gt;0&lt;/td&gt;
-      &lt;td&gt;0&lt;/td&gt;
-      &lt;td&gt;Annual Total: 4&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;Posts&lt;/td&gt;
-      &lt;td&gt;1&lt;/td&gt;
-      &lt;td&gt;0&lt;/td&gt;
-      &lt;td&gt;Annual Total: 15&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;Gym&lt;/td&gt;
-      &lt;td&gt;0&lt;/td&gt;
-      &lt;td&gt;1&lt;/td&gt;
-      &lt;td&gt;Annual Total: 2&lt;/td&gt;
-    &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;
+<table>
+  <thead>
+    <tr>
+      <th>Category</th>
+      <th>This Week</th>
+      <th>Last Week</th>
+      <th>Change</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Research</td>
+      <td>26 hr, 22 min</td>
+      <td>57 hr, 17 min</td>
+      <td><span style="color:green"><strong>- 30 hr, 55 min</strong></span></td>
+    </tr>
+    <tr>
+      <td>Academic Reading</td>
+      <td>0 min</td>
+      <td>0 min</td>
+      <td><span style="color:blue"><strong>None</strong></span></td>
+    </tr>
+    <tr>
+      <td>Personal Reading</td>
+      <td>0 min</td>
+      <td>18 min</td>
+      <td><span style="color:red"><strong>-18 min</strong></span></td>
+    </tr>
+    <tr>
+      <td>Writing</td>
+      <td>0 min</td>
+      <td>32 min</td>
+      <td><span style="color:red"><strong>-32 min</strong></span></td>
+    </tr>
+    <tr>
+      <td>Papers</td>
+      <td>0</td>
+      <td>0</td>
+      <td>Annual Total: 4</td>
+    </tr>
+    <tr>
+      <td>Posts</td>
+      <td>1</td>
+      <td>0</td>
+      <td>Annual Total: 15</td>
+    </tr>
+    <tr>
+      <td>Gym</td>
+      <td>0</td>
+      <td>1</td>
+      <td>Annual Total: 2</td>
+    </tr>
+  </tbody>
+</table>
 
-&lt;!--
+<!--
 LOC: git log --since=2020-02-03 --until=2020-02-09 --shortstat --oneline
---&gt;
+-->
 
-&lt;h2 id=&quot;notable-accomplishments&quot;&gt;Notable Accomplishments:&lt;/h2&gt;
-&lt;ul&gt;
-  &lt;li&gt;Implemented RL Simulation&lt;/li&gt;
-  &lt;li&gt;Wrote majority of paper submission&lt;/li&gt;
-&lt;/ul&gt;
+<h2 id="notable-accomplishments">Notable Accomplishments:</h2>
+<ul>
+  <li>Implemented RL Simulation</li>
+  <li>Wrote majority of paper submission</li>
+</ul>
 
-&lt;h2 id=&quot;sitrep&quot;&gt;Sitrep&lt;/h2&gt;
+<h2 id="sitrep">Sitrep</h2>
 
-&lt;p&gt;Before diving into this, I want to note two important things. Firstly, I had a 
+<p>Before diving into this, I want to note two important things. Firstly, I had a 
 paper scheduled for Monday, February 24th. On Monday, February 24th, I found out
 the deadline was extended by one week to March 2nd. It’s kind of like having massive
 stress about a deadline for 1 week, failing to hit that deadline, then reliving that
 week again. Icing on the cake is, because of a friend’s Bachelor party, I spent
-February 24th to March 2nd down in Texas, away from the lab and my usual setup.&lt;/p&gt;
+February 24th to March 2nd down in Texas, away from the lab and my usual setup.</p>
 
-&lt;h2 id=&quot;what-worked-well&quot;&gt;What Worked Well?&lt;/h2&gt;
+<h2 id="what-worked-well">What Worked Well?</h2>
 
-&lt;p&gt;If it’s not clear – the past two weeks were objectively high stress. Paper deadline.
+<p>If it’s not clear – the past two weeks were objectively high stress. Paper deadline.
 Last minute changes. Paper extension. Traveling. Bachelor party vs paper. Being
 a a good friend vs being a good employee. Boom. And that’s when it hit me. My job
 right now is to be a student, a PhD student. That implies responsibility to perform
-research and publish papers. However, that is only &lt;em&gt;part&lt;/em&gt; of what defines me.&lt;/p&gt;
+research and publish papers. However, that is only <em>part</em> of what defines me.</p>
 
-&lt;p&gt;I think the most pivotal moment was Friday night, the Monday before the extended
+<p>I think the most pivotal moment was Friday night, the Monday before the extended
 deadline. I was supposed to spend the weekend down in Austin, yet it was clear
 this paper had no chance for success if I devoted the next days to partying instead
 of this paper. On one hand, being there to celebrate my friend is key. On the other, 
 this is my PhD we’re talking about. It was in the kitchen, sipping a cup of black
 coffee that I compromised, because, I wasn’t willing to sacrifice either entirely. I
-spent a day in Austin, and the next back in Dallas. My paper still didn’t make it.&lt;/p&gt;
+spent a day in Austin, and the next back in Dallas. My paper still didn’t make it.</p>
 
-&lt;p&gt;Jokes aside, I realized the decisions I was making we’re just about me being a PhD
+<p>Jokes aside, I realized the decisions I was making we’re just about me being a PhD
 student and the obligations there. My decisions reflect my character as a friend. 
-I feel good about both sides.&lt;/p&gt;
+I feel good about both sides.</p>
 
-&lt;h2 id=&quot;what-needs-improvement&quot;&gt;What Needs Improvement?&lt;/h2&gt;
+<h2 id="what-needs-improvement">What Needs Improvement?</h2>
 
-&lt;p&gt;Let’s not pretend there isn’t room for improvement. I spent the week staying with
+<p>Let’s not pretend there isn’t room for improvement. I spent the week staying with
 a friend, and no doubt it drew my focus. I allocated my time poorly, and lacked
 the tenacity to buckle down during the day. As a result, my worked hours were
-significantly down. Just need to keep improving my will power and mental fortitude.&lt;/p&gt;
+significantly down. Just need to keep improving my will power and mental fortitude.</p>
 
-&lt;h2 id=&quot;what-could-make-you-happier&quot;&gt;What could make you happier?&lt;/h2&gt;
+<h2 id="what-could-make-you-happier">What could make you happier?</h2>
 
-&lt;p&gt;Experiment with strategies for productivity and success.&lt;/p&gt;
+<p>Experiment with strategies for productivity and success.</p>
 
-&lt;h2 id=&quot;goals-for-next-week&quot;&gt;Goals for Next Week&lt;/h2&gt;
+<h2 id="goals-for-next-week">Goals for Next Week</h2>
 
-&lt;ul&gt;
-  &lt;li&gt;Full refactor of code&lt;/li&gt;
-  &lt;li&gt;Get the disseration of previous works ported&lt;/li&gt;
-&lt;/ul&gt;
+<ul>
+  <li>Full refactor of code</li>
+  <li>Get the disseration of previous works ported</li>
+</ul>
 
-&lt;h2 id=&quot;strategies&quot;&gt;Strategies&lt;/h2&gt;
+<h2 id="strategies">Strategies</h2>
 
-&lt;p&gt;Failed the 15-minutes on the phone thing around mid-way through last month, but
-got some good take aways. Will report more in the monthly post.&lt;/p&gt;</content><author><name>Karl Taht</name></author><summary type="html">Metrics Tracking</summary></entry><entry><title type="html">Week 7 Recap, 2020</title><link href="http://localhost:4000/reality/phd/weekly-recap/" rel="alternate" type="text/html" title="Week 7 Recap, 2020" /><published>2020-02-17T00:00:00-07:00</published><updated>2020-02-17T00:00:00-07:00</updated><id>http://localhost:4000/reality/phd/weekly-recap</id><content type="html" xml:base="http://localhost:4000/reality/phd/weekly-recap/">&lt;h2 id=&quot;metrics-tracking&quot;&gt;Metrics Tracking&lt;/h2&gt;
+<p>Failed the 15-minutes on the phone thing around mid-way through last month, but
+got some good take aways. Will report more in the monthly post.</p>]]></content><author><name>Karl Taht</name></author><category term="reality" /><category term="phd" /><summary type="html"><![CDATA[Metrics Tracking]]></summary></entry><entry><title type="html">Week 7 Recap, 2020</title><link href="http://localhost:4000/reality/phd/weekly-recap/" rel="alternate" type="text/html" title="Week 7 Recap, 2020" /><published>2020-02-17T00:00:00-08:00</published><updated>2020-02-17T00:00:00-08:00</updated><id>http://localhost:4000/reality/phd/weekly-recap</id><content type="html" xml:base="http://localhost:4000/reality/phd/weekly-recap/"><![CDATA[<h2 id="metrics-tracking">Metrics Tracking</h2>
 
-&lt;table&gt;
-  &lt;thead&gt;
-    &lt;tr&gt;
-      &lt;th&gt;Category&lt;/th&gt;
-      &lt;th&gt;This Week&lt;/th&gt;
-      &lt;th&gt;Last Week&lt;/th&gt;
-      &lt;th&gt;Change&lt;/th&gt;
-    &lt;/tr&gt;
-  &lt;/thead&gt;
-  &lt;tbody&gt;
-    &lt;tr&gt;
-      &lt;td&gt;Research&lt;/td&gt;
-      &lt;td&gt;47 hr,15 min&lt;/td&gt;
-      &lt;td&gt;18 hr, 54 min&lt;/td&gt;
-      &lt;td&gt;&lt;span style=&quot;color:green&quot;&gt;&lt;strong&gt;+28 hr, 21 min&lt;/strong&gt;&lt;/span&gt;&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;Academic Reading&lt;/td&gt;
-      &lt;td&gt;0 min&lt;/td&gt;
-      &lt;td&gt;30 min&lt;/td&gt;
-      &lt;td&gt;&lt;span style=&quot;color:red&quot;&gt;&lt;strong&gt;-30 min&lt;/strong&gt;&lt;/span&gt;&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;Personal Reading&lt;/td&gt;
-      &lt;td&gt;40 min&lt;/td&gt;
-      &lt;td&gt;36 min&lt;/td&gt;
-      &lt;td&gt;&lt;span style=&quot;color:green&quot;&gt;&lt;strong&gt;+4 min&lt;/strong&gt;&lt;/span&gt;&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;Writing&lt;/td&gt;
-      &lt;td&gt;34 min&lt;/td&gt;
-      &lt;td&gt;0 min&lt;/td&gt;
-      &lt;td&gt;&lt;span style=&quot;color:green&quot;&gt;&lt;strong&gt;+34 min&lt;/strong&gt;&lt;/span&gt;&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;Papers&lt;/td&gt;
-      &lt;td&gt;0&lt;/td&gt;
-      &lt;td&gt;0&lt;/td&gt;
-      &lt;td&gt;Annual Total: 4&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;Posts&lt;/td&gt;
-      &lt;td&gt;1&lt;/td&gt;
-      &lt;td&gt;1&lt;/td&gt;
-      &lt;td&gt;Annual Total: 15&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;Gym&lt;/td&gt;
-      &lt;td&gt;0&lt;/td&gt;
-      &lt;td&gt;1&lt;/td&gt;
-      &lt;td&gt;Annual Total: 2&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;LoC&lt;/td&gt;
-      &lt;td&gt;3414&lt;/td&gt;
-      &lt;td&gt;670&lt;/td&gt;
-      &lt;td&gt;(&lt;span style=&quot;color:green&quot;&gt;&lt;strong&gt;+2657&lt;/strong&gt;&lt;/span&gt;/&lt;span style=&quot;color:red&quot;&gt;&lt;strong&gt;-757&lt;/strong&gt;&lt;/span&gt;)&lt;/td&gt;
-    &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;
+<table>
+  <thead>
+    <tr>
+      <th>Category</th>
+      <th>This Week</th>
+      <th>Last Week</th>
+      <th>Change</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Research</td>
+      <td>47 hr,15 min</td>
+      <td>18 hr, 54 min</td>
+      <td><span style="color:green"><strong>+28 hr, 21 min</strong></span></td>
+    </tr>
+    <tr>
+      <td>Academic Reading</td>
+      <td>0 min</td>
+      <td>30 min</td>
+      <td><span style="color:red"><strong>-30 min</strong></span></td>
+    </tr>
+    <tr>
+      <td>Personal Reading</td>
+      <td>40 min</td>
+      <td>36 min</td>
+      <td><span style="color:green"><strong>+4 min</strong></span></td>
+    </tr>
+    <tr>
+      <td>Writing</td>
+      <td>34 min</td>
+      <td>0 min</td>
+      <td><span style="color:green"><strong>+34 min</strong></span></td>
+    </tr>
+    <tr>
+      <td>Papers</td>
+      <td>0</td>
+      <td>0</td>
+      <td>Annual Total: 4</td>
+    </tr>
+    <tr>
+      <td>Posts</td>
+      <td>1</td>
+      <td>1</td>
+      <td>Annual Total: 15</td>
+    </tr>
+    <tr>
+      <td>Gym</td>
+      <td>0</td>
+      <td>1</td>
+      <td>Annual Total: 2</td>
+    </tr>
+    <tr>
+      <td>LoC</td>
+      <td>3414</td>
+      <td>670</td>
+      <td>(<span style="color:green"><strong>+2657</strong></span>/<span style="color:red"><strong>-757</strong></span>)</td>
+    </tr>
+  </tbody>
+</table>
 
-&lt;!--
+<!--
 LOC: git log --since=2020-02-03 --until=2020-02-09 --shortstat --oneline
---&gt;
+-->
 
-&lt;h2 id=&quot;notable-accomplishments&quot;&gt;Notable Accomplishments:&lt;/h2&gt;
+<h2 id="notable-accomplishments">Notable Accomplishments:</h2>
 
-&lt;ul&gt;
-  &lt;li&gt;Reinforcement Learning Scheduler Implemented End-to-End&lt;/li&gt;
-  &lt;li&gt;Logging and analysis for RL Scheduler Implemented&lt;/li&gt;
-  &lt;li&gt;Began experimental collection and fine tuning&lt;/li&gt;
-  &lt;li&gt;Defense scheduling phase 1 completed, phase 2 started&lt;/li&gt;
-  &lt;li&gt;Another pre-defense meeting done, 1 left!&lt;/li&gt;
-&lt;/ul&gt;
+<ul>
+  <li>Reinforcement Learning Scheduler Implemented End-to-End</li>
+  <li>Logging and analysis for RL Scheduler Implemented</li>
+  <li>Began experimental collection and fine tuning</li>
+  <li>Defense scheduling phase 1 completed, phase 2 started</li>
+  <li>Another pre-defense meeting done, 1 left!</li>
+</ul>
 
-&lt;h2 id=&quot;what-worked-well&quot;&gt;What Worked Well?&lt;/h2&gt;
+<h2 id="what-worked-well">What Worked Well?</h2>
 
-&lt;p&gt;I told myself I was going to grind this week, and I definitely started that way.
+<p>I told myself I was going to grind this week, and I definitely started that way.
 Monday, Tuesday, and Wednesday I wrote an immense amount of code, which I think
 is pretty well reflected in the 3400 lines of code changed this week. I bought a
 new keyboard since my old one was wearing out, which was a welcome improvement
 to the work environment. After Wednesday, I actually implemented the thing I had
 hoped to build for over 3 years. Discussions and detailed plans helped make that
 happen. I also really enjoyed my routine of no phone for the first 15 minutes in
-the morning, and reading a Medium article over breakfast before starting the workday.&lt;/p&gt;
+the morning, and reading a Medium article over breakfast before starting the workday.</p>
 
-&lt;p&gt;I also really enjoyed collaborating this week. I spoke up during a discussion about
+<p>I also really enjoyed collaborating this week. I spoke up during a discussion about
 a lab mates rebuttal and offered an idea. At first I was stressed – I had my
 own stuff to do that I was struggling with – but, in reality I enjoyed sitting
-with him in the lab and working out the solutions together. Definitely enjoyable.&lt;/p&gt;
+with him in the lab and working out the solutions together. Definitely enjoyable.</p>
 
-&lt;h2 id=&quot;what-needs-improvement&quot;&gt;What Needs Improvement?&lt;/h2&gt;
+<h2 id="what-needs-improvement">What Needs Improvement?</h2>
 
-&lt;p&gt;I still didn’t develop a true time table for exactly what needs to happen when,
+<p>I still didn’t develop a true time table for exactly what needs to happen when,
 so that’s an obvious setback. I think the really struggle this week though, was
 simpler than that. I have wanted to integrate reinforcement learning (the real
 state-of-the-art type algorithms) into my research for the better part of my PhD,
 and on Wednsday I finally did that. I think the hardest part was that no one 
 noticed, cared, or even asked about it. I’m well aware I’m not as self-motivated
 as I should be, but, that somehow felt like a major accomplishment. I need to
-find a way to bounce back faster.&lt;/p&gt;
+find a way to bounce back faster.</p>
 
-&lt;p&gt;We’ve been trying to implement daily stand-ups in our lab, you know, Scrum style.
+<p>We’ve been trying to implement daily stand-ups in our lab, you know, Scrum style.
 Unfortunately, rarely is everyone (or anyone?) in attendance besides myself and Mesyam.
 A scrum with just two people doesn’t quite play well when you’re working on two
-very different things. So clearly that’s not the answer either.&lt;/p&gt;
+very different things. So clearly that’s not the answer either.</p>
 
-&lt;p&gt;Perhaps worst of all, this weekend I failed in my monthly goal – no phone for
+<p>Perhaps worst of all, this weekend I failed in my monthly goal – no phone for
 the first 15 minutes of the day now 3 times. This was mostly a result of the weekend,
 I wanted to sleep in, and more importantly, so did Lyndsey. I think it’s already
 hard to leave a comfy bed, but it’s harder when your partner doesn’t want you to
 leave it either. I also didn’t make the gym this week either, but I’m less torn 
 up about that. I spent all day in the lab Sunday, and by the time I was done in 
-the lab, the gym had closed. We’ll try to make it happen this week.&lt;/p&gt;
+the lab, the gym had closed. We’ll try to make it happen this week.</p>
 
-&lt;h2 id=&quot;what-could-make-you-happier&quot;&gt;What could make you happier?&lt;/h2&gt;
+<h2 id="what-could-make-you-happier">What could make you happier?</h2>
 
-&lt;p&gt;Buy in from other people.&lt;/p&gt;
+<p>Buy in from other people.</p>
 
-&lt;h2 id=&quot;goals-for-next-week&quot;&gt;Goals for Next Week&lt;/h2&gt;
+<h2 id="goals-for-next-week">Goals for Next Week</h2>
 
-&lt;ul&gt;
-  &lt;li&gt;Grind. I’ve one week to the paper deadline.&lt;/li&gt;
-  &lt;li&gt;Solid to-do list for the week, including paper deadline goals&lt;/li&gt;
-  &lt;li&gt;Multiplex (not multi-task) between real implementation, simulation, and writing&lt;/li&gt;
-  &lt;li&gt;Get a complete paper draft together&lt;/li&gt;
-  &lt;li&gt;Gym once&lt;/li&gt;
-&lt;/ul&gt;
+<ul>
+  <li>Grind. I’ve one week to the paper deadline.</li>
+  <li>Solid to-do list for the week, including paper deadline goals</li>
+  <li>Multiplex (not multi-task) between real implementation, simulation, and writing</li>
+  <li>Get a complete paper draft together</li>
+  <li>Gym once</li>
+</ul>
 
-&lt;h2 id=&quot;strategies&quot;&gt;Strategies&lt;/h2&gt;
+<h2 id="strategies">Strategies</h2>
 
-&lt;p&gt;Last week’s strategy of doing the to-do list the night before works well when
+<p>Last week’s strategy of doing the to-do list the night before works well when
 you go to sleep thinking about work and wake up thinking about work, but if
 there’s anything in between it’s almost worse. Because you made your notes with
 some clear idea in mind but you’ve lost it. I think it’s a good technique if you
 have to wrap up a day earlier and or stuck, but I don’t think it’s something to
 do every day necessarily. On the flip side – doing it in the morning BEFORE
-looking at your phone as has a very positive impact.&lt;/p&gt;
+looking at your phone as has a very positive impact.</p>
 
-&lt;p&gt;Focus:&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;February strategy: No phone for the first 15 minutes of every day&lt;/li&gt;
-&lt;/ul&gt;
+<p>Focus:</p>
+<ul>
+  <li>February strategy: No phone for the first 15 minutes of every day</li>
+</ul>
 
-&lt;p&gt;Additional:&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;Keep applying pomodoro technique through the coding grind&lt;/li&gt;
-  &lt;li&gt;Clean to-do lists for day and WEEK.&lt;/li&gt;
-&lt;/ul&gt;</content><author><name>Karl Taht</name></author><summary type="html">Metrics Tracking</summary></entry><entry><title type="html">Week 6 Recap, 2020</title><link href="http://localhost:4000/reality/phd/weekly-recap/" rel="alternate" type="text/html" title="Week 6 Recap, 2020" /><published>2020-02-10T00:00:00-07:00</published><updated>2020-02-10T00:00:00-07:00</updated><id>http://localhost:4000/reality/phd/weekly-recap</id><content type="html" xml:base="http://localhost:4000/reality/phd/weekly-recap/">&lt;h2 id=&quot;metrics-tracking&quot;&gt;Metrics Tracking&lt;/h2&gt;
+<p>Additional:</p>
+<ul>
+  <li>Keep applying pomodoro technique through the coding grind</li>
+  <li>Clean to-do lists for day and WEEK.</li>
+</ul>]]></content><author><name>Karl Taht</name></author><category term="reality" /><category term="phd" /><summary type="html"><![CDATA[Metrics Tracking]]></summary></entry><entry><title type="html">Week 6 Recap, 2020</title><link href="http://localhost:4000/reality/phd/weekly-recap/" rel="alternate" type="text/html" title="Week 6 Recap, 2020" /><published>2020-02-10T00:00:00-08:00</published><updated>2020-02-10T00:00:00-08:00</updated><id>http://localhost:4000/reality/phd/weekly-recap</id><content type="html" xml:base="http://localhost:4000/reality/phd/weekly-recap/"><![CDATA[<h2 id="metrics-tracking">Metrics Tracking</h2>
 
-&lt;table&gt;
-  &lt;thead&gt;
-    &lt;tr&gt;
-      &lt;th&gt;Category&lt;/th&gt;
-      &lt;th&gt;This Week&lt;/th&gt;
-      &lt;th&gt;Last Week&lt;/th&gt;
-      &lt;th&gt;Change&lt;/th&gt;
-    &lt;/tr&gt;
-  &lt;/thead&gt;
-  &lt;tbody&gt;
-    &lt;tr&gt;
-      &lt;td&gt;Work &lt;br /&gt; &amp;gt; Research &lt;br /&gt; &amp;gt; Reading &lt;br /&gt;&lt;/td&gt;
-      &lt;td&gt;18 hr, 54 min &lt;br /&gt; 18 hr, 23 min &lt;br /&gt; 0 hr, 30 min&lt;/td&gt;
-      &lt;td&gt;44 hr, 33 min &lt;br /&gt; 41 hr, 57 min &lt;br /&gt; 2 hr, 35 min&lt;/td&gt;
-      &lt;td&gt;&lt;span style=&quot;color:red&quot;&gt;&lt;strong&gt;-25.6 hr&lt;/strong&gt;&lt;/span&gt;&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;Reading&lt;/td&gt;
-      &lt;td&gt;36 min&lt;/td&gt;
-      &lt;td&gt;8 min&lt;/td&gt;
-      &lt;td&gt;&lt;span style=&quot;color:green&quot;&gt;&lt;strong&gt;+28 min&lt;/strong&gt;&lt;/span&gt;&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;Writing&lt;/td&gt;
-      &lt;td&gt;0&lt;/td&gt;
-      &lt;td&gt;39 min&lt;/td&gt;
-      &lt;td&gt;&lt;span style=&quot;color:red&quot;&gt;&lt;strong&gt;-39 min&lt;/strong&gt;&lt;/span&gt;&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;Papers&lt;/td&gt;
-      &lt;td&gt;0&lt;/td&gt;
-      &lt;td&gt;1&lt;/td&gt;
-      &lt;td&gt;Annual Total: 4&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;Posts&lt;/td&gt;
-      &lt;td&gt;0&lt;/td&gt;
-      &lt;td&gt;5&lt;/td&gt;
-      &lt;td&gt;Annual Total: 12&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;Gym&lt;/td&gt;
-      &lt;td&gt;1&lt;/td&gt;
-      &lt;td&gt;1&lt;/td&gt;
-      &lt;td&gt;Annual Total: 2&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;LoC&lt;/td&gt;
-      &lt;td&gt;670&lt;/td&gt;
-      &lt;td&gt;1695&lt;/td&gt;
-      &lt;td&gt;(&lt;span style=&quot;color:green&quot;&gt;&lt;strong&gt;+453&lt;/strong&gt;&lt;/span&gt;/&lt;span style=&quot;color:red&quot;&gt;&lt;strong&gt;-217&lt;/strong&gt;&lt;/span&gt;)&lt;/td&gt;
-    &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;
+<table>
+  <thead>
+    <tr>
+      <th>Category</th>
+      <th>This Week</th>
+      <th>Last Week</th>
+      <th>Change</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Work <br /> &gt; Research <br /> &gt; Reading <br /></td>
+      <td>18 hr, 54 min <br /> 18 hr, 23 min <br /> 0 hr, 30 min</td>
+      <td>44 hr, 33 min <br /> 41 hr, 57 min <br /> 2 hr, 35 min</td>
+      <td><span style="color:red"><strong>-25.6 hr</strong></span></td>
+    </tr>
+    <tr>
+      <td>Reading</td>
+      <td>36 min</td>
+      <td>8 min</td>
+      <td><span style="color:green"><strong>+28 min</strong></span></td>
+    </tr>
+    <tr>
+      <td>Writing</td>
+      <td>0</td>
+      <td>39 min</td>
+      <td><span style="color:red"><strong>-39 min</strong></span></td>
+    </tr>
+    <tr>
+      <td>Papers</td>
+      <td>0</td>
+      <td>1</td>
+      <td>Annual Total: 4</td>
+    </tr>
+    <tr>
+      <td>Posts</td>
+      <td>0</td>
+      <td>5</td>
+      <td>Annual Total: 12</td>
+    </tr>
+    <tr>
+      <td>Gym</td>
+      <td>1</td>
+      <td>1</td>
+      <td>Annual Total: 2</td>
+    </tr>
+    <tr>
+      <td>LoC</td>
+      <td>670</td>
+      <td>1695</td>
+      <td>(<span style="color:green"><strong>+453</strong></span>/<span style="color:red"><strong>-217</strong></span>)</td>
+    </tr>
+  </tbody>
+</table>
 
-&lt;!--
+<!--
 LOC: git log --since=2020-02-03 --until=2020-02-09 --shortstat --oneline
---&gt;
+-->
 
-&lt;h2 id=&quot;notable-accomplishments&quot;&gt;Notable Accomplishments:&lt;/h2&gt;
+<h2 id="notable-accomplishments">Notable Accomplishments:</h2>
 
-&lt;ul&gt;
-  &lt;li&gt;Massive success in executing Lyndsey’s 25th birthday&lt;/li&gt;
-  &lt;li&gt;Connected PCM Monitoring into Python&lt;/li&gt;
-  &lt;li&gt;Built data logger framework&lt;/li&gt;
-  &lt;li&gt;Built out &lt;a href=&quot;https://datadrivenmotorsports.github.io/&quot;&gt;DDM website&lt;/a&gt; (might look familiar)&lt;/li&gt;
-  &lt;li&gt;Gym goal maintained!&lt;/li&gt;
-&lt;/ul&gt;
+<ul>
+  <li>Massive success in executing Lyndsey’s 25th birthday</li>
+  <li>Connected PCM Monitoring into Python</li>
+  <li>Built data logger framework</li>
+  <li>Built out <a href="https://datadrivenmotorsports.github.io/">DDM website</a> (might look familiar)</li>
+  <li>Gym goal maintained!</li>
+</ul>
 
-&lt;h2 id=&quot;what-worked-well&quot;&gt;What Worked Well?&lt;/h2&gt;
+<h2 id="what-worked-well">What Worked Well?</h2>
 
-&lt;p&gt;Having a clear goal this week was awesome. During Monday - Wednesday, the goal was
+<p>Having a clear goal this week was awesome. During Monday - Wednesday, the goal was
 really just to work on research. On Monday that didn’t quite happen, because of a 
 snowday and the massive 7 day straight grind, but, Tuesday and Wednesday were very
 productive. Thursday, I turned my focus to the main goal this week: absolutely 
@@ -487,18 +487,18 @@ and remember what really matters to you. For me, that’s easily my wife. And if
 need to choose taking a 3 day weekend + a half day so I can deliver an awesome
 once-in-a-lifetime type birthday, hell yeah I’m gonna do it. I can’t say it helped
 my research, but I priorized and succeeding in not only her birthday, but also 
-enjoying the weekend myself.&lt;/p&gt;
+enjoying the weekend myself.</p>
 
-&lt;h2 id=&quot;what-needs-improvement&quot;&gt;What Needs Improvement?&lt;/h2&gt;
+<h2 id="what-needs-improvement">What Needs Improvement?</h2>
 
-&lt;p&gt;There are three areas I want to touch on:&lt;/p&gt;
-&lt;ol&gt;
-  &lt;li&gt;Planning out in detail beyond one day&lt;/li&gt;
-  &lt;li&gt;Staying accountable&lt;/li&gt;
-  &lt;li&gt;Pomodoro and focus&lt;/li&gt;
-&lt;/ol&gt;
+<p>There are three areas I want to touch on:</p>
+<ol>
+  <li>Planning out in detail beyond one day</li>
+  <li>Staying accountable</li>
+  <li>Pomodoro and focus</li>
+</ol>
 
-&lt;p&gt;Regarding point &lt;strong&gt;1&lt;/strong&gt;, I’ve been focused on the maximizing my daily grind and also producing
+<p>Regarding point <strong>1</strong>, I’ve been focused on the maximizing my daily grind and also producing
 high quality code. I feel I’ve been rushing as is (turns out the single responsibility
 principle is non-trivial), and still falling behind the “schedule”. I use quotes
 because in reality, I haven’t planned things out in too much detail because of two
@@ -506,359 +506,324 @@ main reasons: fear and focus. On one hand, I’m scared of the time table and re
 as I know this deadline is pretty damn unrealistic. On the other hand, I also knew
 I had spent too much time planning, and wanted to spend more time doing. If I take
 a step back from the deadline, I am very happy with my rate of progress. Nevertheless,
-it’s not quite enough. I need to make some sort of high level time table (&lt;strong&gt;1&lt;/strong&gt;),
-and stay accountable to that time table (&lt;strong&gt;2&lt;/strong&gt;).&lt;/p&gt;
+it’s not quite enough. I need to make some sort of high level time table (<strong>1</strong>),
+and stay accountable to that time table (<strong>2</strong>).</p>
 
-&lt;p&gt;Despite some very productive days, there also points where I am exceedingly unproductive
+<p>Despite some very productive days, there also points where I am exceedingly unproductive
 for extended periods. It looks something like this: start focusing on problem. 
 Realize problem has many feasible solutions. Try to choose a solution. Get stuck. 
-Check Facebook Messenger. The Pomodoro technique (&lt;strong&gt;3&lt;/strong&gt;) is explicitly meant to conquer
+Check Facebook Messenger. The Pomodoro technique (<strong>3</strong>) is explicitly meant to conquer
 that “stuckness” and prevail over set backs. I’ll be working to employ it as much
-as possible this week.&lt;/p&gt;
+as possible this week.</p>
 
-&lt;h2 id=&quot;what-could-make-you-happier&quot;&gt;What could make you happier?&lt;/h2&gt;
+<h2 id="what-could-make-you-happier">What could make you happier?</h2>
 
-&lt;p&gt;I really just want all of this to come together. It feels like that would be just
-magic if it did, but hey, sometimes you have to ask for the impossible.&lt;/p&gt;
+<p>I really just want all of this to come together. It feels like that would be just
+magic if it did, but hey, sometimes you have to ask for the impossible.</p>
 
-&lt;h2 id=&quot;goals-for-next-week&quot;&gt;Goals for Next Week&lt;/h2&gt;
+<h2 id="goals-for-next-week">Goals for Next Week</h2>
 
-&lt;ul&gt;
-  &lt;li&gt;Freaking. Grind. I need 60+ hours this week if I have any hopes for success.&lt;/li&gt;
-  &lt;li&gt;Gym at least once&lt;/li&gt;
-  &lt;li&gt;RL End-to-End&lt;/li&gt;
-  &lt;li&gt;Schedule defense&lt;/li&gt;
-  &lt;li&gt;Example with differing workloads&lt;/li&gt;
-  &lt;li&gt;Abstract, Introduction and Design&lt;/li&gt;
-&lt;/ul&gt;
+<ul>
+  <li>Freaking. Grind. I need 60+ hours this week if I have any hopes for success.</li>
+  <li>Gym at least once</li>
+  <li>RL End-to-End</li>
+  <li>Schedule defense</li>
+  <li>Example with differing workloads</li>
+  <li>Abstract, Introduction and Design</li>
+</ul>
 
-&lt;h2 id=&quot;strategies&quot;&gt;Strategies&lt;/h2&gt;
-&lt;p&gt;Focus:&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;February strategy: No phone for the first 15 minutes of every day&lt;/li&gt;
-  &lt;li&gt;Plan the to-do list the night before&lt;/li&gt;
-&lt;/ul&gt;
+<h2 id="strategies">Strategies</h2>
+<p>Focus:</p>
+<ul>
+  <li>February strategy: No phone for the first 15 minutes of every day</li>
+  <li>Plan the to-do list the night before</li>
+</ul>
 
-&lt;p&gt;Additional:&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;Keep applying pomodoro technique through the coding grind&lt;/li&gt;
-  &lt;li&gt;Clean to-do lists for day and WEEK.&lt;/li&gt;
-&lt;/ul&gt;</content><author><name>Karl Taht</name></author><summary type="html">Metrics Tracking</summary></entry><entry><title type="html">Large-scale Cluster Management at Google with Borg</title><link href="http://localhost:4000/research-papers/research/borg/" rel="alternate" type="text/html" title="Large-scale Cluster Management at Google with Borg" /><published>2020-02-02T00:00:00-07:00</published><updated>2020-02-02T00:00:00-07:00</updated><id>http://localhost:4000/research-papers/research/borg</id><content type="html" xml:base="http://localhost:4000/research-papers/research/borg/">&lt;p&gt;This paper provides a high-level overview of Google’s cluster manager: Borg. The paper describes the data warehouse environment, Borg’s architecture, and discusses performance related choices in more detail.&lt;/p&gt;
+<p>Additional:</p>
+<ul>
+  <li>Keep applying pomodoro technique through the coding grind</li>
+  <li>Clean to-do lists for day and WEEK.</li>
+</ul>]]></content><author><name>Karl Taht</name></author><category term="reality" /><category term="phd" /><summary type="html"><![CDATA[Metrics Tracking]]></summary></entry><entry><title type="html">Week 5 Recap, 2020</title><link href="http://localhost:4000/reality/phd/weekly-recap/" rel="alternate" type="text/html" title="Week 5 Recap, 2020" /><published>2020-02-02T00:00:00-08:00</published><updated>2020-02-02T00:00:00-08:00</updated><id>http://localhost:4000/reality/phd/weekly-recap</id><content type="html" xml:base="http://localhost:4000/reality/phd/weekly-recap/"><![CDATA[<h2 id="metrics-tracking">Metrics Tracking</h2>
 
-&lt;h3 id=&quot;googles-datacenter-environment&quot;&gt;Google’s Datacenter Environment&lt;/h3&gt;
+<p>Going to track time and some other hard metrics. We’ll see how many I keep.</p>
 
-&lt;p&gt;Services and user work is submitted to Google clusters via notion of “jobs”, which consistent of one or more tasks which all run the same binary. Jobs are assigned an integer priority level within non-overlapping bands. The lowest priority of jobs are &lt;code class=&quot;highlighter-rouge&quot;&gt;best effort&lt;/code&gt;, followed by &lt;code class=&quot;highlighter-rouge&quot;&gt;batch&lt;/code&gt;, &lt;code class=&quot;highlighter-rouge&quot;&gt;production&lt;/code&gt;, and &lt;code class=&quot;highlighter-rouge&quot;&gt;monitoring&lt;/code&gt;. Each task within a job has an associated set of both hard and soft constraints, mainly relating to resources such as CPU cores, memory requirements, disk space, disk I/O rate, and network I/O. All jobs (and machines) are monitored and suppored by a web-used user interface to track jobs, cells, and tasks, similar to &lt;a href=&quot;https://dl.acm.org/doi/abs/10.14778/1920841.1920886&quot;&gt;Dremel&lt;/a&gt;.&lt;/p&gt;
+<table>
+  <thead>
+    <tr>
+      <th>Category</th>
+      <th>This Week</th>
+      <th>Last Week</th>
+      <th>Notes</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Work <br /> &gt; Research <br /> &gt; Reading <br /></td>
+      <td>44 hr, 33 min <br /> 41 hr, 57 min <br /> 2 hr, 35 min</td>
+      <td>34 hr, 51 min <br /> Untracked <br /> untracked</td>
+      <td>+ 9.7 hours</td>
+    </tr>
+    <tr>
+      <td>Reading</td>
+      <td>0 hr, 8 min</td>
+      <td>Untracked</td>
+      <td>Underestimated…</td>
+    </tr>
+    <tr>
+      <td>Writing</td>
+      <td>39 min</td>
+      <td>Untracked</td>
+      <td>I don’t include paper summaries here.</td>
+    </tr>
+    <tr>
+      <td>Papers</td>
+      <td>1</td>
+      <td>1</td>
+      <td>Annual Total: 4</td>
+    </tr>
+    <tr>
+      <td>Posts</td>
+      <td>5</td>
+      <td>2</td>
+      <td>Annual Total: 11</td>
+    </tr>
+    <tr>
+      <td>Gym</td>
+      <td>1</td>
+      <td>0</td>
+      <td>Annual Total: 1</td>
+    </tr>
+    <tr>
+      <td>LoC</td>
+      <td>1695</td>
+      <td>Untracked</td>
+      <td>(<span style="color:green"><strong>+1388</strong></span>/<span style="color:red"><strong>-307</strong></span>)</td>
+    </tr>
+  </tbody>
+</table>
 
-&lt;h3 id=&quot;architecture&quot;&gt;Architecture&lt;/h3&gt;
-
-&lt;p&gt;&lt;img src=&quot;/images/papers/borg.png&quot; alt=&quot;Borg Architecture&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;At the highest level, Borg is decomposed into cells. Cells are essentially clusters of about 10K machines, and may be hetergenous. Each cell maintains a “Borgmaster” which consists of a main process and scheduler process which is replicated for reliability. The scheduler operates in a round robin fashion within priority bands. Machine assignment operates similar to [Sparrow], but checks a variable number machines, computing scores for equivalence classes. Jobs are then scheduled based on their cached eqivalence class score. For a 10,000 machine cell, a Borgmaster still fits inside a single node comfortably. Interestingly, best-fit packing can be suboptimal as a misprediction can result in the need for preemption. Nevertheless, Borg supports preemption of lower priority tasks for higher priority tasks. At the machine level, a “Borglet” maintains monitor the machine and current tasks, as well as provides a heartbeat to the Borg master. The smallest unit in the architecture is an &lt;em&gt;alloc&lt;/em&gt;, a reserved set of resources for one ot more tasks, and can be grouped across machines.&lt;/p&gt;
-
-&lt;h3 id=&quot;performance-analysis&quot;&gt;Performance Analysis&lt;/h3&gt;
-
-&lt;p&gt;The paper covers some specifics on design choices and the respective impacts on performance, I won’t conver all of them in detail. The first experiment aims at understanding the efficiency. The problem is analyzed through the lens of answering the question: could we remove machines and still maintain the performance? Their CDF shows about to achieve 90% confidence, there is only about 5% overhead. Secondly, cells are shared between &lt;code class=&quot;highlighter-rouge&quot;&gt;prod&lt;/code&gt; and &lt;code class=&quot;highlighter-rouge&quot;&gt;non-prod&lt;/code&gt; workloads which results in better resource utilization. In fact, diverse applications generally led to better CPI. To ensure priority levels and job resources are enforced, Borg tasks run inside a Linux cgroup-based container. This allows the OS to control CPU and memory use for individual tasks. Note that soft interfence (memory bandwidth, cache pollution) is not accounted for. When tasks exceed their &lt;em&gt;non-compressable resources&lt;/em&gt; (e.g. memory use), they must be killed, whereas &lt;em&gt;compressible resouces&lt;/em&gt; (e.g. disk I/O rate) can be controlled via time multiplexing.&lt;/p&gt;
-
-&lt;h3 id=&quot;key-insights&quot;&gt;Key Insights&lt;/h3&gt;
-&lt;ul&gt;
-  &lt;li&gt;Small units of abstraction, such as &lt;em&gt;allocs&lt;/em&gt; are useful for tracking and managing resources and tasks&lt;/li&gt;
-  &lt;li&gt;Significant investment is monitoring and analysis is critical. Note that monitor jobs have a higher priority and production tasks!&lt;/li&gt;
-  &lt;li&gt;A cluster manager is in many ways equivalent to the kernel of an OS&lt;/li&gt;
-  &lt;li&gt;Cluster management is holistic: it includes managing task lifecycles, guaranteeing availability, naming, loading balancing and more.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Future readings in the Space:&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.usenix.org/conference/osdi14/technical-sessions/presentation/boutin&quot;&gt;Apollo&lt;/a&gt;, Microsoft’s cluster manager. Includes per-job schedulers.&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://eprints.whiterose.ac.uk/91136/&quot;&gt;Fuxi&lt;/a&gt;, Alibab’s cluster manager. Uses a resource offering scheduling technique.&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://engineering.fb.com/data-center-engineering/tupperware/&quot;&gt;Tupperware&lt;/a&gt;, Facebook’s container scheduling service&lt;/li&gt;
-&lt;/ul&gt;</content><author><name>Karl Taht</name></author><category term="Cluster management" /><category term="borg" /><category term="scale" /><category term="datacenter" /><category term="datawarehouse" /><summary type="html">This paper provides a high-level overview of Google’s cluster manager: Borg. The paper describes the data warehouse environment, Borg’s architecture, and discusses performance related choices in more detail.</summary></entry><entry><title type="html">Week 5 Recap, 2020</title><link href="http://localhost:4000/reality/phd/weekly-recap/" rel="alternate" type="text/html" title="Week 5 Recap, 2020" /><published>2020-02-02T00:00:00-07:00</published><updated>2020-02-02T00:00:00-07:00</updated><id>http://localhost:4000/reality/phd/weekly-recap</id><content type="html" xml:base="http://localhost:4000/reality/phd/weekly-recap/">&lt;h2 id=&quot;metrics-tracking&quot;&gt;Metrics Tracking&lt;/h2&gt;
-
-&lt;p&gt;Going to track time and some other hard metrics. We’ll see how many I keep.&lt;/p&gt;
-
-&lt;table&gt;
-  &lt;thead&gt;
-    &lt;tr&gt;
-      &lt;th&gt;Category&lt;/th&gt;
-      &lt;th&gt;This Week&lt;/th&gt;
-      &lt;th&gt;Last Week&lt;/th&gt;
-      &lt;th&gt;Notes&lt;/th&gt;
-    &lt;/tr&gt;
-  &lt;/thead&gt;
-  &lt;tbody&gt;
-    &lt;tr&gt;
-      &lt;td&gt;Work &lt;br /&gt; &amp;gt; Research &lt;br /&gt; &amp;gt; Reading &lt;br /&gt;&lt;/td&gt;
-      &lt;td&gt;44 hr, 33 min &lt;br /&gt; 41 hr, 57 min &lt;br /&gt; 2 hr, 35 min&lt;/td&gt;
-      &lt;td&gt;34 hr, 51 min &lt;br /&gt; Untracked &lt;br /&gt; untracked&lt;/td&gt;
-      &lt;td&gt;+ 9.7 hours&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;Reading&lt;/td&gt;
-      &lt;td&gt;0 hr, 8 min&lt;/td&gt;
-      &lt;td&gt;Untracked&lt;/td&gt;
-      &lt;td&gt;Underestimated…&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;Writing&lt;/td&gt;
-      &lt;td&gt;39 min&lt;/td&gt;
-      &lt;td&gt;Untracked&lt;/td&gt;
-      &lt;td&gt;I don’t include paper summaries here.&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;Papers&lt;/td&gt;
-      &lt;td&gt;1&lt;/td&gt;
-      &lt;td&gt;1&lt;/td&gt;
-      &lt;td&gt;Annual Total: 4&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;Posts&lt;/td&gt;
-      &lt;td&gt;5&lt;/td&gt;
-      &lt;td&gt;2&lt;/td&gt;
-      &lt;td&gt;Annual Total: 11&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;Gym&lt;/td&gt;
-      &lt;td&gt;1&lt;/td&gt;
-      &lt;td&gt;0&lt;/td&gt;
-      &lt;td&gt;Annual Total: 1&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;LoC&lt;/td&gt;
-      &lt;td&gt;1695&lt;/td&gt;
-      &lt;td&gt;Untracked&lt;/td&gt;
-      &lt;td&gt;(&lt;span style=&quot;color:green&quot;&gt;&lt;strong&gt;+1388&lt;/strong&gt;&lt;/span&gt;/&lt;span style=&quot;color:red&quot;&gt;&lt;strong&gt;-307&lt;/strong&gt;&lt;/span&gt;)&lt;/td&gt;
-    &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;
-
-&lt;!--
+<!--
 LOC: git log --since=2020-01-26 --shortstat --oneline
---&gt;
+-->
 
-&lt;h2 id=&quot;notable-accomplishments&quot;&gt;Notable Accomplishments:&lt;/h2&gt;
+<h2 id="notable-accomplishments">Notable Accomplishments:</h2>
 
-&lt;ul&gt;
-  &lt;li&gt;Submitted Paper to Conference&lt;/li&gt;
-  &lt;li&gt;Applied for Graduation&lt;/li&gt;
-  &lt;li&gt;Back to the gym!&lt;/li&gt;
-  &lt;li&gt;Successful reading club presentation&lt;/li&gt;
-  &lt;li&gt;Pre-defense meeting with a committee member - 2 more to go.&lt;/li&gt;
-&lt;/ul&gt;
+<ul>
+  <li>Submitted Paper to Conference</li>
+  <li>Applied for Graduation</li>
+  <li>Back to the gym!</li>
+  <li>Successful reading club presentation</li>
+  <li>Pre-defense meeting with a committee member - 2 more to go.</li>
+</ul>
 
-&lt;h2 id=&quot;what-worked-well&quot;&gt;What Worked Well?&lt;/h2&gt;
+<h2 id="what-worked-well">What Worked Well?</h2>
 
-&lt;p&gt;&lt;em&gt;This week was a cluster f@$&amp;amp;!&lt;/em&gt; I think I realized that fully by Wednesay. As a result, 
+<p><em>This week was a cluster f@$&amp;!</em> I think I realized that fully by Wednesay. As a result, 
 I more or less treated like Tuesday/Wednesday as my “working weekend”, and told
 myself I’d put in full-time days on the weekend. And I did! I realized the state
 of affairs and made a decision. While at the time it felt like procastination, it was a
 good trade off. My daily to-do list were long, but of mostly shorter tasks. This is
-a list of what I had going on this week:&lt;/p&gt;
+a list of what I had going on this week:</p>
 
-&lt;ul&gt;
-  &lt;li&gt;Paper re-write for resubmission&lt;/li&gt;
-  &lt;li&gt;Graduation logistics (actually confusing as hell)&lt;/li&gt;
-  &lt;li&gt;Scheduling meetings with 3 professors for my PhD proposal reviews&lt;/li&gt;
-  &lt;li&gt;Preparing for those meetings&lt;/li&gt;
-  &lt;li&gt;Reading and presenting a paper for arch reading club&lt;/li&gt;
-  &lt;li&gt;RiTC Workshop website logistics&lt;/li&gt;
-  &lt;li&gt;RiTC Workshop registration??&lt;/li&gt;
-&lt;/ul&gt;
+<ul>
+  <li>Paper re-write for resubmission</li>
+  <li>Graduation logistics (actually confusing as hell)</li>
+  <li>Scheduling meetings with 3 professors for my PhD proposal reviews</li>
+  <li>Preparing for those meetings</li>
+  <li>Reading and presenting a paper for arch reading club</li>
+  <li>RiTC Workshop website logistics</li>
+  <li>RiTC Workshop registration??</li>
+</ul>
 
-&lt;p&gt;Seriously, way to much to make any real progress on my main research…&lt;strong&gt;until the
-weekend.&lt;/strong&gt; I came in to the lab both Saturday in Sunday and wrote about 1000 lines of code.&lt;/p&gt;
+<p>Seriously, way to much to make any real progress on my main research…<strong>until the
+weekend.</strong> I came in to the lab both Saturday in Sunday and wrote about 1000 lines of code.</p>
 
-&lt;h2 id=&quot;what-needs-improvement&quot;&gt;What Needs Improvement?&lt;/h2&gt;
+<h2 id="what-needs-improvement">What Needs Improvement?</h2>
 
-&lt;p&gt;As easy as it is to justify the craziness, I’d be lying if I didn’t admit some things
+<p>As easy as it is to justify the craziness, I’d be lying if I didn’t admit some things
 slipped through the cracks. For instance, I wasn’t able to secure a sponsorship for traveling
 to HPCA, so I wanted to check in with Rajeev before registering. Normally, he is
 always in attendance at reading club, which was coincidentally also the last day
 of early registration. Unfortunately, he wasn’t able to make it, and I totally 
 spaced on following up – oof. Explainable, yes. Acceptable, no. If I do go to HPCA,
-I’ll fork over my own money for the registration.&lt;/p&gt;
+I’ll fork over my own money for the registration.</p>
 
-&lt;p&gt;The other major thing that I should touch on is momentum. I find between 4-6 hours into
-a day, my productivity tanks. Like seriously. Hours one and two I’m at like 110%. Hours three and four, 85-90%. Hour 5 boom. 50%. Either that or I take a pause to eat lunch or something, and I lose my momentum completely. My initial thought was to get up and move around – and I think that’s right – but, where you move is critical. For instance, if you’ve lost your momentum then come home you’re going to cave into entertainment. I think moving around, walking, and then maybe moving to an alternate productive environment is the way to go.&lt;/p&gt;
+<p>The other major thing that I should touch on is momentum. I find between 4-6 hours into
+a day, my productivity tanks. Like seriously. Hours one and two I’m at like 110%. Hours three and four, 85-90%. Hour 5 boom. 50%. Either that or I take a pause to eat lunch or something, and I lose my momentum completely. My initial thought was to get up and move around – and I think that’s right – but, where you move is critical. For instance, if you’ve lost your momentum then come home you’re going to cave into entertainment. I think moving around, walking, and then maybe moving to an alternate productive environment is the way to go.</p>
 
-&lt;p&gt;As an example, today after about 5 hours of coding, I enjoyed a 15 minute walk through crisp winter air to the library. I setup in my favorite corner, surrounded by the wonderful musty smell of old books, and 
-got to reading a paper. After an hour of active  reading, I felt like I had digested a really complex paper and wrote a summary I’m happy with. So yes, moving in itself is good, but perhaps more importantly, moving to a space which fosters productivity is even better.&lt;/p&gt;
+<p>As an example, today after about 5 hours of coding, I enjoyed a 15 minute walk through crisp winter air to the library. I setup in my favorite corner, surrounded by the wonderful musty smell of old books, and 
+got to reading a paper. After an hour of active  reading, I felt like I had digested a really complex paper and wrote a summary I’m happy with. So yes, moving in itself is good, but perhaps more importantly, moving to a space which fosters productivity is even better.</p>
 
-&lt;h2 id=&quot;what-could-make-you-happier&quot;&gt;What could make you happier?&lt;/h2&gt;
+<h2 id="what-could-make-you-happier">What could make you happier?</h2>
 
-&lt;p&gt;I really enjoy the time and metrics tracking, but I want to streamline it. While
+<p>I really enjoy the time and metrics tracking, but I want to streamline it. While
 the time tracking is pretty quick (I do it all with an app), the other metrics
 aren’t streamlined yet and take a bit longer to compile. Would be nice to do that
 quicker without feeling like I’m wasting time compiling extraneous information…
-what can I say, I love data?&lt;/p&gt;
+what can I say, I love data?</p>
 
-&lt;h2 id=&quot;goals-for-next-week&quot;&gt;Goals for Next Week&lt;/h2&gt;
+<h2 id="goals-for-next-week">Goals for Next Week</h2>
 
-&lt;ul&gt;
-  &lt;li&gt;Make Lyndsey’s 25th birthday awesome&lt;/li&gt;
-  &lt;li&gt;Hit the gym at least once&lt;/li&gt;
-  &lt;li&gt;End-to-end reinforcement learning on real system implementation&lt;/li&gt;
-  &lt;li&gt;Start paper and nail down the story&lt;/li&gt;
-  &lt;li&gt;Read 2 papers&lt;/li&gt;
-&lt;/ul&gt;
+<ul>
+  <li>Make Lyndsey’s 25th birthday awesome</li>
+  <li>Hit the gym at least once</li>
+  <li>End-to-end reinforcement learning on real system implementation</li>
+  <li>Start paper and nail down the story</li>
+  <li>Read 2 papers</li>
+</ul>
 
-&lt;h2 id=&quot;strategies&quot;&gt;Strategies&lt;/h2&gt;
-&lt;ul&gt;
-  &lt;li&gt;February strategy: No phone for the first 15 minutes of every day&lt;/li&gt;
-  &lt;li&gt;Keep applying pomodoro technique through the coding grind&lt;/li&gt;
-  &lt;li&gt;Experiment with changing the environment&lt;/li&gt;
-&lt;/ul&gt;</content><author><name>Karl Taht</name></author><summary type="html">Metrics Tracking</summary></entry><entry><title type="html">January 2020 Recap</title><link href="http://localhost:4000/reality/phd/january-recap/" rel="alternate" type="text/html" title="January 2020 Recap" /><published>2020-02-01T00:00:00-07:00</published><updated>2020-02-01T00:00:00-07:00</updated><id>http://localhost:4000/reality/phd/january-recap</id><content type="html" xml:base="http://localhost:4000/reality/phd/january-recap/">&lt;p&gt;Well, since I’m wrapping up weeks, I might as well wrap up months too, right?&lt;/p&gt;
+<h2 id="strategies">Strategies</h2>
+<ul>
+  <li>February strategy: No phone for the first 15 minutes of every day</li>
+  <li>Keep applying pomodoro technique through the coding grind</li>
+  <li>Experiment with changing the environment</li>
+</ul>]]></content><author><name>Karl Taht</name></author><category term="reality" /><category term="phd" /><summary type="html"><![CDATA[Metrics Tracking]]></summary></entry><entry><title type="html">Large-scale Cluster Management at Google with Borg</title><link href="http://localhost:4000/research-papers/research/borg/" rel="alternate" type="text/html" title="Large-scale Cluster Management at Google with Borg" /><published>2020-02-02T00:00:00-08:00</published><updated>2020-02-02T00:00:00-08:00</updated><id>http://localhost:4000/research-papers/research/borg</id><content type="html" xml:base="http://localhost:4000/research-papers/research/borg/"><![CDATA[<p>This paper provides a high-level overview of Google’s cluster manager: Borg. The paper describes the data warehouse environment, Borg’s architecture, and discusses performance related choices in more detail.</p>
 
-&lt;h2 id=&quot;time-tracking&quot;&gt;Time Tracking&lt;/h2&gt;
+<h3 id="googles-datacenter-environment">Google’s Datacenter Environment</h3>
 
-&lt;p&gt;This is going to be a bit messy since I’ve only recently started being more
-diligent, so bear in mind – a lot of missing hours!&lt;/p&gt;
+<p>Services and user work is submitted to Google clusters via notion of “jobs”, which consistent of one or more tasks which all run the same binary. Jobs are assigned an integer priority level within non-overlapping bands. The lowest priority of jobs are <code class="language-plaintext highlighter-rouge">best effort</code>, followed by <code class="language-plaintext highlighter-rouge">batch</code>, <code class="language-plaintext highlighter-rouge">production</code>, and <code class="language-plaintext highlighter-rouge">monitoring</code>. Each task within a job has an associated set of both hard and soft constraints, mainly relating to resources such as CPU cores, memory requirements, disk space, disk I/O rate, and network I/O. All jobs (and machines) are monitored and suppored by a web-used user interface to track jobs, cells, and tasks, similar to <a href="https://dl.acm.org/doi/abs/10.14778/1920841.1920886">Dremel</a>.</p>
 
-&lt;table&gt;
-  &lt;thead&gt;
-    &lt;tr&gt;
-      &lt;th&gt;Category&lt;/th&gt;
-      &lt;th&gt;Time&lt;/th&gt;
-      &lt;th&gt;Notes&lt;/th&gt;
-    &lt;/tr&gt;
-  &lt;/thead&gt;
-  &lt;tbody&gt;
-    &lt;tr&gt;
-      &lt;td&gt;Research&lt;/td&gt;
-      &lt;td&gt;106 hr, 18 min&lt;/td&gt;
-      &lt;td&gt;Makes sense, did a lot of work on the car.&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;Reading&lt;/td&gt;
-      &lt;td&gt;0 hr, 0 min&lt;/td&gt;
-      &lt;td&gt;Didn’t really track this separately.&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;Writing&lt;/td&gt;
-      &lt;td&gt;4 hr, 0 min&lt;/td&gt;
-      &lt;td&gt;Underestimated, without a doubt.&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;Social Media&lt;/td&gt;
-      &lt;td&gt;22 hr, 15 min&lt;/td&gt;
-      &lt;td&gt;Underestimated… massively lol.&lt;/td&gt;
-    &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;
+<h3 id="architecture">Architecture</h3>
 
-&lt;h2 id=&quot;notable-accomplishments&quot;&gt;Notable Accomplishments:&lt;/h2&gt;
+<p><img src="/images/papers/borg.png" alt="Borg Architecture" /></p>
 
-&lt;ul&gt;
-  &lt;li&gt;Finished S2000 winter prep&lt;/li&gt;
-  &lt;li&gt;Successful S2000 track day!&lt;/li&gt;
-  &lt;li&gt;Resubmitted Paper which was rejected&lt;/li&gt;
-  &lt;li&gt;Applied for Graduation&lt;/li&gt;
-  &lt;li&gt;Built this website!&lt;/li&gt;
-&lt;/ul&gt;
+<p>At the highest level, Borg is decomposed into cells. Cells are essentially clusters of about 10K machines, and may be hetergenous. Each cell maintains a “Borgmaster” which consists of a main process and scheduler process which is replicated for reliability. The scheduler operates in a round robin fashion within priority bands. Machine assignment operates similar to [Sparrow], but checks a variable number machines, computing scores for equivalence classes. Jobs are then scheduled based on their cached eqivalence class score. For a 10,000 machine cell, a Borgmaster still fits inside a single node comfortably. Interestingly, best-fit packing can be suboptimal as a misprediction can result in the need for preemption. Nevertheless, Borg supports preemption of lower priority tasks for higher priority tasks. At the machine level, a “Borglet” maintains monitor the machine and current tasks, as well as provides a heartbeat to the Borg master. The smallest unit in the architecture is an <em>alloc</em>, a reserved set of resources for one ot more tasks, and can be grouped across machines.</p>
 
-&lt;h2 id=&quot;what-worked-well&quot;&gt;What Worked Well?&lt;/h2&gt;
+<h3 id="performance-analysis">Performance Analysis</h3>
 
-&lt;p&gt;Firstly, it has been awesome to get time to work on my car. It’s my longest standing
+<p>The paper covers some specifics on design choices and the respective impacts on performance, I won’t conver all of them in detail. The first experiment aims at understanding the efficiency. The problem is analyzed through the lens of answering the question: could we remove machines and still maintain the performance? Their CDF shows about to achieve 90% confidence, there is only about 5% overhead. Secondly, cells are shared between <code class="language-plaintext highlighter-rouge">prod</code> and <code class="language-plaintext highlighter-rouge">non-prod</code> workloads which results in better resource utilization. In fact, diverse applications generally led to better CPI. To ensure priority levels and job resources are enforced, Borg tasks run inside a Linux cgroup-based container. This allows the OS to control CPU and memory use for individual tasks. Note that soft interfence (memory bandwidth, cache pollution) is not accounted for. When tasks exceed their <em>non-compressable resources</em> (e.g. memory use), they must be killed, whereas <em>compressible resouces</em> (e.g. disk I/O rate) can be controlled via time multiplexing.</p>
+
+<h3 id="key-insights">Key Insights</h3>
+<ul>
+  <li>Small units of abstraction, such as <em>allocs</em> are useful for tracking and managing resources and tasks</li>
+  <li>Significant investment is monitoring and analysis is critical. Note that monitor jobs have a higher priority and production tasks!</li>
+  <li>A cluster manager is in many ways equivalent to the kernel of an OS</li>
+  <li>Cluster management is holistic: it includes managing task lifecycles, guaranteeing availability, naming, loading balancing and more.</li>
+</ul>
+
+<p>Future readings in the Space:</p>
+<ul>
+  <li><a href="https://www.usenix.org/conference/osdi14/technical-sessions/presentation/boutin">Apollo</a>, Microsoft’s cluster manager. Includes per-job schedulers.</li>
+  <li><a href="http://eprints.whiterose.ac.uk/91136/">Fuxi</a>, Alibab’s cluster manager. Uses a resource offering scheduling technique.</li>
+  <li><a href="https://engineering.fb.com/data-center-engineering/tupperware/">Tupperware</a>, Facebook’s container scheduling service</li>
+</ul>]]></content><author><name>Karl Taht</name></author><category term="research-papers" /><category term="research" /><category term="Cluster management" /><category term="borg" /><category term="scale" /><category term="datacenter" /><category term="datawarehouse" /><summary type="html"><![CDATA[This paper provides a high-level overview of Google’s cluster manager: Borg. The paper describes the data warehouse environment, Borg’s architecture, and discusses performance related choices in more detail.]]></summary></entry><entry><title type="html">January 2020 Recap</title><link href="http://localhost:4000/reality/phd/january-recap/" rel="alternate" type="text/html" title="January 2020 Recap" /><published>2020-02-01T00:00:00-08:00</published><updated>2020-02-01T00:00:00-08:00</updated><id>http://localhost:4000/reality/phd/january-recap</id><content type="html" xml:base="http://localhost:4000/reality/phd/january-recap/"><![CDATA[<p>Well, since I’m wrapping up weeks, I might as well wrap up months too, right?</p>
+
+<h2 id="time-tracking">Time Tracking</h2>
+
+<p>This is going to be a bit messy since I’ve only recently started being more
+diligent, so bear in mind – a lot of missing hours!</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>Category</th>
+      <th>Time</th>
+      <th>Notes</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Research</td>
+      <td>106 hr, 18 min</td>
+      <td>Makes sense, did a lot of work on the car.</td>
+    </tr>
+    <tr>
+      <td>Reading</td>
+      <td>0 hr, 0 min</td>
+      <td>Didn’t really track this separately.</td>
+    </tr>
+    <tr>
+      <td>Writing</td>
+      <td>4 hr, 0 min</td>
+      <td>Underestimated, without a doubt.</td>
+    </tr>
+    <tr>
+      <td>Social Media</td>
+      <td>22 hr, 15 min</td>
+      <td>Underestimated… massively lol.</td>
+    </tr>
+  </tbody>
+</table>
+
+<h2 id="notable-accomplishments">Notable Accomplishments:</h2>
+
+<ul>
+  <li>Finished S2000 winter prep</li>
+  <li>Successful S2000 track day!</li>
+  <li>Resubmitted Paper which was rejected</li>
+  <li>Applied for Graduation</li>
+  <li>Built this website!</li>
+</ul>
+
+<h2 id="what-worked-well">What Worked Well?</h2>
+
+<p>Firstly, it has been awesome to get time to work on my car. It’s my longest standing
 passion in life (thanks Apa), bar none. Being in the garage was just so theraputic. 
 You pour literal blood, sweat, and tears into a project and at the end your can
 actually see what you did. You can experience what you did. And in the words of
 David, the car is “sensory overload”, exactly what you need to clear a head as
-inflated as mine. Hey at least I’m self-aware about my self-admiration, right?&lt;/p&gt;
+inflated as mine. Hey at least I’m self-aware about my self-admiration, right?</p>
 
-&lt;!-- Courtesy of embedresponsively.com //--&gt;
-&lt;div class=&quot;responsive-video-container&quot;&gt;
+<!-- Courtesy of embedresponsively.com //-->
+<div class="responsive-video-container">
 
-  &lt;iframe src=&quot;https://www.youtube-nocookie.com/embed/xMxvO0xbQAo&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+  <iframe src="https://www.youtube-nocookie.com/embed/xMxvO0xbQAo" frameborder="0" allowfullscreen=""></iframe>
 
-&lt;/div&gt;
+</div>
 
-&lt;p&gt;Getting back to the grind started out alright. For one, this &lt;a href=&quot;https://bulletjournal.com/pages/learn&quot;&gt;bullet journal&lt;/a&gt; 
+<p>Getting back to the grind started out alright. For one, this <a href="https://bulletjournal.com/pages/learn">bullet journal</a> 
 technique has been awesome. It’s nice to have a daily to-do list notebook, but,
 one that’s a bit more structured. I definitely feel it adding value. In fact,
 as a general prinicple I feel structure is the key ingredient for productivy, 
-but paradoxically, chaos is the key incredient for inspiration and motivation.&lt;/p&gt;
+but paradoxically, chaos is the key incredient for inspiration and motivation.</p>
 
-&lt;h2 id=&quot;what-needs-improvement&quot;&gt;What Needs Improvement?&lt;/h2&gt;
+<h2 id="what-needs-improvement">What Needs Improvement?</h2>
 
-&lt;p&gt;I think it’s about balance. I seem to either spending too much time planning things
+<p>I think it’s about balance. I seem to either spending too much time planning things
 out too intricately on the larger scale, but then whip together an unrealistic
 or unthoughtful daily todo list. Balancing having a good structure, yet having flexibility
-when things don’t go to plan. And I’m thinking, the antitode to this? A balanced strategy.&lt;/p&gt;
+when things don’t go to plan. And I’m thinking, the antitode to this? A balanced strategy.</p>
 
-&lt;p&gt;In terms of action, I’m looking forward to getting into a morning routine. For 
+<p>In terms of action, I’m looking forward to getting into a morning routine. For 
 one, I bought an alarm clock because I have a very simple goal: to start the day
 for the first 15 minutes without my phone. I’m going to attempt to do this every
 day in February. I’ve given it a few test drives, and I haven’t had a bad
-day that starts without my phone. This is one clear change I’ll be making.&lt;/p&gt;
+day that starts without my phone. This is one clear change I’ll be making.</p>
 
-&lt;p&gt;Yet, this action must be met with reflection to evaluate how well strategies
+<p>Yet, this action must be met with reflection to evaluate how well strategies
 are working. Looking back on the past month (like I am now), is very subjective
 in many ways. It gives a chance to take a high level view and see what’s missing,
 or equally, what needs to be removed from my life. One key thing I learned is, 
-when you have a good block of time to simply grind something out, the &lt;a href=&quot;https://francescocirillo.com/pages/pomodoro-technique&quot;&gt;Pomodoro technique&lt;/a&gt; 
+when you have a good block of time to simply grind something out, the <a href="https://francescocirillo.com/pages/pomodoro-technique">Pomodoro technique</a> 
 is great. But if you have a day scattered with meetings, or a lot of 
 small tasks to knock out – it’s not well suited for that. For instance, I considered
 setting a goal “2 pomodoro sessions a day”, but it’s simply not realistic because
-the type of work I do is so varied.&lt;/p&gt;
+the type of work I do is so varied.</p>
 
-&lt;h2 id=&quot;what-could-make-you-happier&quot;&gt;What could make you happier?&lt;/h2&gt;
+<h2 id="what-could-make-you-happier">What could make you happier?</h2>
 
-&lt;p&gt;I think this is the hardest one to answer, because what I truly desire is to change
+<p>I think this is the hardest one to answer, because what I truly desire is to change
 the reality I’m in. I’m finishing up this PhD, but I want so badly to be done 
 and to start working. I want to be back at Facebook, loving my job everday and
 working with awesome people, in a concentrated team. I want to sleep next to my
 wife every night, not a few times a month. I want to go track or wrench on my car every weekend.
 I’m working towards this as absolute best as possible, but what could make me 
-happier now? Maximizing my confidence that future I just described becomes reality.&lt;/p&gt;
+happier now? Maximizing my confidence that future I just described becomes reality.</p>
 
-&lt;h2 id=&quot;strategies-for-next-month&quot;&gt;Strategies for Next Month&lt;/h2&gt;
+<h2 id="strategies-for-next-month">Strategies for Next Month</h2>
 
-&lt;ul&gt;
-  &lt;li&gt;No cellphone use for the first 15 minutes of every day&lt;/li&gt;
-  &lt;li&gt;Clear daily goal setting&lt;/li&gt;
-  &lt;li&gt;Consistent weekly recaps&lt;/li&gt;
-&lt;/ul&gt;
+<ul>
+  <li>No cellphone use for the first 15 minutes of every day</li>
+  <li>Clear daily goal setting</li>
+  <li>Consistent weekly recaps</li>
+</ul>
 
-&lt;h2 id=&quot;goals-for-next-month&quot;&gt;Goals for Next Month&lt;/h2&gt;
+<h2 id="goals-for-next-month">Goals for Next Month</h2>
 
-&lt;ul&gt;
-  &lt;li&gt;Gym minimum once per week&lt;/li&gt;
-  &lt;li&gt;Finish committee proposal review meetings&lt;/li&gt;
-  &lt;li&gt;Schedule defense&lt;/li&gt;
-  &lt;li&gt;Submit paper&lt;/li&gt;
-  &lt;li&gt;Catch up my reading (1 paper per week)&lt;/li&gt;
-&lt;/ul&gt;</content><author><name>Karl Taht</name></author><summary type="html">Well, since I’m wrapping up weeks, I might as well wrap up months too, right?</summary></entry><entry><title type="html">Accelerating Distributed Reinforcement Learning with In-Switch Computing</title><link href="http://localhost:4000/research-papers/research/iswitch/" rel="alternate" type="text/html" title="Accelerating Distributed Reinforcement Learning with In-Switch Computing" /><published>2020-01-29T00:00:00-07:00</published><updated>2020-01-29T00:00:00-07:00</updated><id>http://localhost:4000/research-papers/research/iswitch</id><content type="html" xml:base="http://localhost:4000/research-papers/research/iswitch/">&lt;p&gt;Venue:  ISCA 2019
-Authors: Youjie Li, Iou-Jen Li, Yifan Yuan, Deming Chen, Alexander Schwing, Jian Huang&lt;/p&gt;
-
-&lt;p&gt;This paper presents iSwitch, an in-switch accelerator which improves the performance of distributed machine learning training – specifically reinforcement learning. While reinforcement learning (RL) models are typically small compared to other DNN applications, they require significantly more training epochs to achieve convergence. As such, distributed training typically suffers from high communication costs because of frequent gradient aggregation and model updates. As such, the authors utilize a NetFPGA board to implement gradient aggregation within the switch itself, significantly reducing both communication and latency. Results are demonstated in for both synchronous and asychronous gradient updates, as well as with two baselines: a central parameter server (PS) and AllReduce-based training (AR).&lt;/p&gt;
-
-&lt;p&gt;Latency improves because gradient aggregation can happen as soon as gradients arrive at the switch. This happens asynchronously since environments, episodes, and overall experimental noise cause slight difference in gradient arrival time. The latency improvement also means that in the asynchronous scenario, training converges faster compared to the baseline since models are not so out of date with each other. Additionally, iSwitch is implemented such that gradient updates happen on each individual worker node, rather than at a centralized parameter server. Again, since communication is the dominant factor, it’s worth duplicating this work on individual worker nodes rather than performing the communication. Note that without gradient aggregation at the switch, you can’t perform worker level model updates with having a separate method for aggregation.&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://dl.acm.org/doi/abs/10.1145/3307650.3322259&quot;&gt;Paper&lt;/a&gt;
- / &lt;a href=&quot;https://yifanyuan3.github.io/files/iswitch.pdf&quot;&gt;Slides&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;Personal take:&lt;/em&gt; To the best of my knowledge, this is the first paper which proposes a switch-level optimization to improve machine learning training. However, the first paper to propose asynchronous gradient updates for RL (see my &lt;a href=&quot;https://karltaht.github.io/research-papers/research/a3c/&quot;&gt;A3C Post&lt;/a&gt;) mentions the key benefit is that all of this can be done a single machine, eliminating the majority of communication costs. In essense, state-of-the-art RL isn’t trained in a distributed fashion because 1) the models are small enough and 2) the communication is the bottleneck, so keeping everything on one machine is bonus. So while it’s clear the authors chose reinforcement learning because of it’s unique bottleneck of communication overheads, but I think this paper is equally important for scaling distributed training, just that RL was chosen because the benefits are more significant than other ML applications.&lt;/p&gt;</content><author><name>Karl Taht</name></author><category term="distributed machine learning" /><category term="reinforcement learning" /><category term="in-switch accelerator" /><summary type="html">Venue: ISCA 2019 Authors: Youjie Li, Iou-Jen Li, Yifan Yuan, Deming Chen, Alexander Schwing, Jian Huang</summary></entry><entry><title type="html">Reinforcement Learning Resources</title><link href="http://localhost:4000/phd/reinforcement-learning/" rel="alternate" type="text/html" title="Reinforcement Learning Resources" /><published>2020-01-27T00:00:00-07:00</published><updated>2020-01-27T00:00:00-07:00</updated><id>http://localhost:4000/phd/reinforcement-learning</id><content type="html" xml:base="http://localhost:4000/phd/reinforcement-learning/">&lt;h3 id=&quot;books&quot;&gt;Books&lt;/h3&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://web.stanford.edu/class/psych209/Readings/SuttonBartoIPRLBook2ndEd.pdf&quot;&gt;Reinforcement Learning: An Introduction (Sutton and Barto)&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&quot;lectures&quot;&gt;Lectures&lt;/h3&gt;
-&lt;ul&gt;
-  &lt;li&gt;Stanford, Lecture 14: Reinforcement Learning
-    &lt;ul&gt;
-      &lt;li&gt;Great overview of all RL basics, closely follows Sutton and Barto’s text&lt;/li&gt;
-      &lt;li&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=lvoHnicueoE&quot;&gt;Lecture&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;a href=&quot;http://cs231n.stanford.edu/slides/2017/cs231n_2017_lecture14.pdf&quot;&gt;Slides&lt;/a&gt;&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&quot;code&quot;&gt;Code&lt;/h3&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://github.com/hill-a/stable-baselines&quot;&gt;Stable Baselines&lt;/a&gt;
-    &lt;ul&gt;
-      &lt;li&gt;This is my personal favorite respitory for RL algorithms&lt;/li&gt;
-      &lt;li&gt;&lt;a href=&quot;https://stable-baselines.readthedocs.io/en/master/&quot;&gt;Documentation available&lt;/a&gt;&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://github.com/rlcode/reinforcement-learning&quot;&gt;Practical Implementions of OpenAI Gym Algorithms&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</content><author><name>Karl Taht</name></author><summary type="html">Books Reinforcement Learning: An Introduction (Sutton and Barto)</summary></entry></feed>
+<ul>
+  <li>Gym minimum once per week</li>
+  <li>Finish committee proposal review meetings</li>
+  <li>Schedule defense</li>
+  <li>Submit paper</li>
+  <li>Catch up my reading (1 paper per week)</li>
+</ul>]]></content><author><name>Karl Taht</name></author><category term="reality" /><category term="phd" /><summary type="html"><![CDATA[Well, since I’m wrapping up weeks, I might as well wrap up months too, right?]]></summary></entry></feed>

@@ -4,7 +4,7 @@ title: "Reality"
 permalink: /reality/
 ---
 
-Reality, the world we live in is filled with lots of things. 
+Thoughts on what's really going on. 
 
 {% for post in site.categories.reality %}
     {% include archive-single.html %}    
